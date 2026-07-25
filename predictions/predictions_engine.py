@@ -108,6 +108,7 @@ class PredictionEngine:
                 "most_likely_score": pred.get("most_likely_score", ""),
                 "top_scorelines":    pred.get("top_scorelines", []),
                 "asian_handicap":    pred.get("asian_handicap", {}),
+                "provisional_teams": pred.get("provisional_teams", []),
             },
             "fair_odds": {
                 "home_win_american":  prob_to_american(pred.get("p_home_win", 0.5)),
@@ -427,22 +428,36 @@ class PredictionEngine:
                 "fixture_id": fixture.get("fixture_id"),
             }
 
-            pred = self.predict_match(
-                home, away,
-                odds_data=odds_data,
-                neutral=False,       # domestic fixtures are at a real home ground
-                match_meta=meta,
-            )
+            # Per-fixture isolation: DixonColesModel now gives newly
+            # promoted/relegated teams a fallback rating instead of raising
+            # (see models/dixon_coles_model.py), so this should rarely fire.
+            # But it's kept as defense-in-depth — a bug in ONE fixture (a
+            # malformed odds entry, an unexpected None somewhere) should
+            # never cost the other ~379 fixtures in the same league's batch.
+            # That's exactly what happened in production before this fix:
+            # a single unrated team crashed the entire league to 0 predictions.
+            try:
+                pred = self.predict_match(
+                    home, away,
+                    odds_data=odds_data,
+                    neutral=False,       # domestic fixtures are at a real home ground
+                    match_meta=meta,
+                )
+            except Exception as e:
+                print(f"  ⚠ Skipping {home} vs {away}: {e}")
+                continue
 
             all_predictions.append(pred)
 
             # Quick summary
             vb = pred["value_bets"]
             vb_str = f"  → {len(vb)} value bet(s)" if vb else "  → no value"
+            provisional = pred["model"].get("provisional_teams")
+            flag = f"  [PROVISIONAL: {', '.join(provisional)}]" if provisional else ""
             print(f"  {home} vs {away}: "
                   f"{pred['model']['p_home_win']:.1%}/"
                   f"{pred['model']['p_draw']:.1%}/"
-                  f"{pred['model']['p_away_win']:.1%} {vb_str}")
+                  f"{pred['model']['p_away_win']:.1%} {vb_str}{flag}")
 
         # Apply daily stake cap across all predictions
         all_predictions = apply_daily_stake_cap(all_predictions)

@@ -182,7 +182,40 @@ class DixonColesModel:
         self.teams = self.params.get("teams", {})
         self.league = self.params.get("league")
         self.label = self.params.get("label")
+        self._fallback = self._compute_fallback_rating()
         return self
+
+    def _compute_fallback_rating(self) -> dict:
+        """Rating to use for a team with zero matches in the fitted history —
+        almost always a team newly promoted/relegated into this league since
+        the training window closed (a real case hit in production: Coventry
+        City, Wolves, Real Racing Club de Santander, and SC Paderborn 07 all
+        failed this way on the first live run, each one newly in their
+        league this season).
+
+        Using the league AVERAGE would overrate a promoted side — they're
+        typically weaker than a side that's survived in this division.
+        Instead this uses the bottom-quartile attack rating and top-quartile
+        defense rating (defense is parameterized so HIGHER = leakier) among
+        already-fitted teams: a deliberately below-average "likely relegation
+        candidate" prior, which is a more honest starting point than average
+        until the team accumulates its own in-league results.
+        """
+        if not self.teams:
+            return {"attack": 0.85, "defense": 1.15}
+
+        attacks = sorted(v["attack"] for v in self.teams.values())
+        defenses = sorted(v["defense"] for v in self.teams.values())
+        n = len(attacks)
+
+        def pct(sorted_vals, p):
+            idx = min(max(int(round(p * (n - 1))), 0), n - 1)
+            return sorted_vals[idx]
+
+        return {
+            "attack": pct(attacks, 0.25),
+            "defense": pct(defenses, 0.75),
+        }
 
     @staticmethod
     def _line_key(prefix: str, line: float) -> str:
@@ -194,13 +227,18 @@ class DixonColesModel:
 
     def predict_match(self, home_team: str, away_team: str,
                        neutral: bool = False, elo_ratings: dict = None) -> dict:
-        if home_team not in self.teams or away_team not in self.teams:
-            missing = [t for t in (home_team, away_team) if t not in self.teams]
-            raise KeyError(f"Team(s) not in fitted model: {missing}. "
-                            f"Check TEAM_ALIASES in config/leagues.py.")
+        missing = [t for t in (home_team, away_team) if t not in self.teams]
+        if missing:
+            fallback = getattr(self, "_fallback", None) or self._compute_fallback_rating()
+            print(f"  ⚠ {', '.join(missing)} not in fitted model (likely newly "
+                  f"promoted/relegated) — using a below-average fallback rating "
+                  f"instead of skipping this fixture.")
 
-        a_h, d_h = self.teams[home_team]["attack"], self.teams[home_team]["defense"]
-        a_a, d_a = self.teams[away_team]["attack"], self.teams[away_team]["defense"]
+        home_rating = self.teams.get(home_team, fallback if missing else None)
+        away_rating = self.teams.get(away_team, fallback if missing else None)
+
+        a_h, d_h = home_rating["attack"], home_rating["defense"]
+        a_a, d_a = away_rating["attack"], away_rating["defense"]
         mu, home_adv, rho = self.params["mu"], self.params["home_adv"], self.params["rho"]
 
         # Optional light Elo cross-check: nudges attack ratings toward
@@ -298,6 +336,11 @@ class DixonColesModel:
             "most_likely_score": most_likely_score,
             "top_scorelines": top_scorelines,
             "asian_handicap": asian_handicap,
+            # Populated when either team had no in-league history and got the
+            # below-average fallback rating instead of a real fit — a signal
+            # to treat this prediction's edge with extra caution (a newly
+            # promoted side's true strength is genuinely unknown pre-season).
+            "provisional_teams": missing,
         }
         result.update(totals_result)  # adds p_over_1_5 ... p_under_4_0
         return result
