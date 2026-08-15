@@ -1,13 +1,68 @@
 {
-  "last_updated": null,
-  "matches_scored": [],
-  "results": [],
+  "last_updated": "2026-08-15T09:01:39.778082",
+  "matches_scored": [
+    561761
+  ],
+  "results": [
+    {
+      "fixture_id": 561761,
+      "date": "2026-08-14",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Blackburn Rovers FC",
+      "score": "2-2",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.6668,
+        "model_probs": {
+          "home": 0.3507,
+          "draw": 0.3336,
+          "away": 0.3158
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.3243,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4128
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-15T09:01:39.778062"
+    }
+  ],
   "summary": {
-    "total_matches": 0,
-    "1x2_accuracy": null,
-    "avg_brier_score": null,
-    "totals_accuracy": null,
-    "btts_accuracy": null,
-    "value_bets": {}
+    "total_matches": 1,
+    "1x2_correct": 0,
+    "1x2_accuracy": 0.0,
+    "avg_brier_score": 0.6668,
+    "totals_correct": 0,
+    "totals_accuracy": 0.0,
+    "btts_correct": 0,
+    "btts_accuracy": 0.0,
+    "value_bets": {},
+    "by_matchday": {
+      "1": {
+        "n": 1,
+        "correct": 0
+      }
+    },
+    "last_5_results": [
+      {
+        "match": "Wolverhampton Wanderers FC 2-2 Blackburn Rovers FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      }
+    ]
   }
 }
