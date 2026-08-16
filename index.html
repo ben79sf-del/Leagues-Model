@@ -496,6 +496,12 @@
   .roi-bar-track { flex: 1; height: 10px; background: var(--surface2); border-radius: 5px; overflow: hidden; }
   .roi-bar-fill { height: 100%; border-radius: 5px; transition: width 0.4s ease; }
   .roi-bar-val { font-size: 11px; font-weight: 700; width: 50px; flex-shrink: 0; }
+
+  /* ── Picks table (Value Bets tab) ── */
+  .picks-table th:first-child, .picks-table td:first-child { padding-left: 14px; }
+  .picks-table tr.row-strong td:first-child { box-shadow: inset 3px 0 0 var(--green); }
+  .picks-table tr.row-good   td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+  .picks-table tr.row-watch  td:first-child { box-shadow: inset 3px 0 0 var(--orange); }
 </style>
 </head>
 <body>
@@ -577,10 +583,6 @@
 
 <script>
 // ── Config ─────────────────────────────────────────────────────────────────
-// One dashboard, four leagues. Each entry's `url` should be the GitHub raw
-// URL for that league's predictions/{league}/latest.json (see
-// config/leagues.py -> predictions_path in the pipeline repo), OR your
-// Netlify API endpoint if you're proxying instead.
 const LEAGUES = {
   epl: {
     label: "Premier League",
@@ -605,7 +607,6 @@ let allPredictions = [];
 let currentBetFilter = "all";
 let currentDateFilter = "all";
 
-// Build the league switcher buttons once on load
 function renderLeagueNav() {
   const nav = document.getElementById("leagueNav");
   nav.innerHTML = Object.entries(LEAGUES).map(([key, cfg]) =>
@@ -621,7 +622,6 @@ function switchLeague(key, btn) {
   loadData();
 }
 
-// Round a dollar amount to the nearest $5
 function roundToFive(n) { return Math.round(n / 5) * 5; }
 
 // ── Tab Navigation ──────────────────────────────────────────────────────────
@@ -630,7 +630,7 @@ function showTab(tabId, btn) {
   document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
   document.getElementById(`tab-${tabId}`).classList.add("active");
   btn.classList.add("active");
-  if (tabId === "results") renderTracker();  // async, fire and forget
+  if (tabId === "results") renderTracker();
 }
 
 // ── Data Loading ────────────────────────────────────────────────────────────
@@ -646,7 +646,6 @@ async function loadData() {
     renderAll(data);
     await syncValueBetsToTracker(allPredictions);
   } catch(e) {
-    // Use demo data when no live feed for this league yet
     allPredictions = generateDemoData();
     renderAll({ predictions: allPredictions, generated_at: new Date().toISOString() });
     await syncValueBetsToTracker(allPredictions);
@@ -654,8 +653,6 @@ async function loadData() {
 }
 
 // ── Value Bet Tracker ────────────────────────────────────────────────────────
-// Tracker state — persisted in localStorage, one bucket per league so a
-// Premier League parlay never shows up mixed in with Bundesliga bets.
 function trackerKey() { return `league_vb_tracker_v1_${currentLeague}`; }
 
 async function loadTrackerState() {
@@ -665,7 +662,6 @@ async function saveTrackerState(state) {
   localStorage.setItem(trackerKey(), JSON.stringify(state));
 }
 
-// Called after predictions load — syncs any new value bets into tracker
 async function syncValueBetsToTracker(preds) {
   const state = await loadTrackerState();
   let changed = false;
@@ -685,7 +681,7 @@ async function syncValueBetsToTracker(preds) {
           odds: bet.best_odds || null,
           edge: bet.edge_pct || null,
           kelly: bet.kelly_pct || null,
-          result: "pending",   // pending | win | loss | void
+          result: "pending",
           units: bet.kelly_pct ? +(bet.kelly_pct).toFixed(2) : 1,
           stake_dollars: bet.kelly_pct ? roundToFive(bet.kelly_pct * 20) : 20,
           pnl: null,
@@ -753,7 +749,6 @@ async function renderTracker() {
     return;
   }
 
-  // Split into pending vs settled
   const pending  = bets.filter(b => b.result === "pending");
   const settled  = bets.filter(b => b.result !== "pending");
   const wins     = settled.filter(b => b.result === "win");
@@ -764,7 +759,6 @@ async function renderTracker() {
   const winRate  = settled.filter(b => b.result !== "void").length > 0
     ? wins.length / settled.filter(b => b.result !== "void").length * 100 : 0;
 
-  // By-market breakdown
   const byMarket = {};
   settled.filter(b => b.result !== "void").forEach(b => {
     const mk = b.market.includes("Win") ? "1X2" : b.market.includes("Draw") ? "1X2" : b.market.includes("2.5") ? "Totals" : b.market.includes("BTTS") ? "BTTS" : "Other";
@@ -777,7 +771,6 @@ async function renderTracker() {
 
   let html = ``;
 
-  // ── Summary stats ──
   html += `<div class="tracker-summary">`;
   html += trackerStat(bets.length, "Total Plays", "var(--accent)");
   html += trackerStat(pending.length, "Pending", "var(--gold)");
@@ -786,7 +779,6 @@ async function renderTracker() {
   html += trackerStat(staked > 0 ? (roi >= 0 ? "+" : "") + roi.toFixed(1) + "%" : "—", "ROI", roi >= 0 ? "var(--green)" : "var(--red)");
   html += `</div>`;
 
-  // ── By-market bars ──
   if (Object.keys(byMarket).length > 1) {
     html += `<div class="roi-chart">
       <div class="roi-chart-title">P&L BY MARKET TYPE</div>`;
@@ -806,13 +798,11 @@ async function renderTracker() {
     html += `</div>`;
   }
 
-  // ── Pending bets ──
   if (pending.length) {
     html += `<div class="tracker-section-title">⏳ Awaiting Result (${pending.length})</div>`;
     html += renderBetTable(pending, true);
   }
 
-  // ── Settled bets ──
   if (settled.length) {
     html += `<div class="tracker-section-title">✅ Settled (${settled.length})</div>`;
     html += renderBetTable(settled, false);
@@ -866,7 +856,6 @@ function renderBetTable(bets, showResultPicker) {
 async function toggleResult(id) {
   const state = await loadTrackerState();
   if (!state[id]) return;
-  // Cycle: win → loss → void → win
   const cycle = { win: "loss", loss: "void", void: "win" };
   setResult(id, cycle[state[id].result] || "win");
 }
@@ -887,9 +876,6 @@ function statCard(label, value, color, subtitle) {
 }
 
 // ── Demo data generator ─────────────────────────────────────────────────────
-// Fallback fixtures shown when a league's live predictions/{league}/latest.json
-// hasn't been published yet. One small demo set per league so the dashboard
-// still looks right no matter which league tab you're on.
 const DEMO_FIXTURES = {
   epl: [
     { home:"Arsenal", away:"Chelsea", md:5, date:"2026-08-23", ph:0.52, pd:0.27, pa:0.21, xG:[1.7,1.0], o25:0.55, btts:0.48 },
@@ -961,6 +947,58 @@ function renderAll(data) {
   renderModelInfo(data);
 }
 
+// ── Model Signals (no market price yet) ─────────────────────────────────────
+// Before bookmakers post odds for a fixture (common for anything more than
+// ~1-2 weeks out), there's nothing to compute a real "edge" against. The
+// original dashboard only generated this kind of no-market signal for BTTS,
+// which is why Match Winner and Totals never showed anything early in the
+// week — this generates the same style of signal for all three market
+// families, each only firing when that specific market has no live price
+// yet (checked against pred.market_odds), so it never duplicates a real
+// value bet.
+function generateModelSignals(pred) {
+  const signals = [];
+  const mo = pred.market_odds || {};
+  const m = pred.model || {};
+
+  // Match Winner — only when no 1X2 price exists yet, and the model has a
+  // genuinely confident lean (>=50%, well above the ~33% baseline for a
+  // 3-way market)
+  if (!mo["1x2"]) {
+    const ph = m.p_home_win || 0, pd = m.p_draw || 0, pa = m.p_away_win || 0;
+    const max = Math.max(ph, pd, pa);
+    if (max >= 0.50) {
+      const market = max === ph ? "Home Win" : max === pa ? "Away Win" : "Draw";
+      signals.push({ market, model_prob: max, is_signal: true });
+    }
+  }
+
+  // Totals (2.5 line) — only when no totals price exists yet
+  if (!mo["totals"]) {
+    const over = m.p_over_2_5 || 0, under = m.p_under_2_5 || (1 - over);
+    if (over >= 0.60) signals.push({ market: "Over 2.5", model_prob: over, is_signal: true });
+    else if (under >= 0.60) signals.push({ market: "Under 2.5", model_prob: under, is_signal: true });
+  }
+
+  // BTTS — only when no BTTS price exists yet (same thresholds as before)
+  if (!mo["btts"]) {
+    const btts = m.p_btts || 0, noBtts = m.p_no_btts || (1 - btts);
+    if (btts >= 0.60) signals.push({ market: "BTTS Yes", model_prob: btts, is_signal: true });
+    else if (noBtts >= 0.68) signals.push({ market: "BTTS No", model_prob: noBtts, is_signal: true });
+  }
+
+  return signals;
+}
+
+// Converts a market label into the actual selection a user would place —
+// "Home Win" on its own doesn't tell you who to pick without re-reading the
+// match name; showing the team name directly is the point of this.
+function pickLabel(bet) {
+  if (bet.market === "Home Win") return bet.home;
+  if (bet.market === "Away Win") return bet.away;
+  return bet.market; // Draw, Over/Under X, BTTS Yes/No are already selections
+}
+
 // ── Value Bets ──────────────────────────────────────────────────────────────
 function renderValueBets(preds) {
   const allBets = [];
@@ -968,21 +1006,12 @@ function renderValueBets(preds) {
     (pred.value_bets || []).forEach(bet => {
       allBets.push({ ...bet, home: pred.home_team, away: pred.away_team, meta: pred.match_meta || {} });
     });
-    // Add model-only BTTS signals (no market price needed)
-    const btts = pred.model?.p_btts || 0;
-    const noBtts = pred.model?.p_no_btts || (1 - btts);
-    if (btts >= 0.60) {
-      allBets.push({ market: "BTTS Yes", model_prob: btts, market_prob: null,
-        edge_pct: null, best_odds: null, kelly_pct: null, rating: "👀 MODEL SIGNAL",
-        home: pred.home_team, away: pred.away_team, meta: pred.match_meta || {}, btts_signal: true });
-    } else if (noBtts >= 0.68) {
-      allBets.push({ market: "BTTS No", model_prob: noBtts, market_prob: null,
-        edge_pct: null, best_odds: null, kelly_pct: null, rating: "👀 MODEL SIGNAL",
-        home: pred.home_team, away: pred.away_team, meta: pred.match_meta || {}, btts_signal: true });
-    }
+    generateModelSignals(pred).forEach(sig => {
+      allBets.push({ ...sig, market_prob: null, edge_pct: null, best_odds: null, kelly_pct: null,
+        rating: "👀 MODEL SIGNAL", home: pred.home_team, away: pred.away_team, meta: pred.match_meta || {} });
+    });
   });
 
-  // Drop matches that have already passed (date before today)
   const todayStr = new Date().toISOString().slice(0, 10);
   const upcomingBets = allBets.filter(b => {
     const d = b.meta?.date || b.date || "";
@@ -991,13 +1020,12 @@ function renderValueBets(preds) {
   allBets.length = 0;
   upcomingBets.forEach(b => allBets.push(b));
 
-  // Sort: date first, then BTTS signals after real value bets on same day
   allBets.sort((a,b) => {
     const dateA = a.meta?.date || a.date || "9999-12-31";
     const dateB = b.meta?.date || b.date || "9999-12-31";
     if (dateA !== dateB) return dateA.localeCompare(dateB);
-    if (a.btts_signal && !b.btts_signal) return 1;
-    if (!a.btts_signal && b.btts_signal) return -1;
+    if (a.is_signal && !b.is_signal) return 1;
+    if (!a.is_signal && b.is_signal) return -1;
     return (b.edge_pct||0) - (a.edge_pct||0);
   });
 
@@ -1015,70 +1043,47 @@ function renderValueBets(preds) {
     currentBetFilter === "btts" ? allBets.filter(b => b.market.includes("BTTS")) :
     allBets;
 
-  container.innerHTML = filtered.map(bet => {
-    const isBttsSignal = bet.btts_signal;
-    const cls = isBttsSignal ? "watch" : bet.rating.includes("STRONG") ? "strong" : bet.rating.includes("GOOD") ? "good" : "watch";
-    const dateStr = (bet.meta?.date||bet.date) ? new Date(bet.meta?.date||bet.date).toLocaleDateString("en-AU",{weekday:"short",month:"short",day:"numeric"}) : "";
-    const group = bet.meta?.matchday ? `Matchday ${bet.meta.matchday}` : "";
+  if (!filtered.length) {
+    container.innerHTML = `<div class="empty">No picks match this filter.</div>`;
+    return;
+  }
 
-    // BTTS signal card (no odds/edge available — model signal only)
-    if (isBttsSignal) {
-      return `
-      <div class="value-bet-card watch" style="border-left-color:var(--green)">
-        <div>
-          <div class="vb-match">${bet.home} vs ${bet.away}</div>
-          <div class="vb-meta">${dateStr}${group ? " • "+group : ""}</div>
-          <div class="vb-market">${bet.market}</div>
-          <div class="vb-stats">
-            <div class="vb-stat">
-              <div class="val" style="color:var(--green)">${(bet.model_prob*100).toFixed(0)}%</div>
-              <div class="lbl">MODEL</div>
-            </div>
-            <div class="vb-stat">
-              <div class="val" style="color:var(--muted);font-size:11px">Check<br>manually</div>
-              <div class="lbl">ODDS</div>
-            </div>
-          </div>
-          <div style="font-size:10px;color:var(--muted);margin-top:6px">
-            ℹ️ No market price available via API — check Bet365 or Pinnacle for BTTS ${bet.market.includes("Yes") ? "Yes" : "No"} odds
-          </div>
-        </div>
-        <div style="font-size:18px">⚽</div>
-      </div>`;
-    }
+  const rows = filtered.map(bet => {
+    const dateStr = (bet.meta?.date||bet.date) ? new Date(bet.meta?.date||bet.date).toLocaleDateString("en-AU",{weekday:"short",month:"short",day:"numeric"}) : "—";
+    const md = bet.meta?.matchday ? `MD${bet.meta.matchday}` : "";
+    const emoji = bet.is_signal ? "👀" : bet.rating.split(" ")[0];
+    const rowClass = bet.is_signal ? "" : bet.rating.includes("STRONG") ? "row-strong" : bet.rating.includes("GOOD") ? "row-good" : "row-watch";
+    const modelPct = ((bet.model_prob||0)*100).toFixed(0) + "%";
 
-    return `
-    <div class="value-bet-card ${cls}">
-      <div>
-        <div class="vb-match">${bet.home} vs ${bet.away}</div>
-        <div class="vb-meta">${dateStr}${group ? " • "+group : ""} ${bet.meta?.venue ? "• "+bet.meta.venue : ""}</div>
-        <div class="vb-market">${bet.market}</div>
-        <div class="vb-stats">
-          <div class="vb-stat">
-            <div class="val edge-val">${bet.edge_pct > 0 ? "+" : ""}${bet.edge_pct?.toFixed(1)||"?"}%</div>
-            <div class="lbl">EDGE</div>
-          </div>
-          <div class="vb-stat">
-            <div class="val odds-val">${typeof bet.best_odds === "number" ? bet.best_odds.toFixed(2) : "—"}</div>
-            <div class="lbl">BEST ODDS</div>
-          </div>
-          <div class="vb-stat">
-            <div class="val" style="color:var(--accent)">${(bet.model_prob*100).toFixed(1)}%</div>
-            <div class="lbl">MODEL</div>
-          </div>
-          <div class="vb-stat">
-            <div class="val" style="color:var(--muted)">${bet.market_prob ? (bet.market_prob*100).toFixed(1)+"%" : "—"}</div>
-            <div class="lbl">MARKET</div>
-          </div>
-          <div class="vb-stat">
-            <div class="val" style="color:var(--gold)">$${bet.kelly_pct ? roundToFive(bet.kelly_pct * 20) : "—"}</div>
-            <div class="lbl">STAKE</div>
-          </div>
-        </div>
-      </div>
-      <div style="font-size:18px">${bet.rating.split(" ")[0]}</div>
-    </div>`;
+    const oddsCell = typeof bet.best_odds === "number" ? bet.best_odds.toFixed(2) : "—";
+    const edgeCell = typeof bet.edge_pct === "number" ? `<span class="edge-val">${bet.edge_pct>0?"+":""}${bet.edge_pct.toFixed(1)}%</span>` : `<span style="color:var(--muted);font-size:11px">no market yet</span>`;
+    const stakeCell = bet.kelly_pct ? `$${roundToFive(bet.kelly_pct * 20)}` : "—";
+
+    return `<tr class="${rowClass}">
+      <td style="color:var(--muted);font-size:11px;white-space:nowrap">${dateStr}${md?` <span style="opacity:.6">${md}</span>`:""}</td>
+      <td><strong>${bet.home}</strong> <span style="color:var(--muted)">vs</span> <strong>${bet.away}</strong></td>
+      <td style="color:var(--gold);font-weight:600">${pickLabel(bet)}</td>
+      <td style="font-size:11px;color:var(--muted)">${bet.market}</td>
+      <td style="color:var(--accent);font-weight:600">${modelPct}</td>
+      <td>${oddsCell}</td>
+      <td>${edgeCell}</td>
+      <td>${stakeCell}</td>
+      <td style="font-size:16px;text-align:center">${emoji}</td>
+    </tr>`;
   }).join("");
+
+  container.innerHTML = `
+    <div style="overflow-x:auto">
+      <table class="tracker-table picks-table">
+        <thead><tr>
+          <th>Date</th><th>Match</th><th>Pick</th><th>Market</th><th>Model</th><th>Odds</th><th>Edge</th><th>Stake</th><th></th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div style="font-size:11px;color:var(--muted);margin-top:10px">
+      👀 rows have no live market price yet (too far from kickoff) — Edge/Odds/Stake fill in once bookmakers post lines closer to the match.
+    </div>`;
 }
 
 function filterBets(type, btn) {
@@ -1090,7 +1095,6 @@ function filterBets(type, btn) {
 
 // ── Fixtures ─────────────────────────────────────────────────────────────────
 function renderFixtures(preds) {
-  // Build date filters
   const dates = [...new Set(preds.map(p => p.match_meta?.date).filter(Boolean))].sort();
   const dateBar = document.getElementById("dateFilters");
   dateBar.innerHTML = `<button class="filter-btn active" onclick="filterDate('all',this)">All Dates</button>` +
@@ -1125,10 +1129,6 @@ function renderFixtureCards(preds, dateFilter) {
       `<div class="scoreline-pill"><span class="score">${s.score}</span><span class="pct">${(s.probability*100).toFixed(0)}%</span></div>`
     ).join("");
 
-    // Build "current market odds" row -- always shown for every card,
-    // regardless of whether the model flags a value bet. Falls back to
-    // a dimmed placeholder if a market hasn't opened yet, so cards stay
-    // visually consistent.
     const mo = pred.market_odds || {};
     const oddsItems = [];
 
@@ -1200,7 +1200,6 @@ function renderFixtureCards(preds, dateFilter) {
       ${(() => {
         const btts = m.p_btts || 0;
         const noBtts = m.p_no_btts || (1 - btts);
-        // Only show a signal when model has a strong lean either way
         if (btts >= 0.60) {
           return `<div class="btts-signal btts-yes">⚽ BTTS YES likely — model ${(btts*100).toFixed(0)}% · check Bet365/Pinnacle for price</div>`;
         } else if (noBtts >= 0.68) {
