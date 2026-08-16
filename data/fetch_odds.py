@@ -12,6 +12,15 @@ soccer_germany_bundesliga). The odds-parsing functions themselves
 (parse_h2h_odds, parse_totals_odds, parse_btts_odds, parse_spreads_odds)
 are sport-agnostic and untouched — they just work on whatever match data
 comes back.
+
+FIX: match_key() now runs both team names through
+config.leagues.normalize_for_match() before building the lookup key. The
+Odds API uses short public names ("Watford") while football-data.org (the
+side predictions_engine.py reads fixtures from) appends club-type suffixes
+("Watford FC"). Building the key by simple string concatenation meant these
+two sources almost never agreed, so market_odds silently came back empty
+for nearly every fixture in every league — this normalizes both sides to
+the same bare comparable core before matching.
 """
 
 import requests
@@ -21,7 +30,8 @@ import sys
 from datetime import datetime
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config.leagues import (
-    ODDS_API_KEY, ODDS_BASE_URL, ODDS_REGIONS, ODDS_BOOKMAKERS, get_league
+    ODDS_API_KEY, ODDS_BASE_URL, ODDS_REGIONS, ODDS_BOOKMAKERS, get_league,
+    normalize_for_match,
 )
 
 # Priority bookmakers for line shopping (most sharp first)
@@ -368,8 +378,11 @@ def build_full_odds(league_key: str) -> dict:
     }
     print(f"  Fetching BTTS per-event for {len(event_id_map)} matches...")
 
+    # FIX: normalize both sides of the key so football-data.org fixture
+    # names ("Watford FC") and Odds API names ("Watford") actually collide
+    # on the same key instead of silently never matching.
     def match_key(h, a):
-        return f"{h} vs {a}"
+        return f"{normalize_for_match(h)} vs {normalize_for_match(a)}"
 
     totals_idx  = {match_key(m["home_team"], m["away_team"]): m for m in totals_data}
     spreads_idx = {match_key(m["home_team"], m["away_team"]): m for m in spreads_data}
@@ -386,8 +399,13 @@ def build_full_odds(league_key: str) -> dict:
         totals_parsed  = parse_totals_odds(totals_idx.get(k, {"home_team": h, "away_team": a, "bookmakers": []}))
         spreads_parsed = parse_spreads_odds(spreads_idx.get(k, {"home_team": h, "away_team": a, "bookmakers": []}))
 
-        # Fetch BTTS via per-event endpoint if we have an event ID
-        event_id = event_id_map.get(k)
+        # Fetch BTTS via per-event endpoint if we have an event ID.
+        # event_id_map is keyed by the RAW (un-normalized) Odds API name
+        # pairing since that's what fetch_events() returns — this lookup
+        # is separate from the normalized match_key used for the combined
+        # dict below.
+        raw_key = f"{h} vs {a}"
+        event_id = event_id_map.get(raw_key)
         if event_id:
             btts_parsed = fetch_btts_for_event(sport_key, event_id, h, a)
             if btts_parsed.get("btts"):
