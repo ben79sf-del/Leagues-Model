@@ -1,13 +1,110 @@
 {
-  "last_updated": null,
-  "matches_scored": [],
-  "results": [],
+  "last_updated": "2026-08-16T08:49:19.336920",
+  "matches_scored": [
+    564633,
+    564634
+  ],
+  "results": [
+    {
+      "fixture_id": 564634,
+      "date": "2026-08-15",
+      "home_team": "Deportivo Alav\u00e9s",
+      "away_team": "Getafe CF",
+      "score": "3-0",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5392,
+        "model_probs": {
+          "home": 0.401,
+          "draw": 0.3226,
+          "away": 0.2763
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.2626,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.3377
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-16T08:49:19.195797"
+    },
+    {
+      "fixture_id": 564633,
+      "date": "2026-08-15",
+      "home_team": "Sevilla FC",
+      "away_team": "Rayo Vallecano de Madrid",
+      "score": "2-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5664,
+        "model_probs": {
+          "home": 0.386,
+          "draw": 0.2863,
+          "away": 0.3277
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.3718,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4364
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-16T08:49:19.336902"
+    }
+  ],
   "summary": {
-    "total_matches": 0,
-    "1x2_accuracy": null,
-    "avg_brier_score": null,
-    "totals_accuracy": null,
-    "btts_accuracy": null,
-    "value_bets": {}
+    "total_matches": 2,
+    "1x2_correct": 2,
+    "1x2_accuracy": 1.0,
+    "avg_brier_score": 0.5528,
+    "totals_correct": 0,
+    "totals_accuracy": 0.0,
+    "btts_correct": 1,
+    "btts_accuracy": 0.5,
+    "value_bets": {},
+    "by_matchday": {
+      "1": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "last_5_results": [
+      {
+        "match": "Deportivo Alav\u00e9s 3-0 Getafe CF",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Sevilla FC 2-1 Rayo Vallecano de Madrid",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      }
+    ]
   }
 }
