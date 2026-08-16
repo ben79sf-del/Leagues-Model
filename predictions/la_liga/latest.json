@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T08:48:52.242824",
+  "generated_at": "2026-08-16T10:42:38.503132",
   "league": "La Liga",
   "total_fixtures": 378,
-  "total_value_bets": 0,
+  "total_value_bets": 20,
   "predictions": [
     {
       "home_team": "Real Racing Club de Santander",
@@ -20,7 +20,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.2062,
         "lambda_away": 1.7988,
-        "expected_total": 3.005,
+        "expected_total": 3.0051,
         "p_home_win": 0.2584,
         "p_draw": 0.2266,
         "p_away_win": 0.515,
@@ -117,12 +117,61 @@
         "over_2_5_decimal": 1.731,
         "under_2_5_decimal": 2.368
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.840374",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.515,
+          "market_prob": 0.4677,
+          "edge_pct": 9.18,
+          "best_odds": 2.12,
+          "kelly_pct": 2.05,
+          "ev_per_unit": 0.0918,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 2.05,
+          "daily_cap_applied": false,
+          "match": "Real Racing Club de Santander vs Villarreal CF",
+          "date": "2026-08-16"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.2584,
+          "market_prob": 0.2647,
+          "edge_pct": -2.38,
+          "best_odds": 3.8
+        },
+        "draw": {
+          "model_prob": 0.2266,
+          "market_prob": 0.2676,
+          "edge_pct": -15.32,
+          "best_odds": 3.7
+        },
+        "away_win": {
+          "model_prob": 0.515,
+          "market_prob": 0.4677,
+          "edge_pct": 10.11,
+          "best_odds": 2.12
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.715978",
+      "market_odds": {
+        "1x2": {
+          "home": 3.8,
+          "draw": 3.7,
+          "away": 2.12
+        },
+        "totals": {
+          "line": 2.75,
+          "over": 1.91,
+          "under": 2.0
+        },
+        "btts": {
+          "yes": 1.65,
+          "no": 2.5
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\u2705 GOOD \u2014 Away Win @ 2.12 (+9.2% edge)"
     },
     {
       "home_team": "RCD Espanyol de Barcelona",
@@ -138,7 +187,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.4588,
+        "lambda_home": 1.4589,
         "lambda_away": 1.1289,
         "expected_total": 2.5877,
         "p_home_win": 0.4498,
@@ -235,12 +284,61 @@
         "over_2_5_decimal": 2.09,
         "under_2_5_decimal": 1.917
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.844103",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.2956,
+          "market_prob": 0.2495,
+          "edge_pct": 18.24,
+          "best_odds": 4.0,
+          "kelly_pct": 1.52,
+          "ev_per_unit": 0.1824,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 1.52,
+          "daily_cap_applied": false,
+          "match": "RCD Espanyol de Barcelona vs Levante UD",
+          "date": "2026-08-16"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4498,
+          "market_prob": 0.4515,
+          "edge_pct": -0.38,
+          "best_odds": 2.22
+        },
+        "draw": {
+          "model_prob": 0.2546,
+          "market_prob": 0.2991,
+          "edge_pct": -14.88,
+          "best_odds": 3.3
+        },
+        "away_win": {
+          "model_prob": 0.2956,
+          "market_prob": 0.2495,
+          "edge_pct": 18.48,
+          "best_odds": 4.0
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.723632",
+      "market_odds": {
+        "1x2": {
+          "home": 2.22,
+          "draw": 3.3,
+          "away": 4.0
+        },
+        "totals": {
+          "line": 2.25,
+          "over": 1.95,
+          "under": 1.95
+        },
+        "btts": {
+          "yes": 1.98,
+          "no": 2.0
+        }
+      },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Away Win @ 4.0 (+18.2% edge)"
     },
     {
       "home_team": "RC Deportivo La Coru\u00f1a",
@@ -261,7 +359,7 @@
         "expected_total": 2.6459,
         "p_home_win": 0.4032,
         "p_draw": 0.2548,
-        "p_away_win": 0.3419,
+        "p_away_win": 0.342,
         "p_over_2_5": 0.4929,
         "p_under_2_5": 0.5071,
         "p_over_3_5": 0.2739,
@@ -318,15 +416,15 @@
           "0.0": {
             "home_covers": 0.4032,
             "push": 0.2548,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "0.5": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.0,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "1.0": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.1962,
             "away_covers": 0.1458
           },
@@ -351,16 +449,79 @@
         "away_win_american": 192,
         "home_win_decimal": 2.48,
         "draw_decimal": 3.925,
-        "away_win_decimal": 2.925,
+        "away_win_decimal": 2.924,
         "over_2_5_decimal": 2.029,
         "under_2_5_decimal": 1.972
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.847808",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.342,
+          "market_prob": 0.2712,
+          "edge_pct": 23.46,
+          "best_odds": 3.61,
+          "kelly_pct": 2.25,
+          "ev_per_unit": 0.2346,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 2.25,
+          "daily_cap_applied": false,
+          "match": "RC Deportivo La Coru\u00f1a vs Elche CF",
+          "date": "2026-08-17"
+        },
+        {
+          "market": "BTTS Yes",
+          "model_prob": 0.5342,
+          "market_prob": 0.5217,
+          "edge_pct": 6.84,
+          "best_odds": 2.0,
+          "kelly_pct": 1.71,
+          "ev_per_unit": 0.0684,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 1.71,
+          "daily_cap_applied": false,
+          "match": "RC Deportivo La Coru\u00f1a vs Elche CF",
+          "date": "2026-08-17"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4032,
+          "market_prob": 0.4134,
+          "edge_pct": -2.47,
+          "best_odds": 2.4
+        },
+        "draw": {
+          "model_prob": 0.2548,
+          "market_prob": 0.3154,
+          "edge_pct": -19.21,
+          "best_odds": 3.15
+        },
+        "away_win": {
+          "model_prob": 0.342,
+          "market_prob": 0.2712,
+          "edge_pct": 26.11,
+          "best_odds": 3.61
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.731254",
+      "market_odds": {
+        "1x2": {
+          "home": 2.4,
+          "draw": 3.15,
+          "away": 3.61
+        },
+        "totals": {
+          "line": 2.25,
+          "over": 2.02,
+          "under": 1.87
+        },
+        "btts": {
+          "yes": 2.0,
+          "no": 1.96
+        }
+      },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Away Win @ 3.61 (+23.5% edge)"
     },
     {
       "home_team": "Club Atl\u00e9tico de Madrid",
@@ -477,7 +638,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.851583",
+      "generated_at": "2026-08-16T10:42:35.738676",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -595,7 +756,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.855434",
+      "generated_at": "2026-08-16T10:42:35.745994",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -711,12 +872,75 @@
         "over_2_5_decimal": 1.571,
         "under_2_5_decimal": 2.752
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.859168",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.5804,
+          "market_prob": 0.4596,
+          "edge_pct": 23.04,
+          "best_odds": 2.12,
+          "kelly_pct": 5.0,
+          "ev_per_unit": 0.2304,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 5.0,
+          "daily_cap_applied": false,
+          "match": "Real Betis Balompi\u00e9 vs Real Sociedad de F\u00fatbol",
+          "date": "2026-08-21"
+        },
+        {
+          "market": "BTTS Yes",
+          "model_prob": 0.6086,
+          "market_prob": 0.5323,
+          "edge_pct": 17.46,
+          "best_odds": 1.93,
+          "kelly_pct": 4.69,
+          "ev_per_unit": 0.1746,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 4.69,
+          "daily_cap_applied": false,
+          "match": "Real Betis Balompi\u00e9 vs Real Sociedad de F\u00fatbol",
+          "date": "2026-08-21"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.5804,
+          "market_prob": 0.4596,
+          "edge_pct": 26.28,
+          "best_odds": 2.12
+        },
+        "draw": {
+          "model_prob": 0.2045,
+          "market_prob": 0.2832,
+          "edge_pct": -27.79,
+          "best_odds": 3.45
+        },
+        "away_win": {
+          "model_prob": 0.2152,
+          "market_prob": 0.2572,
+          "edge_pct": -16.33,
+          "best_odds": 3.8
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.753341",
+      "market_odds": {
+        "1x2": {
+          "home": 2.12,
+          "draw": 3.45,
+          "away": 3.8
+        },
+        "totals": {
+          "line": 2.25,
+          "over": 1.89,
+          "under": 2.0
+        },
+        "btts": {
+          "yes": 1.93,
+          "no": 2.0
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Home Win @ 2.12 (+23.0% edge)"
     },
     {
       "home_team": "Athletic Club",
@@ -737,7 +961,7 @@
         "expected_total": 2.6257,
         "p_home_win": 0.5125,
         "p_draw": 0.2439,
-        "p_away_win": 0.2436,
+        "p_away_win": 0.2437,
         "p_over_2_5": 0.4879,
         "p_under_2_5": 0.5121,
         "p_over_3_5": 0.2694,
@@ -794,15 +1018,15 @@
           "0.0": {
             "home_covers": 0.5125,
             "push": 0.2439,
-            "away_covers": 0.2436
+            "away_covers": 0.2437
           },
           "0.5": {
-            "home_covers": 0.7564,
+            "home_covers": 0.7563,
             "push": 0.0,
-            "away_covers": 0.2436
+            "away_covers": 0.2437
           },
           "1.0": {
-            "home_covers": 0.7564,
+            "home_covers": 0.7563,
             "push": 0.1561,
             "away_covers": 0.0875
           },
@@ -822,19 +1046,68 @@
       "fair_odds": {
         "home_win_american": -105,
         "draw_american": 310,
-        "away_win_american": 311,
+        "away_win_american": 310,
         "home_win_decimal": 1.951,
         "draw_decimal": 4.1,
-        "away_win_decimal": 4.105,
+        "away_win_decimal": 4.103,
         "over_2_5_decimal": 2.05,
         "under_2_5_decimal": 1.953
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.862838",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "BTTS Yes",
+          "model_prob": 0.5083,
+          "market_prob": 0.4766,
+          "edge_pct": 14.37,
+          "best_odds": 2.25,
+          "kelly_pct": 2.87,
+          "ev_per_unit": 0.1437,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 2.87,
+          "daily_cap_applied": false,
+          "match": "Athletic Club vs Sevilla FC",
+          "date": "2026-08-22"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.5125,
+          "market_prob": 0.5626,
+          "edge_pct": -8.91,
+          "best_odds": 1.7194
+        },
+        "draw": {
+          "model_prob": 0.2439,
+          "market_prob": 0.2573,
+          "edge_pct": -5.21,
+          "best_odds": 3.83
+        },
+        "away_win": {
+          "model_prob": 0.2437,
+          "market_prob": 0.1801,
+          "edge_pct": 35.31,
+          "best_odds": 5.7
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.760798",
+      "market_odds": {
+        "1x2": {
+          "home": 1.72,
+          "draw": 3.83,
+          "away": 5.7
+        },
+        "totals": {
+          "line": 2.25,
+          "over": 2.0,
+          "under": 1.88
+        },
+        "btts": {
+          "yes": 2.25,
+          "no": 1.78
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 BTTS Yes @ 2.25 (+14.4% edge)"
     },
     {
       "home_team": "Valencia CF",
@@ -947,12 +1220,75 @@
         "over_2_5_decimal": 1.982,
         "under_2_5_decimal": 2.019
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.866567",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.3278,
+          "market_prob": 0.2664,
+          "edge_pct": 19.65,
+          "best_odds": 3.65,
+          "kelly_pct": 1.85,
+          "ev_per_unit": 0.1965,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 1.85,
+          "daily_cap_applied": false,
+          "match": "Valencia CF vs RC Celta de Vigo",
+          "date": "2026-08-22"
+        },
+        {
+          "market": "BTTS Yes",
+          "model_prob": 0.5418,
+          "market_prob": 0.5261,
+          "edge_pct": 6.19,
+          "best_odds": 1.96,
+          "kelly_pct": 1.61,
+          "ev_per_unit": 0.0619,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 1.61,
+          "daily_cap_applied": false,
+          "match": "Valencia CF vs RC Celta de Vigo",
+          "date": "2026-08-22"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4208,
+          "market_prob": 0.4473,
+          "edge_pct": -5.92,
+          "best_odds": 2.16
+        },
+        "draw": {
+          "model_prob": 0.2514,
+          "market_prob": 0.2863,
+          "edge_pct": -12.19,
+          "best_odds": 3.42
+        },
+        "away_win": {
+          "model_prob": 0.3278,
+          "market_prob": 0.2664,
+          "edge_pct": 23.05,
+          "best_odds": 3.65
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.768179",
+      "market_odds": {
+        "1x2": {
+          "home": 2.16,
+          "draw": 3.42,
+          "away": 3.65
+        },
+        "totals": {
+          "line": 2.25,
+          "over": 1.95,
+          "under": 1.91
+        },
+        "btts": {
+          "yes": 1.96,
+          "no": 1.95
+        }
+      },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Away Win @ 3.65 (+19.6% edge)"
     },
     {
       "home_team": "RCD Espanyol de Barcelona",
@@ -1065,12 +1401,61 @@
         "over_2_5_decimal": 2.024,
         "under_2_5_decimal": 1.976
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.870220",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.1968,
+          "market_prob": 0.159,
+          "edge_pct": 25.95,
+          "best_odds": 6.4,
+          "kelly_pct": 1.2,
+          "ev_per_unit": 0.2595,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 1.2,
+          "daily_cap_applied": false,
+          "match": "RCD Espanyol de Barcelona vs Real Madrid CF",
+          "date": "2026-08-22"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.1968,
+          "market_prob": 0.159,
+          "edge_pct": 23.77,
+          "best_odds": 6.4
+        },
+        "draw": {
+          "model_prob": 0.23,
+          "market_prob": 0.2321,
+          "edge_pct": -0.9,
+          "best_odds": 4.3
+        },
+        "away_win": {
+          "model_prob": 0.5732,
+          "market_prob": 0.6089,
+          "edge_pct": -5.86,
+          "best_odds": 1.5917
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.775628",
+      "market_odds": {
+        "1x2": {
+          "home": 6.4,
+          "draw": 4.3,
+          "away": 1.59
+        },
+        "totals": {
+          "line": 2.75,
+          "over": 2.02,
+          "under": 1.85
+        },
+        "btts": {
+          "yes": 1.9,
+          "no": 2.05
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Home Win @ 6.4 (+25.9% edge)"
     },
     {
       "home_team": "Club Atl\u00e9tico de Madrid",
@@ -1185,7 +1570,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.873932",
+      "generated_at": "2026-08-16T10:42:35.783074",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -1303,12 +1688,61 @@
         "over_2_5_decimal": 3.74,
         "under_2_5_decimal": 1.365
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.877615",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.2374,
+          "market_prob": 0.1905,
+          "edge_pct": 21.07,
+          "best_odds": 5.1,
+          "kelly_pct": 1.28,
+          "ev_per_unit": 0.2107,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 1.28,
+          "daily_cap_applied": false,
+          "match": "Getafe CF vs Real Racing Club de Santander",
+          "date": "2026-08-23"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4479,
+          "market_prob": 0.4793,
+          "edge_pct": -6.55,
+          "best_odds": 2.06
+        },
+        "draw": {
+          "model_prob": 0.3147,
+          "market_prob": 0.3301,
+          "edge_pct": -4.67,
+          "best_odds": 3.0
+        },
+        "away_win": {
+          "model_prob": 0.2374,
+          "market_prob": 0.1905,
+          "edge_pct": 24.62,
+          "best_odds": 5.1
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.790466",
+      "market_odds": {
+        "1x2": {
+          "home": 2.06,
+          "draw": 3.0,
+          "away": 5.1
+        },
+        "totals": {
+          "line": 1.75,
+          "over": 1.97,
+          "under": 1.9
+        },
+        "btts": {
+          "yes": 2.56,
+          "no": 1.58
+        }
+      },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Away Win @ 5.1 (+21.1% edge)"
     },
     {
       "home_team": "Elche CF",
@@ -1421,12 +1855,75 @@
         "over_2_5_decimal": 1.512,
         "under_2_5_decimal": 2.954
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.881220",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "BTTS Yes",
+          "model_prob": 0.6054,
+          "market_prob": 0.571,
+          "edge_pct": 14.42,
+          "best_odds": 1.89,
+          "kelly_pct": 4.05,
+          "ev_per_unit": 0.1442,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 4.05,
+          "daily_cap_applied": false,
+          "match": "Elche CF vs FC Barcelona",
+          "date": "2026-08-23"
+        },
+        {
+          "market": "Draw",
+          "model_prob": 0.1878,
+          "market_prob": 0.1623,
+          "edge_pct": 13.43,
+          "best_odds": 6.04,
+          "kelly_pct": 0.67,
+          "ev_per_unit": 0.1343,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 0.67,
+          "daily_cap_applied": false,
+          "match": "Elche CF vs FC Barcelona",
+          "date": "2026-08-23"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.1786,
+          "market_prob": 0.0999,
+          "edge_pct": 78.78,
+          "best_odds": 11.5
+        },
+        "draw": {
+          "model_prob": 0.1878,
+          "market_prob": 0.1623,
+          "edge_pct": 15.71,
+          "best_odds": 6.04
+        },
+        "away_win": {
+          "model_prob": 0.6336,
+          "market_prob": 0.7378,
+          "edge_pct": -14.12,
+          "best_odds": 1.3165
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.797953",
+      "market_odds": {
+        "1x2": {
+          "home": 11.5,
+          "draw": 6.04,
+          "away": 1.32
+        },
+        "totals": {
+          "line": 3.25,
+          "over": 2.03,
+          "under": 1.85
+        },
+        "btts": {
+          "yes": 1.89,
+          "no": 2.0
+        }
+      },
       "confidence": "HIGH",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 BTTS Yes @ 1.89 (+14.4% edge)"
     },
     {
       "home_team": "CA Osasuna",
@@ -1442,7 +1939,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.6037,
+        "lambda_home": 1.6038,
         "lambda_away": 1.0925,
         "expected_total": 2.6962,
         "p_home_win": 0.4949,
@@ -1539,12 +2036,67 @@
         "over_2_5_decimal": 1.979,
         "under_2_5_decimal": 2.021
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.884857",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Away Win",
+          "model_prob": 0.2619,
+          "market_prob": 0.2159,
+          "edge_pct": 17.86,
+          "best_odds": 4.5,
+          "kelly_pct": 1.28,
+          "ev_per_unit": 0.1786,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 1.28,
+          "daily_cap_applied": false,
+          "match": "CA Osasuna vs Levante UD",
+          "date": "2026-08-24"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4949,
+          "market_prob": 0.5218,
+          "edge_pct": -5.16,
+          "best_odds": 1.8621
+        },
+        "draw": {
+          "model_prob": 0.2432,
+          "market_prob": 0.2623,
+          "edge_pct": -7.28,
+          "best_odds": 3.7
+        },
+        "away_win": {
+          "model_prob": 0.2619,
+          "market_prob": 0.2159,
+          "edge_pct": 21.31,
+          "best_odds": 4.5
+        },
+        "over_2.5": {
+          "model_prob": 0.5053,
+          "market_prob": 0.5,
+          "edge_pct": 1.06,
+          "best_odds": 2.0
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.805317",
+      "market_odds": {
+        "1x2": {
+          "home": 1.86,
+          "draw": 3.7,
+          "away": 4.5
+        },
+        "totals": {
+          "line": 2.5,
+          "over": 2.0,
+          "under": 1.88
+        },
+        "btts": {
+          "yes": 1.84,
+          "no": 1.95
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Away Win @ 4.5 (+17.9% edge)"
     },
     {
       "home_team": "M\u00e1laga CF",
@@ -1660,12 +2212,81 @@
         "over_2_5_decimal": 2.326,
         "under_2_5_decimal": 1.754
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.888543",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.4605,
+          "market_prob": 0.3478,
+          "edge_pct": 20.65,
+          "best_odds": 2.62,
+          "kelly_pct": 3.19,
+          "ev_per_unit": 0.2065,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 3.19,
+          "daily_cap_applied": false,
+          "match": "M\u00e1laga CF vs RC Deportivo La Coru\u00f1a",
+          "date": "2026-08-24"
+        },
+        {
+          "market": "Under 2.0",
+          "model_prob": 0.57,
+          "market_prob": 0.5261,
+          "edge_pct": 8.35,
+          "best_odds": 1.9009,
+          "kelly_pct": 2.32,
+          "ev_per_unit": 0.0835,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 2.32,
+          "daily_cap_applied": false,
+          "match": "M\u00e1laga CF vs RC Deportivo La Coru\u00f1a",
+          "date": "2026-08-24"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.4605,
+          "market_prob": 0.3478,
+          "edge_pct": 32.4,
+          "best_odds": 2.62
+        },
+        "draw": {
+          "model_prob": 0.2644,
+          "market_prob": 0.3278,
+          "edge_pct": -19.34,
+          "best_odds": 3.1
+        },
+        "away_win": {
+          "model_prob": 0.2751,
+          "market_prob": 0.3245,
+          "edge_pct": -15.22,
+          "best_odds": 3.0
+        },
+        "over_2.0": {
+          "model_prob": 0.43,
+          "market_prob": 0.5074,
+          "edge_pct": -15.25,
+          "best_odds": 1.9709
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.812729",
+      "market_odds": {
+        "1x2": {
+          "home": 2.62,
+          "draw": 3.1,
+          "away": 3.0
+        },
+        "totals": {
+          "line": 2.0,
+          "over": 1.97,
+          "under": 1.9
+        },
+        "btts": {
+          "yes": 2.1,
+          "no": 1.73
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Home Win @ 2.62 (+20.6% edge)"
     },
     {
       "home_team": "Valencia CF",
@@ -1778,12 +2399,67 @@
         "over_2_5_decimal": 1.933,
         "under_2_5_decimal": 2.072
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.892194",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.3963,
+          "market_prob": 0.3301,
+          "edge_pct": 6.6,
+          "best_odds": 2.69,
+          "kelly_pct": 0.98,
+          "ev_per_unit": 0.066,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 0.98,
+          "daily_cap_applied": false,
+          "match": "Valencia CF vs Real Betis Balompi\u00e9",
+          "date": "2026-08-25"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.3963,
+          "market_prob": 0.3301,
+          "edge_pct": 20.05,
+          "best_odds": 2.69
+        },
+        "draw": {
+          "model_prob": 0.2498,
+          "market_prob": 0.3449,
+          "edge_pct": -27.57,
+          "best_odds": 3.4
+        },
+        "away_win": {
+          "model_prob": 0.3539,
+          "market_prob": 0.3248,
+          "edge_pct": 8.96,
+          "best_odds": 2.71
+        },
+        "over_2.5": {
+          "model_prob": 0.5173,
+          "market_prob": 0.4975,
+          "edge_pct": 3.98,
+          "best_odds": 2.01
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.820153",
+      "market_odds": {
+        "1x2": {
+          "home": 2.69,
+          "draw": 3.4,
+          "away": 2.71
+        },
+        "totals": {
+          "line": 2.5,
+          "over": 2.01,
+          "under": 1.83
+        },
+        "btts": {
+          "yes": 1.8,
+          "no": 2.02
+        }
+      },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\u2705 GOOD \u2014 Home Win @ 2.69 (+6.6% edge)"
     },
     {
       "home_team": "Real Madrid CF",
@@ -1896,12 +2572,67 @@
         "over_2_5_decimal": 1.451,
         "under_2_5_decimal": 3.215
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.895857",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.7542,
+          "market_prob": 0.6844,
+          "edge_pct": 6.33,
+          "best_odds": 1.4098,
+          "kelly_pct": 3.86,
+          "ev_per_unit": 0.0633,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 3.86,
+          "daily_cap_applied": false,
+          "match": "Real Madrid CF vs Real Sociedad de F\u00fatbol",
+          "date": "2026-08-26"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.7542,
+          "market_prob": 0.6844,
+          "edge_pct": 10.2,
+          "best_odds": 1.4098
+        },
+        "draw": {
+          "model_prob": 0.1449,
+          "market_prob": 0.1839,
+          "edge_pct": -21.21,
+          "best_odds": 5.3
+        },
+        "away_win": {
+          "model_prob": 0.1008,
+          "market_prob": 0.1318,
+          "edge_pct": -23.52,
+          "best_odds": 7.5
+        },
+        "over_3.0": {
+          "model_prob": 0.474,
+          "market_prob": 0.5434,
+          "edge_pct": -12.77,
+          "best_odds": 1.8403
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.827564",
+      "market_odds": {
+        "1x2": {
+          "home": 1.41,
+          "draw": 5.3,
+          "away": 7.5
+        },
+        "totals": {
+          "line": 3.0,
+          "over": 1.84,
+          "under": 2.0
+        },
+        "btts": {
+          "yes": 1.78,
+          "no": 2.1
+        }
+      },
       "confidence": "HIGH",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\u2705 GOOD \u2014 Home Win @ 1.4098 (+6.3% edge)"
     },
     {
       "home_team": "RC Celta de Vigo",
@@ -2014,12 +2745,56 @@
         "over_2_5_decimal": 1.974,
         "under_2_5_decimal": 2.026
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.899523",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.5418,
+          "market_prob": 0.2885,
+          "edge_pct": 8.36,
+          "best_odds": 2.0,
+          "kelly_pct": 2.09,
+          "ev_per_unit": 0.0836,
+          "rating": "\u2705 GOOD",
+          "kelly_pct_raw": 2.09,
+          "daily_cap_applied": false,
+          "match": "RC Celta de Vigo vs CA Osasuna",
+          "date": "2026-08-27"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.5418,
+          "market_prob": 0.2885,
+          "edge_pct": 87.8,
+          "best_odds": 2.0
+        },
+        "draw": {
+          "model_prob": 0.2347,
+          "market_prob": 0.1874,
+          "edge_pct": 25.24,
+          "best_odds": 3.4
+        },
+        "away_win": {
+          "model_prob": 0.2235,
+          "market_prob": 0.5242,
+          "edge_pct": -57.36,
+          "best_odds": 3.7
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.835083",
+      "market_odds": {
+        "1x2": {
+          "home": 2.0,
+          "draw": 3.4,
+          "away": 3.7
+        },
+        "btts": {
+          "yes": 1.91,
+          "no": 1.88
+        }
+      },
       "confidence": "MEDIUM",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\u2705 GOOD \u2014 Home Win @ 2.0 (+8.4% edge)"
     },
     {
       "home_team": "FC Barcelona",
@@ -2132,12 +2907,67 @@
         "over_2_5_decimal": 1.44,
         "under_2_5_decimal": 3.272
       },
-      "value_bets": [],
-      "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.903137",
-      "market_odds": {},
+      "value_bets": [
+        {
+          "market": "Home Win",
+          "model_prob": 0.7987,
+          "market_prob": 0.6897,
+          "edge_pct": 12.6,
+          "best_odds": 1.4098,
+          "kelly_pct": 5.0,
+          "ev_per_unit": 0.126,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 5.0,
+          "daily_cap_applied": false,
+          "match": "FC Barcelona vs Athletic Club",
+          "date": "2026-08-27"
+        }
+      ],
+      "market_comparison": {
+        "home_win": {
+          "model_prob": 0.7987,
+          "market_prob": 0.6897,
+          "edge_pct": 15.8,
+          "best_odds": 1.4098
+        },
+        "draw": {
+          "model_prob": 0.126,
+          "market_prob": 0.1792,
+          "edge_pct": -29.69,
+          "best_odds": 5.7
+        },
+        "away_win": {
+          "model_prob": 0.0752,
+          "market_prob": 0.1311,
+          "edge_pct": -42.64,
+          "best_odds": 7.6
+        },
+        "over_3.0": {
+          "model_prob": 0.4801,
+          "market_prob": 0.5475,
+          "edge_pct": -12.31,
+          "best_odds": 1.8264
+        }
+      },
+      "generated_at": "2026-08-16T10:42:35.842496",
+      "market_odds": {
+        "1x2": {
+          "home": 1.41,
+          "draw": 5.7,
+          "away": 7.6
+        },
+        "totals": {
+          "line": 3.0,
+          "over": 1.83,
+          "under": 2.02
+        },
+        "btts": {
+          "yes": 1.73,
+          "no": 2.1
+        }
+      },
       "confidence": "HIGH",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Home Win @ 1.4098 (+12.6% edge)"
     },
     {
       "home_team": "Real Racing Club de Santander",
@@ -2158,7 +2988,7 @@
         "expected_total": 2.6459,
         "p_home_win": 0.4032,
         "p_draw": 0.2548,
-        "p_away_win": 0.3419,
+        "p_away_win": 0.342,
         "p_over_2_5": 0.4929,
         "p_under_2_5": 0.5071,
         "p_over_3_5": 0.2739,
@@ -2215,15 +3045,15 @@
           "0.0": {
             "home_covers": 0.4032,
             "push": 0.2548,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "0.5": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.0,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "1.0": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.1962,
             "away_covers": 0.1458
           },
@@ -2248,13 +3078,13 @@
         "away_win_american": 192,
         "home_win_decimal": 2.48,
         "draw_decimal": 3.925,
-        "away_win_decimal": 2.925,
+        "away_win_decimal": 2.924,
         "over_2_5_decimal": 2.029,
         "under_2_5_decimal": 1.972
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.906997",
+      "generated_at": "2026-08-16T10:42:35.849944",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2372,7 +3202,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.910657",
+      "generated_at": "2026-08-16T10:42:35.857320",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2490,7 +3320,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.914296",
+      "generated_at": "2026-08-16T10:42:35.864781",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2608,7 +3438,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.917945",
+      "generated_at": "2026-08-16T10:42:35.872188",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -2726,7 +3556,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.921574",
+      "generated_at": "2026-08-16T10:42:35.879577",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -2846,7 +3676,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.925270",
+      "generated_at": "2026-08-16T10:42:35.887057",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -2966,7 +3796,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.929146",
+      "generated_at": "2026-08-16T10:42:35.894486",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3084,7 +3914,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.932855",
+      "generated_at": "2026-08-16T10:42:35.901898",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3202,7 +4032,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.936590",
+      "generated_at": "2026-08-16T10:42:35.909370",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3320,7 +4150,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.940251",
+      "generated_at": "2026-08-16T10:42:35.916811",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -3438,7 +4268,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.943924",
+      "generated_at": "2026-08-16T10:42:35.924359",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3556,7 +4386,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.947669",
+      "generated_at": "2026-08-16T10:42:35.931818",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3674,7 +4504,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.951345",
+      "generated_at": "2026-08-16T10:42:35.939235",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3794,7 +4624,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.955022",
+      "generated_at": "2026-08-16T10:42:35.946604",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3914,7 +4744,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.958711",
+      "generated_at": "2026-08-16T10:42:35.954058",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -4032,7 +4862,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.962358",
+      "generated_at": "2026-08-16T10:42:35.961514",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -4051,7 +4881,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.4691,
+        "lambda_home": 1.469,
         "lambda_away": 1.0608,
         "expected_total": 2.5299,
         "p_home_win": 0.4682,
@@ -4150,7 +4980,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.966015",
+      "generated_at": "2026-08-16T10:42:35.969001",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4270,7 +5100,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.969683",
+      "generated_at": "2026-08-16T10:42:35.976402",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4388,7 +5218,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.973313",
+      "generated_at": "2026-08-16T10:42:35.983893",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4506,7 +5336,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.976967",
+      "generated_at": "2026-08-16T10:42:35.991282",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4624,7 +5454,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.980636",
+      "generated_at": "2026-08-16T10:42:35.998767",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4744,7 +5574,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.984344",
+      "generated_at": "2026-08-16T10:42:36.006231",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4862,7 +5692,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.988018",
+      "generated_at": "2026-08-16T10:42:36.013715",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4884,7 +5714,7 @@
         "lambda_home": 1.2868,
         "lambda_away": 1.1891,
         "expected_total": 2.4759,
-        "p_home_win": 0.3907,
+        "p_home_win": 0.3908,
         "p_draw": 0.2652,
         "p_away_win": 0.344,
         "p_over_2_5": 0.45,
@@ -4933,15 +5763,15 @@
           "-1.0": {
             "home_covers": 0.1727,
             "push": 0.218,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "-0.5": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.0,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "0.0": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.2652,
             "away_covers": 0.344
           },
@@ -4974,7 +5804,7 @@
         "home_win_american": 156,
         "draw_american": 277,
         "away_win_american": 191,
-        "home_win_decimal": 2.56,
+        "home_win_decimal": 2.559,
         "draw_decimal": 3.771,
         "away_win_decimal": 2.907,
         "over_2_5_decimal": 2.222,
@@ -4982,7 +5812,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.991642",
+      "generated_at": "2026-08-16T10:42:36.021263",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -5100,7 +5930,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.995345",
+      "generated_at": "2026-08-16T10:42:36.028577",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5220,7 +6050,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:50.999093",
+      "generated_at": "2026-08-16T10:42:36.035966",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5338,7 +6168,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.002905",
+      "generated_at": "2026-08-16T10:42:36.043317",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5456,7 +6286,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.006633",
+      "generated_at": "2026-08-16T10:42:36.050642",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -5574,7 +6404,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.010420",
+      "generated_at": "2026-08-16T10:42:36.058015",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5692,7 +6522,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.014126",
+      "generated_at": "2026-08-16T10:42:36.065308",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5810,7 +6640,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.017942",
+      "generated_at": "2026-08-16T10:42:36.072691",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5831,7 +6661,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.3243,
         "lambda_away": 0.8059,
-        "expected_total": 2.1302,
+        "expected_total": 2.1303,
         "p_home_win": 0.4916,
         "p_draw": 0.2778,
         "p_away_win": 0.2305,
@@ -5928,7 +6758,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.021634",
+      "generated_at": "2026-08-16T10:42:36.080137",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6048,7 +6878,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.025272",
+      "generated_at": "2026-08-16T10:42:36.087410",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -6076,8 +6906,8 @@
         "p_over_2_5": 0.481,
         "p_under_2_5": 0.519,
         "p_over_3_5": 0.2634,
-        "p_btts": 0.5166,
-        "p_no_btts": 0.4834,
+        "p_btts": 0.5165,
+        "p_no_btts": 0.4835,
         "most_likely_score": "1-1",
         "top_scorelines": [
           {
@@ -6166,7 +6996,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.028959",
+      "generated_at": "2026-08-16T10:42:36.094820",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6284,7 +7114,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.032639",
+      "generated_at": "2026-08-16T10:42:36.102206",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6305,7 +7135,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.2062,
         "lambda_away": 1.7988,
-        "expected_total": 3.005,
+        "expected_total": 3.0051,
         "p_home_win": 0.2584,
         "p_draw": 0.2266,
         "p_away_win": 0.515,
@@ -6404,7 +7234,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.036359",
+      "generated_at": "2026-08-16T10:42:36.109642",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6522,7 +7352,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.040018",
+      "generated_at": "2026-08-16T10:42:36.117086",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -6640,7 +7470,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.043661",
+      "generated_at": "2026-08-16T10:42:36.124524",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6758,7 +7588,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.047366",
+      "generated_at": "2026-08-16T10:42:36.131927",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6878,7 +7708,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.051051",
+      "generated_at": "2026-08-16T10:42:36.139332",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -6996,7 +7826,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.054717",
+      "generated_at": "2026-08-16T10:42:36.146754",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7114,7 +7944,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.058415",
+      "generated_at": "2026-08-16T10:42:36.154086",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -7133,7 +7963,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.0221,
+        "lambda_home": 1.0222,
         "lambda_away": 2.2566,
         "expected_total": 3.2787,
         "p_home_win": 0.1609,
@@ -7232,7 +8062,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.062074",
+      "generated_at": "2026-08-16T10:42:36.161596",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -7350,7 +8180,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.065766",
+      "generated_at": "2026-08-16T10:42:36.169049",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -7468,7 +8298,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.069415",
+      "generated_at": "2026-08-16T10:42:36.176454",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7586,7 +8416,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.073077",
+      "generated_at": "2026-08-16T10:42:36.184342",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7706,7 +8536,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.076755",
+      "generated_at": "2026-08-16T10:42:36.191940",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -7826,7 +8656,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.080454",
+      "generated_at": "2026-08-16T10:42:36.199354",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7944,7 +8774,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.084246",
+      "generated_at": "2026-08-16T10:42:36.206904",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8064,7 +8894,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.087933",
+      "generated_at": "2026-08-16T10:42:36.214397",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -8182,7 +9012,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.091576",
+      "generated_at": "2026-08-16T10:42:36.221896",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -8300,7 +9130,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.095242",
+      "generated_at": "2026-08-16T10:42:36.229343",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -8418,7 +9248,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.098886",
+      "generated_at": "2026-08-16T10:42:36.236791",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8536,7 +9366,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.102643",
+      "generated_at": "2026-08-16T10:42:36.244224",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -8654,7 +9484,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.106310",
+      "generated_at": "2026-08-16T10:42:36.251623",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8772,7 +9602,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.110097",
+      "generated_at": "2026-08-16T10:42:36.259096",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -8890,7 +9720,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.113892",
+      "generated_at": "2026-08-16T10:42:36.266513",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9010,7 +9840,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.117600",
+      "generated_at": "2026-08-16T10:42:36.273910",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9130,7 +9960,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.121234",
+      "generated_at": "2026-08-16T10:42:36.281326",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9250,7 +10080,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.124854",
+      "generated_at": "2026-08-16T10:42:36.288750",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9368,7 +10198,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.128501",
+      "generated_at": "2026-08-16T10:42:36.296200",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -9486,7 +10316,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.132139",
+      "generated_at": "2026-08-16T10:42:36.303610",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -9604,7 +10434,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.135791",
+      "generated_at": "2026-08-16T10:42:36.310989",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9722,7 +10552,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.139434",
+      "generated_at": "2026-08-16T10:42:36.318396",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9840,7 +10670,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.143094",
+      "generated_at": "2026-08-16T10:42:36.325867",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9958,7 +10788,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.146784",
+      "generated_at": "2026-08-16T10:42:36.333482",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9981,7 +10811,7 @@
         "lambda_away": 1.4026,
         "expected_total": 2.8345,
         "p_home_win": 0.3838,
-        "p_draw": 0.2456,
+        "p_draw": 0.2455,
         "p_away_win": 0.3706,
         "p_over_2_5": 0.5386,
         "p_under_2_5": 0.4614,
@@ -10038,7 +10868,7 @@
           },
           "0.0": {
             "home_covers": 0.3838,
-            "push": 0.2456,
+            "push": 0.2455,
             "away_covers": 0.3706
           },
           "0.5": {
@@ -10071,14 +10901,14 @@
         "draw_american": 307,
         "away_win_american": 170,
         "home_win_decimal": 2.606,
-        "draw_decimal": 4.072,
+        "draw_decimal": 4.073,
         "away_win_decimal": 2.698,
         "over_2_5_decimal": 1.857,
         "under_2_5_decimal": 2.167
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.150563",
+      "generated_at": "2026-08-16T10:42:36.341238",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10198,7 +11028,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.154236",
+      "generated_at": "2026-08-16T10:42:36.348793",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10318,7 +11148,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.158197",
+      "generated_at": "2026-08-16T10:42:36.356185",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10436,7 +11266,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.161929",
+      "generated_at": "2026-08-16T10:42:36.363546",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10554,7 +11384,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.165637",
+      "generated_at": "2026-08-16T10:42:36.371002",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10674,7 +11504,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.169350",
+      "generated_at": "2026-08-16T10:42:36.378340",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10792,7 +11622,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.173071",
+      "generated_at": "2026-08-16T10:42:36.385736",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10910,7 +11740,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.176817",
+      "generated_at": "2026-08-16T10:42:36.393081",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11028,7 +11858,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.180507",
+      "generated_at": "2026-08-16T10:42:36.400533",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11146,7 +11976,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.184169",
+      "generated_at": "2026-08-16T10:42:36.407970",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11266,7 +12096,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.187809",
+      "generated_at": "2026-08-16T10:42:36.415373",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11384,7 +12214,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.191487",
+      "generated_at": "2026-08-16T10:42:36.422789",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11406,7 +12236,7 @@
         "lambda_home": 1.9603,
         "lambda_away": 1.2572,
         "expected_total": 3.2175,
-        "p_home_win": 0.5394,
+        "p_home_win": 0.5395,
         "p_draw": 0.2147,
         "p_away_win": 0.2459,
         "p_over_2_5": 0.6234,
@@ -11455,15 +12285,15 @@
           "-1.0": {
             "home_covers": 0.3126,
             "push": 0.2268,
-            "away_covers": 0.4606
+            "away_covers": 0.4605
           },
           "-0.5": {
-            "home_covers": 0.5394,
+            "home_covers": 0.5395,
             "push": 0.0,
-            "away_covers": 0.4606
+            "away_covers": 0.4605
           },
           "0.0": {
-            "home_covers": 0.5394,
+            "home_covers": 0.5395,
             "push": 0.2147,
             "away_covers": 0.2459
           },
@@ -11502,7 +12332,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.195135",
+      "generated_at": "2026-08-16T10:42:36.430158",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11622,7 +12452,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.198780",
+      "generated_at": "2026-08-16T10:42:36.437532",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11742,7 +12572,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.202466",
+      "generated_at": "2026-08-16T10:42:36.444971",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11860,7 +12690,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.206144",
+      "generated_at": "2026-08-16T10:42:36.452383",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11978,7 +12808,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.209789",
+      "generated_at": "2026-08-16T10:42:36.459738",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12096,7 +12926,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.213489",
+      "generated_at": "2026-08-16T10:42:36.467056",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12214,7 +13044,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.217172",
+      "generated_at": "2026-08-16T10:42:36.474392",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12334,7 +13164,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.220840",
+      "generated_at": "2026-08-16T10:42:36.481807",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12452,7 +13282,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.224513",
+      "generated_at": "2026-08-16T10:42:36.489252",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -12570,7 +13400,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.228203",
+      "generated_at": "2026-08-16T10:42:36.496618",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12690,7 +13520,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.231856",
+      "generated_at": "2026-08-16T10:42:36.503998",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -12709,7 +13539,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.2464,
+        "lambda_home": 1.2465,
         "lambda_away": 1.0647,
         "expected_total": 2.3111,
         "p_home_win": 0.4071,
@@ -12808,7 +13638,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.235597",
+      "generated_at": "2026-08-16T10:42:36.511298",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12926,7 +13756,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.239278",
+      "generated_at": "2026-08-16T10:42:36.518693",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -13044,7 +13874,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.242963",
+      "generated_at": "2026-08-16T10:42:36.526101",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13162,7 +13992,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.246681",
+      "generated_at": "2026-08-16T10:42:36.533428",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -13181,7 +14011,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.0482,
+        "lambda_home": 1.0481,
         "lambda_away": 1.7039,
         "expected_total": 2.7521,
         "p_home_win": 0.2356,
@@ -13280,7 +14110,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.250379",
+      "generated_at": "2026-08-16T10:42:36.540793",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13398,7 +14228,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.254055",
+      "generated_at": "2026-08-16T10:42:36.548118",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13516,7 +14346,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.257755",
+      "generated_at": "2026-08-16T10:42:36.555524",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13637,7 +14467,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.261441",
+      "generated_at": "2026-08-16T10:42:36.562865",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13757,7 +14587,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.265147",
+      "generated_at": "2026-08-16T10:42:36.570198",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13875,7 +14705,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.268824",
+      "generated_at": "2026-08-16T10:42:36.577522",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13993,7 +14823,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.272533",
+      "generated_at": "2026-08-16T10:42:36.584859",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -14111,7 +14941,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.276400",
+      "generated_at": "2026-08-16T10:42:36.592190",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14229,7 +15059,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.280087",
+      "generated_at": "2026-08-16T10:42:36.599613",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -14252,7 +15082,7 @@
         "lambda_away": 1.4026,
         "expected_total": 2.8345,
         "p_home_win": 0.3838,
-        "p_draw": 0.2456,
+        "p_draw": 0.2455,
         "p_away_win": 0.3706,
         "p_over_2_5": 0.5386,
         "p_under_2_5": 0.4614,
@@ -14309,7 +15139,7 @@
           },
           "0.0": {
             "home_covers": 0.3838,
-            "push": 0.2456,
+            "push": 0.2455,
             "away_covers": 0.3706
           },
           "0.5": {
@@ -14342,14 +15172,14 @@
         "draw_american": 307,
         "away_win_american": 170,
         "home_win_decimal": 2.606,
-        "draw_decimal": 4.072,
+        "draw_decimal": 4.073,
         "away_win_decimal": 2.698,
         "over_2_5_decimal": 1.857,
         "under_2_5_decimal": 2.167
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.283745",
+      "generated_at": "2026-08-16T10:42:36.606918",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14467,7 +15297,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.287463",
+      "generated_at": "2026-08-16T10:42:36.614217",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14587,7 +15417,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.291137",
+      "generated_at": "2026-08-16T10:42:36.621558",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14705,7 +15535,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.294778",
+      "generated_at": "2026-08-16T10:42:36.628941",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14823,7 +15653,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.298716",
+      "generated_at": "2026-08-16T10:42:36.636318",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -14943,7 +15773,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.302412",
+      "generated_at": "2026-08-16T10:42:36.643931",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14962,9 +15792,9 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.34,
+        "lambda_home": 1.3399,
         "lambda_away": 1.4493,
-        "expected_total": 2.7893,
+        "expected_total": 2.7892,
         "p_home_win": 0.3515,
         "p_draw": 0.2474,
         "p_away_win": 0.4011,
@@ -15061,7 +15891,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.306096",
+      "generated_at": "2026-08-16T10:42:36.651501",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -15179,7 +16009,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.309736",
+      "generated_at": "2026-08-16T10:42:36.658942",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15297,7 +16127,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.313401",
+      "generated_at": "2026-08-16T10:42:36.666264",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -15415,7 +16245,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.317088",
+      "generated_at": "2026-08-16T10:42:36.673550",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -15533,7 +16363,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.320747",
+      "generated_at": "2026-08-16T10:42:36.681041",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15554,12 +16384,12 @@
         "source": "dixon_coles",
         "lambda_home": 1.4885,
         "lambda_away": 1.0364,
-        "expected_total": 2.5249,
+        "expected_total": 2.5248,
         "p_home_win": 0.479,
         "p_draw": 0.2545,
         "p_away_win": 0.2665,
-        "p_over_2_5": 0.4625,
-        "p_under_2_5": 0.5375,
+        "p_over_2_5": 0.4624,
+        "p_under_2_5": 0.5376,
         "p_over_3_5": 0.2476,
         "p_btts": 0.4967,
         "p_no_btts": 0.5033,
@@ -15646,12 +16476,12 @@
         "home_win_decimal": 2.088,
         "draw_decimal": 3.929,
         "away_win_decimal": 3.752,
-        "over_2_5_decimal": 2.162,
+        "over_2_5_decimal": 2.163,
         "under_2_5_decimal": 1.86
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.324536",
+      "generated_at": "2026-08-16T10:42:36.688877",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15769,7 +16599,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.328169",
+      "generated_at": "2026-08-16T10:42:36.696795",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -15887,7 +16717,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.331852",
+      "generated_at": "2026-08-16T10:42:36.704296",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -16005,7 +16835,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.335548",
+      "generated_at": "2026-08-16T10:42:36.711630",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16125,7 +16955,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.339221",
+      "generated_at": "2026-08-16T10:42:36.718994",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16245,7 +17075,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.342855",
+      "generated_at": "2026-08-16T10:42:36.726311",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -16315,7 +17145,7 @@
           },
           "-1.0": {
             "home_covers": 0.1658,
-            "push": 0.217,
+            "push": 0.2171,
             "away_covers": 0.6171
           },
           "-0.5": {
@@ -16365,7 +17195,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.346525",
+      "generated_at": "2026-08-16T10:42:36.733727",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -16483,7 +17313,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.350198",
+      "generated_at": "2026-08-16T10:42:36.741164",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16603,7 +17433,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.353992",
+      "generated_at": "2026-08-16T10:42:36.748531",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16721,7 +17551,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.357998",
+      "generated_at": "2026-08-16T10:42:36.755868",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16839,7 +17669,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.361822",
+      "generated_at": "2026-08-16T10:42:36.763191",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16960,7 +17790,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.365556",
+      "generated_at": "2026-08-16T10:42:36.770633",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16983,7 +17813,7 @@
         "lambda_away": 0.8964,
         "expected_total": 3.6437,
         "p_home_win": 0.7607,
-        "p_draw": 0.141,
+        "p_draw": 0.1409,
         "p_away_win": 0.0984,
         "p_over_2_5": 0.7027,
         "p_under_2_5": 0.2973,
@@ -17040,7 +17870,7 @@
           },
           "0.0": {
             "home_covers": 0.7607,
-            "push": 0.141,
+            "push": 0.1409,
             "away_covers": 0.0984
           },
           "0.5": {
@@ -17068,17 +17898,17 @@
       },
       "fair_odds": {
         "home_win_american": -318,
-        "draw_american": 609,
+        "draw_american": 610,
         "away_win_american": 916,
         "home_win_decimal": 1.315,
-        "draw_decimal": 7.092,
+        "draw_decimal": 7.097,
         "away_win_decimal": 10.163,
         "over_2_5_decimal": 1.423,
         "under_2_5_decimal": 3.364
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.369220",
+      "generated_at": "2026-08-16T10:42:36.778020",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17196,7 +18026,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.372880",
+      "generated_at": "2026-08-16T10:42:36.785273",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -17314,7 +18144,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.376557",
+      "generated_at": "2026-08-16T10:42:36.792627",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -17432,7 +18262,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.380209",
+      "generated_at": "2026-08-16T10:42:36.800019",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17550,7 +18380,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.383876",
+      "generated_at": "2026-08-16T10:42:36.807436",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -17668,7 +18498,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.387569",
+      "generated_at": "2026-08-16T10:42:36.814894",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -17788,7 +18618,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.391225",
+      "generated_at": "2026-08-16T10:42:36.822278",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17906,7 +18736,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.394890",
+      "generated_at": "2026-08-16T10:42:36.829701",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17976,7 +18806,7 @@
           },
           "-1.0": {
             "home_covers": 0.1658,
-            "push": 0.217,
+            "push": 0.2171,
             "away_covers": 0.6171
           },
           "-0.5": {
@@ -18026,7 +18856,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.398716",
+      "generated_at": "2026-08-16T10:42:36.837027",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18144,7 +18974,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.402436",
+      "generated_at": "2026-08-16T10:42:36.844442",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18262,7 +19092,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.406154",
+      "generated_at": "2026-08-16T10:42:36.852036",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18380,7 +19210,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.409834",
+      "generated_at": "2026-08-16T10:42:36.859365",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -18500,7 +19330,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.413537",
+      "generated_at": "2026-08-16T10:42:36.866612",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -18618,7 +19448,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.417231",
+      "generated_at": "2026-08-16T10:42:36.873883",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18736,7 +19566,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.420940",
+      "generated_at": "2026-08-16T10:42:36.881269",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -18854,7 +19684,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.424618",
+      "generated_at": "2026-08-16T10:42:36.888588",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18972,7 +19802,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.428290",
+      "generated_at": "2026-08-16T10:42:36.895995",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -19090,7 +19920,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.431926",
+      "generated_at": "2026-08-16T10:42:36.903364",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19208,7 +20038,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.435605",
+      "generated_at": "2026-08-16T10:42:36.910719",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19326,7 +20156,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.439281",
+      "generated_at": "2026-08-16T10:42:36.918067",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -19444,7 +20274,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.442931",
+      "generated_at": "2026-08-16T10:42:36.925524",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -19465,7 +20295,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.4637,
         "lambda_away": 1.3633,
-        "expected_total": 2.8269,
+        "expected_total": 2.827,
         "p_home_win": 0.3998,
         "p_draw": 0.2456,
         "p_away_win": 0.3546,
@@ -19562,7 +20392,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.446662",
+      "generated_at": "2026-08-16T10:42:36.932851",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -19682,7 +20512,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.450355",
+      "generated_at": "2026-08-16T10:42:36.940254",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19802,7 +20632,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.454020",
+      "generated_at": "2026-08-16T10:42:36.947639",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -19922,7 +20752,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.457685",
+      "generated_at": "2026-08-16T10:42:36.958023",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20040,7 +20870,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.461371",
+      "generated_at": "2026-08-16T10:42:36.965425",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20158,7 +20988,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.465082",
+      "generated_at": "2026-08-16T10:42:36.972842",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20276,7 +21106,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.468901",
+      "generated_at": "2026-08-16T10:42:36.980212",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -20346,7 +21176,7 @@
           },
           "-1.0": {
             "home_covers": 0.1658,
-            "push": 0.217,
+            "push": 0.2171,
             "away_covers": 0.6171
           },
           "-0.5": {
@@ -20396,7 +21226,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.472583",
+      "generated_at": "2026-08-16T10:42:36.987550",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -20420,7 +21250,7 @@
         "expected_total": 2.6459,
         "p_home_win": 0.4032,
         "p_draw": 0.2548,
-        "p_away_win": 0.3419,
+        "p_away_win": 0.342,
         "p_over_2_5": 0.4929,
         "p_under_2_5": 0.5071,
         "p_over_3_5": 0.2739,
@@ -20477,15 +21307,15 @@
           "0.0": {
             "home_covers": 0.4032,
             "push": 0.2548,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "0.5": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.0,
-            "away_covers": 0.3419
+            "away_covers": 0.342
           },
           "1.0": {
-            "home_covers": 0.6581,
+            "home_covers": 0.658,
             "push": 0.1962,
             "away_covers": 0.1458
           },
@@ -20510,13 +21340,13 @@
         "away_win_american": 192,
         "home_win_decimal": 2.48,
         "draw_decimal": 3.925,
-        "away_win_decimal": 2.925,
+        "away_win_decimal": 2.924,
         "over_2_5_decimal": 2.029,
         "under_2_5_decimal": 1.972
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.476270",
+      "generated_at": "2026-08-16T10:42:36.995011",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -20634,7 +21464,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.479951",
+      "generated_at": "2026-08-16T10:42:37.002407",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20754,7 +21584,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.483730",
+      "generated_at": "2026-08-16T10:42:37.009834",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20872,7 +21702,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.487449",
+      "generated_at": "2026-08-16T10:42:37.017287",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20990,7 +21820,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.491116",
+      "generated_at": "2026-08-16T10:42:37.024846",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21108,7 +21938,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.494761",
+      "generated_at": "2026-08-16T10:42:37.032205",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21226,7 +22056,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.498474",
+      "generated_at": "2026-08-16T10:42:37.039588",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21245,7 +22075,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.2117,
+        "lambda_home": 1.2118,
         "lambda_away": 0.7871,
         "expected_total": 1.9988,
         "p_home_win": 0.4638,
@@ -21344,7 +22174,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.502142",
+      "generated_at": "2026-08-16T10:42:37.046893",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -21462,7 +22292,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.505827",
+      "generated_at": "2026-08-16T10:42:37.054214",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21483,7 +22313,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.0309,
         "lambda_away": 2.044,
-        "expected_total": 3.075,
+        "expected_total": 3.0749,
         "p_home_win": 0.1863,
         "p_draw": 0.2043,
         "p_away_win": 0.6094,
@@ -21523,15 +22353,15 @@
           "-2.0": {
             "home_covers": 0.018,
             "push": 0.0471,
-            "away_covers": 0.935
+            "away_covers": 0.9349
           },
           "-1.5": {
-            "home_covers": 0.065,
+            "home_covers": 0.0651,
             "push": 0.0,
-            "away_covers": 0.935
+            "away_covers": 0.9349
           },
           "-1.0": {
-            "home_covers": 0.065,
+            "home_covers": 0.0651,
             "push": 0.1213,
             "away_covers": 0.8137
           },
@@ -21580,7 +22410,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.509495",
+      "generated_at": "2026-08-16T10:42:37.061510",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21700,7 +22530,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.513142",
+      "generated_at": "2026-08-16T10:42:37.068874",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21820,7 +22650,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.516813",
+      "generated_at": "2026-08-16T10:42:37.076169",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21938,7 +22768,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.520481",
+      "generated_at": "2026-08-16T10:42:37.083537",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -22056,7 +22886,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.524133",
+      "generated_at": "2026-08-16T10:42:37.090943",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -22174,7 +23004,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.527803",
+      "generated_at": "2026-08-16T10:42:37.098304",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -22294,7 +23124,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.531620",
+      "generated_at": "2026-08-16T10:42:37.105690",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -22414,7 +23244,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.535314",
+      "generated_at": "2026-08-16T10:42:37.113270",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22532,7 +23362,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.538941",
+      "generated_at": "2026-08-16T10:42:37.120664",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22650,7 +23480,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.542604",
+      "generated_at": "2026-08-16T10:42:37.128021",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22770,7 +23600,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.546308",
+      "generated_at": "2026-08-16T10:42:37.135416",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -22888,7 +23718,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.549946",
+      "generated_at": "2026-08-16T10:42:37.142904",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23006,7 +23836,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.553626",
+      "generated_at": "2026-08-16T10:42:37.150308",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23124,7 +23954,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.557326",
+      "generated_at": "2026-08-16T10:42:37.157580",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -23242,7 +24072,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.560997",
+      "generated_at": "2026-08-16T10:42:37.164942",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23362,7 +24192,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.564634",
+      "generated_at": "2026-08-16T10:42:37.172278",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -23382,7 +24212,7 @@
       "model": {
         "source": "dixon_coles",
         "lambda_home": 2.2292,
-        "lambda_away": 1.0773,
+        "lambda_away": 1.0774,
         "expected_total": 3.3066,
         "p_home_win": 0.6354,
         "p_draw": 0.1902,
@@ -23480,7 +24310,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.568311",
+      "generated_at": "2026-08-16T10:42:37.179613",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -23598,7 +24428,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.571951",
+      "generated_at": "2026-08-16T10:42:37.187284",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -23716,7 +24546,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.575583",
+      "generated_at": "2026-08-16T10:42:37.194608",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -23834,7 +24664,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.579242",
+      "generated_at": "2026-08-16T10:42:37.201998",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23952,7 +24782,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.582882",
+      "generated_at": "2026-08-16T10:42:37.209341",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -24070,7 +24900,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.586522",
+      "generated_at": "2026-08-16T10:42:37.216663",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -24190,7 +25020,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.590190",
+      "generated_at": "2026-08-16T10:42:37.223986",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24280,7 +25110,7 @@
           },
           "1.0": {
             "home_covers": 0.5893,
-            "push": 0.2206,
+            "push": 0.2205,
             "away_covers": 0.1902
           },
           "1.5": {
@@ -24310,7 +25140,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.593823",
+      "generated_at": "2026-08-16T10:42:37.231455",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -24428,7 +25258,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.597499",
+      "generated_at": "2026-08-16T10:42:37.238812",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24546,7 +25376,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.601122",
+      "generated_at": "2026-08-16T10:42:37.246118",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24666,7 +25496,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.604841",
+      "generated_at": "2026-08-16T10:42:37.253399",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24784,7 +25614,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.608522",
+      "generated_at": "2026-08-16T10:42:37.260745",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24902,7 +25732,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.612306",
+      "generated_at": "2026-08-16T10:42:37.268034",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24922,7 +25752,7 @@
       "model": {
         "source": "dixon_coles",
         "lambda_home": 2.0017,
-        "lambda_away": 0.8017,
+        "lambda_away": 0.8018,
         "expected_total": 2.8034,
         "p_home_win": 0.6562,
         "p_draw": 0.2003,
@@ -25020,7 +25850,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.615980",
+      "generated_at": "2026-08-16T10:42:37.275366",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -25138,7 +25968,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.619633",
+      "generated_at": "2026-08-16T10:42:37.282765",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25258,7 +26088,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.623256",
+      "generated_at": "2026-08-16T10:42:37.290133",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -25376,7 +26206,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.626926",
+      "generated_at": "2026-08-16T10:42:37.297439",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25494,7 +26324,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.630577",
+      "generated_at": "2026-08-16T10:42:37.304773",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -25612,7 +26442,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.634208",
+      "generated_at": "2026-08-16T10:42:37.312121",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -25732,7 +26562,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.640333",
+      "generated_at": "2026-08-16T10:42:37.319493",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25754,7 +26584,7 @@
         "lambda_home": 1.2868,
         "lambda_away": 1.1891,
         "expected_total": 2.4759,
-        "p_home_win": 0.3907,
+        "p_home_win": 0.3908,
         "p_draw": 0.2652,
         "p_away_win": 0.344,
         "p_over_2_5": 0.45,
@@ -25803,15 +26633,15 @@
           "-1.0": {
             "home_covers": 0.1727,
             "push": 0.218,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "-0.5": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.0,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "0.0": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.2652,
             "away_covers": 0.344
           },
@@ -25844,7 +26674,7 @@
         "home_win_american": 156,
         "draw_american": 277,
         "away_win_american": 191,
-        "home_win_decimal": 2.56,
+        "home_win_decimal": 2.559,
         "draw_decimal": 3.771,
         "away_win_decimal": 2.907,
         "over_2_5_decimal": 2.222,
@@ -25852,7 +26682,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.646293",
+      "generated_at": "2026-08-16T10:42:37.326907",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -25970,7 +26800,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.652721",
+      "generated_at": "2026-08-16T10:42:37.334204",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26088,7 +26918,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.657942",
+      "generated_at": "2026-08-16T10:42:37.341516",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -26206,7 +27036,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.661745",
+      "generated_at": "2026-08-16T10:42:37.348839",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -26324,7 +27154,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.665477",
+      "generated_at": "2026-08-16T10:42:37.356432",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26442,7 +27272,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.669114",
+      "generated_at": "2026-08-16T10:42:37.363830",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -26560,7 +27390,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.672764",
+      "generated_at": "2026-08-16T10:42:37.371286",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -26681,7 +27511,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.676468",
+      "generated_at": "2026-08-16T10:42:37.378669",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26703,7 +27533,7 @@
         "lambda_home": 1.2202,
         "lambda_away": 1.9408,
         "expected_total": 3.161,
-        "p_home_win": 0.2405,
+        "p_home_win": 0.2406,
         "p_draw": 0.2159,
         "p_away_win": 0.5436,
         "p_over_2_5": 0.6115,
@@ -26752,15 +27582,15 @@
           "-1.0": {
             "home_covers": 0.0956,
             "push": 0.145,
-            "away_covers": 0.7595
+            "away_covers": 0.7594
           },
           "-0.5": {
-            "home_covers": 0.2405,
+            "home_covers": 0.2406,
             "push": 0.0,
-            "away_covers": 0.7595
+            "away_covers": 0.7594
           },
           "0.0": {
-            "home_covers": 0.2405,
+            "home_covers": 0.2406,
             "push": 0.2159,
             "away_covers": 0.5436
           },
@@ -26791,7 +27621,7 @@
         "home_win_american": 316,
         "draw_american": 363,
         "away_win_american": -119,
-        "home_win_decimal": 4.158,
+        "home_win_decimal": 4.156,
         "draw_decimal": 4.632,
         "away_win_decimal": 1.84,
         "over_2_5_decimal": 1.635,
@@ -26799,7 +27629,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.680621",
+      "generated_at": "2026-08-16T10:42:37.386137",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26919,7 +27749,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.684265",
+      "generated_at": "2026-08-16T10:42:37.393532",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27037,7 +27867,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.687935",
+      "generated_at": "2026-08-16T10:42:37.400835",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -27155,7 +27985,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.691566",
+      "generated_at": "2026-08-16T10:42:37.408096",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27273,7 +28103,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.695234",
+      "generated_at": "2026-08-16T10:42:37.415405",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -27391,7 +28221,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.698877",
+      "generated_at": "2026-08-16T10:42:37.422778",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27509,7 +28339,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.702565",
+      "generated_at": "2026-08-16T10:42:37.430133",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27627,7 +28457,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.706270",
+      "generated_at": "2026-08-16T10:42:37.437485",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -27747,7 +28577,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.709954",
+      "generated_at": "2026-08-16T10:42:37.444919",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27838,15 +28668,15 @@
           "1.0": {
             "home_covers": 0.7323,
             "push": 0.1673,
-            "away_covers": 0.1005
+            "away_covers": 0.1004
           },
           "1.5": {
-            "home_covers": 0.8995,
+            "home_covers": 0.8996,
             "push": 0.0,
-            "away_covers": 0.1005
+            "away_covers": 0.1004
           },
           "2.0": {
-            "home_covers": 0.8995,
+            "home_covers": 0.8996,
             "push": 0.071,
             "away_covers": 0.0295
           }
@@ -27865,7 +28695,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.713636",
+      "generated_at": "2026-08-16T10:42:37.452263",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27985,7 +28815,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.717361",
+      "generated_at": "2026-08-16T10:42:37.459673",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -28105,7 +28935,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.721028",
+      "generated_at": "2026-08-16T10:42:37.467005",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28223,7 +29053,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.724862",
+      "generated_at": "2026-08-16T10:42:37.474358",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -28343,7 +29173,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.728593",
+      "generated_at": "2026-08-16T10:42:37.481665",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -28463,7 +29293,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.732266",
+      "generated_at": "2026-08-16T10:42:37.488896",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28581,7 +29411,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.735999",
+      "generated_at": "2026-08-16T10:42:37.496127",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -28699,7 +29529,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.739640",
+      "generated_at": "2026-08-16T10:42:37.503332",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -28817,7 +29647,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.743302",
+      "generated_at": "2026-08-16T10:42:37.510638",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28935,7 +29765,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.747027",
+      "generated_at": "2026-08-16T10:42:37.517942",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -29053,7 +29883,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.750665",
+      "generated_at": "2026-08-16T10:42:37.525372",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29171,7 +30001,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.754312",
+      "generated_at": "2026-08-16T10:42:37.532769",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -29194,7 +30024,7 @@
         "lambda_away": 1.4026,
         "expected_total": 2.8345,
         "p_home_win": 0.3838,
-        "p_draw": 0.2456,
+        "p_draw": 0.2455,
         "p_away_win": 0.3706,
         "p_over_2_5": 0.5386,
         "p_under_2_5": 0.4614,
@@ -29251,7 +30081,7 @@
           },
           "0.0": {
             "home_covers": 0.3838,
-            "push": 0.2456,
+            "push": 0.2455,
             "away_covers": 0.3706
           },
           "0.5": {
@@ -29284,14 +30114,14 @@
         "draw_american": 307,
         "away_win_american": 170,
         "home_win_decimal": 2.606,
-        "draw_decimal": 4.072,
+        "draw_decimal": 4.073,
         "away_win_decimal": 2.698,
         "over_2_5_decimal": 1.857,
         "under_2_5_decimal": 2.167
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.757997",
+      "generated_at": "2026-08-16T10:42:37.540222",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -29409,7 +30239,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.761641",
+      "generated_at": "2026-08-16T10:42:37.547604",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -29527,7 +30357,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.765292",
+      "generated_at": "2026-08-16T10:42:37.554996",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29647,7 +30477,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.768936",
+      "generated_at": "2026-08-16T10:42:37.562355",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29767,7 +30597,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.772636",
+      "generated_at": "2026-08-16T10:42:37.569681",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29885,7 +30715,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.776268",
+      "generated_at": "2026-08-16T10:42:37.577230",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30003,7 +30833,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.779995",
+      "generated_at": "2026-08-16T10:42:37.584567",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -30121,7 +30951,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.783697",
+      "generated_at": "2026-08-16T10:42:37.591886",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -30239,7 +31069,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.787370",
+      "generated_at": "2026-08-16T10:42:37.599204",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -30359,7 +31189,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.791009",
+      "generated_at": "2026-08-16T10:42:37.606536",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -30477,7 +31307,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.794666",
+      "generated_at": "2026-08-16T10:42:37.613902",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -30595,7 +31425,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.798389",
+      "generated_at": "2026-08-16T10:42:37.621200",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30713,7 +31543,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.802060",
+      "generated_at": "2026-08-16T10:42:37.628612",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -30833,7 +31663,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.805729",
+      "generated_at": "2026-08-16T10:42:37.635963",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30951,7 +31781,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.809389",
+      "generated_at": "2026-08-16T10:42:37.643325",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31069,7 +31899,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.812998",
+      "generated_at": "2026-08-16T10:42:37.650746",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31187,7 +32017,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.816635",
+      "generated_at": "2026-08-16T10:42:37.658078",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31305,7 +32135,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.820280",
+      "generated_at": "2026-08-16T10:42:37.665424",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31423,7 +32253,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.823895",
+      "generated_at": "2026-08-16T10:42:37.672817",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31541,7 +32371,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.827579",
+      "generated_at": "2026-08-16T10:42:37.680321",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31661,7 +32491,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.831194",
+      "generated_at": "2026-08-16T10:42:37.688037",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31781,7 +32611,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.834818",
+      "generated_at": "2026-08-16T10:42:37.695554",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31899,7 +32729,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.838457",
+      "generated_at": "2026-08-16T10:42:37.703364",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31989,7 +32819,7 @@
           },
           "1.0": {
             "home_covers": 0.551,
-            "push": 0.2088,
+            "push": 0.2087,
             "away_covers": 0.2403
           },
           "1.5": {
@@ -32017,7 +32847,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.842068",
+      "generated_at": "2026-08-16T10:42:37.710701",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -32135,7 +32965,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.845735",
+      "generated_at": "2026-08-16T10:42:37.718036",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32253,7 +33083,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.849404",
+      "generated_at": "2026-08-16T10:42:37.725298",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32371,7 +33201,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.853140",
+      "generated_at": "2026-08-16T10:42:37.732585",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -32491,7 +33321,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.857227",
+      "generated_at": "2026-08-16T10:42:37.739900",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32611,7 +33441,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.860944",
+      "generated_at": "2026-08-16T10:42:37.747241",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -32729,7 +33559,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.864600",
+      "generated_at": "2026-08-16T10:42:37.754529",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -32849,7 +33679,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.868273",
+      "generated_at": "2026-08-16T10:42:37.761836",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -32967,7 +33797,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.871897",
+      "generated_at": "2026-08-16T10:42:37.769179",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -33087,7 +33917,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.878202",
+      "generated_at": "2026-08-16T10:42:37.776492",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -33205,7 +34035,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.882663",
+      "generated_at": "2026-08-16T10:42:37.783840",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33323,7 +34153,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.886383",
+      "generated_at": "2026-08-16T10:42:37.791130",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33441,7 +34271,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.890120",
+      "generated_at": "2026-08-16T10:42:37.798397",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33559,7 +34389,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.893762",
+      "generated_at": "2026-08-16T10:42:37.805779",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33677,7 +34507,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.897467",
+      "generated_at": "2026-08-16T10:42:37.813040",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33795,7 +34625,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.901089",
+      "generated_at": "2026-08-16T10:42:37.820436",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -33915,7 +34745,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.904757",
+      "generated_at": "2026-08-16T10:42:37.827807",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -34035,7 +34865,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.908392",
+      "generated_at": "2026-08-16T10:42:37.835235",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34153,7 +34983,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.911992",
+      "generated_at": "2026-08-16T10:42:37.842612",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34172,8 +35002,8 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.304,
-        "lambda_away": 1.0491,
+        "lambda_home": 1.3041,
+        "lambda_away": 1.0492,
         "expected_total": 2.3532,
         "p_home_win": 0.4267,
         "p_draw": 0.2709,
@@ -34181,8 +35011,8 @@
         "p_over_2_5": 0.418,
         "p_under_2_5": 0.582,
         "p_over_3_5": 0.2115,
-        "p_btts": 0.4703,
-        "p_no_btts": 0.5297,
+        "p_btts": 0.4704,
+        "p_no_btts": 0.5296,
         "most_likely_score": "1-1",
         "top_scorelines": [
           {
@@ -34271,7 +35101,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.915674",
+      "generated_at": "2026-08-16T10:42:37.849954",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -34389,7 +35219,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.919333",
+      "generated_at": "2026-08-16T10:42:37.857284",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -34509,7 +35339,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.923019",
+      "generated_at": "2026-08-16T10:42:37.864642",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -34629,7 +35459,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.926757",
+      "generated_at": "2026-08-16T10:42:37.872034",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34650,7 +35480,7 @@
         "source": "dixon_coles",
         "lambda_home": 1.2062,
         "lambda_away": 1.7988,
-        "expected_total": 3.005,
+        "expected_total": 3.0051,
         "p_home_win": 0.2584,
         "p_draw": 0.2266,
         "p_away_win": 0.515,
@@ -34749,7 +35579,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.930404",
+      "generated_at": "2026-08-16T10:42:37.879493",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34867,7 +35697,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.934047",
+      "generated_at": "2026-08-16T10:42:37.886918",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34985,7 +35815,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.937723",
+      "generated_at": "2026-08-16T10:42:37.894236",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35103,7 +35933,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.941438",
+      "generated_at": "2026-08-16T10:42:37.901567",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -35221,7 +36051,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.945194",
+      "generated_at": "2026-08-16T10:42:37.908895",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -35339,7 +36169,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.948886",
+      "generated_at": "2026-08-16T10:42:37.916214",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35457,7 +36287,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.952577",
+      "generated_at": "2026-08-16T10:42:37.923514",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35577,7 +36407,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.956274",
+      "generated_at": "2026-08-16T10:42:37.930987",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35695,7 +36525,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.959961",
+      "generated_at": "2026-08-16T10:42:37.938469",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -35813,7 +36643,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.963640",
+      "generated_at": "2026-08-16T10:42:37.945860",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -35931,7 +36761,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.967287",
+      "generated_at": "2026-08-16T10:42:37.953219",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36051,7 +36881,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.970933",
+      "generated_at": "2026-08-16T10:42:37.960600",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36075,7 +36905,7 @@
         "expected_total": 2.9943,
         "p_home_win": 0.5644,
         "p_draw": 0.2177,
-        "p_away_win": 0.2178,
+        "p_away_win": 0.2179,
         "p_over_2_5": 0.5752,
         "p_under_2_5": 0.4248,
         "p_over_3_5": 0.351,
@@ -36132,15 +36962,15 @@
           "0.0": {
             "home_covers": 0.5644,
             "push": 0.2177,
-            "away_covers": 0.2178
+            "away_covers": 0.2179
           },
           "0.5": {
-            "home_covers": 0.7822,
+            "home_covers": 0.7821,
             "push": 0.0,
-            "away_covers": 0.2178
+            "away_covers": 0.2179
           },
           "1.0": {
-            "home_covers": 0.7822,
+            "home_covers": 0.7821,
             "push": 0.1376,
             "away_covers": 0.0803
           },
@@ -36163,13 +36993,13 @@
         "away_win_american": 359,
         "home_win_decimal": 1.772,
         "draw_decimal": 4.593,
-        "away_win_decimal": 4.591,
+        "away_win_decimal": 4.589,
         "over_2_5_decimal": 1.739,
         "under_2_5_decimal": 2.354
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.974600",
+      "generated_at": "2026-08-16T10:42:37.967923",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36289,7 +37119,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.978272",
+      "generated_at": "2026-08-16T10:42:37.975252",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36407,7 +37237,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.981935",
+      "generated_at": "2026-08-16T10:42:37.982579",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36525,7 +37355,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.985707",
+      "generated_at": "2026-08-16T10:42:37.989890",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36643,7 +37473,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.989380",
+      "generated_at": "2026-08-16T10:42:37.997193",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36761,7 +37591,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.993037",
+      "generated_at": "2026-08-16T10:42:38.004586",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36781,7 +37611,7 @@
       "model": {
         "source": "dixon_coles",
         "lambda_home": 1.4636,
-        "lambda_away": 1.8191,
+        "lambda_away": 1.8192,
         "expected_total": 3.2828,
         "p_home_win": 0.3141,
         "p_draw": 0.2228,
@@ -36879,7 +37709,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:51.996701",
+      "generated_at": "2026-08-16T10:42:38.011924",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36999,7 +37829,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.000355",
+      "generated_at": "2026-08-16T10:42:38.019273",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37119,7 +37949,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.003979",
+      "generated_at": "2026-08-16T10:42:38.026673",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37209,7 +38039,7 @@
           },
           "1.0": {
             "home_covers": 0.5893,
-            "push": 0.2206,
+            "push": 0.2205,
             "away_covers": 0.1902
           },
           "1.5": {
@@ -37239,7 +38069,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.007654",
+      "generated_at": "2026-08-16T10:42:38.034332",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37357,7 +38187,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.011290",
+      "generated_at": "2026-08-16T10:42:38.041716",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37475,7 +38305,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.014929",
+      "generated_at": "2026-08-16T10:42:38.049011",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37593,7 +38423,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.018587",
+      "generated_at": "2026-08-16T10:42:38.056306",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37711,7 +38541,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.022241",
+      "generated_at": "2026-08-16T10:42:38.063677",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37829,7 +38659,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.025906",
+      "generated_at": "2026-08-16T10:42:38.070941",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37947,7 +38777,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.029551",
+      "generated_at": "2026-08-16T10:42:38.078368",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -38065,7 +38895,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.033176",
+      "generated_at": "2026-08-16T10:42:38.085628",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38183,7 +39013,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.036869",
+      "generated_at": "2026-08-16T10:42:38.092907",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38301,7 +39131,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.040539",
+      "generated_at": "2026-08-16T10:42:38.100238",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -38421,7 +39251,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.044203",
+      "generated_at": "2026-08-16T10:42:38.107489",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38542,7 +39372,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.047852",
+      "generated_at": "2026-08-16T10:42:38.114799",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38660,7 +39490,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.051511",
+      "generated_at": "2026-08-16T10:42:38.122237",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38778,7 +39608,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.055178",
+      "generated_at": "2026-08-16T10:42:38.129583",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38896,7 +39726,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.058844",
+      "generated_at": "2026-08-16T10:42:38.136918",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -39017,7 +39847,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.062497",
+      "generated_at": "2026-08-16T10:42:38.144176",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39135,7 +39965,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.066169",
+      "generated_at": "2026-08-16T10:42:38.151457",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39194,7 +40024,7 @@
         ],
         "asian_handicap": {
           "-2.0": {
-            "home_covers": 0.1185,
+            "home_covers": 0.1186,
             "push": 0.1516,
             "away_covers": 0.7298
           },
@@ -39253,7 +40083,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.069812",
+      "generated_at": "2026-08-16T10:42:38.158732",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39371,7 +40201,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.073460",
+      "generated_at": "2026-08-16T10:42:38.166046",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -39489,7 +40319,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.077132",
+      "generated_at": "2026-08-16T10:42:38.173447",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -39609,7 +40439,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.080756",
+      "generated_at": "2026-08-16T10:42:38.180846",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -39636,7 +40466,7 @@
         "p_away_win": 0.2123,
         "p_over_2_5": 0.5444,
         "p_under_2_5": 0.4556,
-        "p_over_3_5": 0.321,
+        "p_over_3_5": 0.3209,
         "p_btts": 0.5366,
         "p_no_btts": 0.4634,
         "most_likely_score": "1-0",
@@ -39727,7 +40557,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.084469",
+      "generated_at": "2026-08-16T10:42:38.188580",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39845,7 +40675,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.088139",
+      "generated_at": "2026-08-16T10:42:38.195927",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39936,15 +40766,15 @@
           "1.0": {
             "home_covers": 0.4272,
             "push": 0.2394,
-            "away_covers": 0.3334
+            "away_covers": 0.3335
           },
           "1.5": {
-            "home_covers": 0.6666,
+            "home_covers": 0.6665,
             "push": 0.0,
-            "away_covers": 0.3334
+            "away_covers": 0.3335
           },
           "2.0": {
-            "home_covers": 0.6666,
+            "home_covers": 0.6665,
             "push": 0.1748,
             "away_covers": 0.1586
           }
@@ -39963,7 +40793,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.091845",
+      "generated_at": "2026-08-16T10:42:38.203266",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40081,7 +40911,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.095557",
+      "generated_at": "2026-08-16T10:42:38.210516",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -40199,7 +41029,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.099202",
+      "generated_at": "2026-08-16T10:42:38.217827",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -40317,7 +41147,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.103019",
+      "generated_at": "2026-08-16T10:42:38.225025",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40435,7 +41265,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.106694",
+      "generated_at": "2026-08-16T10:42:38.232335",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40555,7 +41385,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.110422",
+      "generated_at": "2026-08-16T10:42:38.239622",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40675,7 +41505,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.114047",
+      "generated_at": "2026-08-16T10:42:38.246946",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -40795,7 +41625,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.117913",
+      "generated_at": "2026-08-16T10:42:38.254347",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40913,7 +41743,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.121663",
+      "generated_at": "2026-08-16T10:42:38.261570",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -41031,7 +41861,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.125340",
+      "generated_at": "2026-08-16T10:42:38.268818",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41149,7 +41979,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.129049",
+      "generated_at": "2026-08-16T10:42:38.276091",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41267,7 +42097,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.132719",
+      "generated_at": "2026-08-16T10:42:38.283360",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41385,7 +42215,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.136405",
+      "generated_at": "2026-08-16T10:42:38.290681",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41503,7 +42333,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.140043",
+      "generated_at": "2026-08-16T10:42:38.297965",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41621,7 +42451,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.143689",
+      "generated_at": "2026-08-16T10:42:38.305233",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -41739,7 +42569,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.147350",
+      "generated_at": "2026-08-16T10:42:38.312543",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41829,7 +42659,7 @@
           },
           "1.0": {
             "home_covers": 0.5893,
-            "push": 0.2206,
+            "push": 0.2205,
             "away_covers": 0.1902
           },
           "1.5": {
@@ -41859,7 +42689,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.150998",
+      "generated_at": "2026-08-16T10:42:38.319921",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41881,7 +42711,7 @@
         "lambda_home": 1.2868,
         "lambda_away": 1.1891,
         "expected_total": 2.4759,
-        "p_home_win": 0.3907,
+        "p_home_win": 0.3908,
         "p_draw": 0.2652,
         "p_away_win": 0.344,
         "p_over_2_5": 0.45,
@@ -41930,15 +42760,15 @@
           "-1.0": {
             "home_covers": 0.1727,
             "push": 0.218,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "-0.5": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.0,
-            "away_covers": 0.6093
+            "away_covers": 0.6092
           },
           "0.0": {
-            "home_covers": 0.3907,
+            "home_covers": 0.3908,
             "push": 0.2652,
             "away_covers": 0.344
           },
@@ -41971,7 +42801,7 @@
         "home_win_american": 156,
         "draw_american": 277,
         "away_win_american": 191,
-        "home_win_decimal": 2.56,
+        "home_win_decimal": 2.559,
         "draw_decimal": 3.771,
         "away_win_decimal": 2.907,
         "over_2_5_decimal": 2.222,
@@ -41979,7 +42809,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.154654",
+      "generated_at": "2026-08-16T10:42:38.327219",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42097,7 +42927,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.158311",
+      "generated_at": "2026-08-16T10:42:38.334524",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -42116,7 +42946,7 @@
       },
       "model": {
         "source": "dixon_coles",
-        "lambda_home": 1.3028,
+        "lambda_home": 1.3029,
         "lambda_away": 1.1129,
         "expected_total": 2.4158,
         "p_home_win": 0.4119,
@@ -42215,7 +43045,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.161965",
+      "generated_at": "2026-08-16T10:42:38.341823",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42335,7 +43165,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.165644",
+      "generated_at": "2026-08-16T10:42:38.349121",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -42453,7 +43283,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.169278",
+      "generated_at": "2026-08-16T10:42:38.356436",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42571,7 +43401,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.172919",
+      "generated_at": "2026-08-16T10:42:38.363833",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -42689,7 +43519,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.176584",
+      "generated_at": "2026-08-16T10:42:38.371345",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -42807,7 +43637,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.180252",
+      "generated_at": "2026-08-16T10:42:38.378753",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42925,7 +43755,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.183909",
+      "generated_at": "2026-08-16T10:42:38.386173",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -43045,7 +43875,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.187629",
+      "generated_at": "2026-08-16T10:42:38.393439",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43165,7 +43995,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.191298",
+      "generated_at": "2026-08-16T10:42:38.400761",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43283,7 +44113,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.194961",
+      "generated_at": "2026-08-16T10:42:38.408054",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43403,7 +44233,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.198658",
+      "generated_at": "2026-08-16T10:42:38.415386",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -43521,7 +44351,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.202322",
+      "generated_at": "2026-08-16T10:42:38.422627",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -43639,7 +44469,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.205980",
+      "generated_at": "2026-08-16T10:42:38.429882",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -43757,7 +44587,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.209637",
+      "generated_at": "2026-08-16T10:42:38.437166",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43877,7 +44707,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.213253",
+      "generated_at": "2026-08-16T10:42:38.444470",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -43995,7 +44825,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.216941",
+      "generated_at": "2026-08-16T10:42:38.451829",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -44113,7 +44943,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.220602",
+      "generated_at": "2026-08-16T10:42:38.459175",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -44233,7 +45063,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.224227",
+      "generated_at": "2026-08-16T10:42:38.466467",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -44353,7 +45183,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.227891",
+      "generated_at": "2026-08-16T10:42:38.473804",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -44471,7 +45301,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.231549",
+      "generated_at": "2026-08-16T10:42:38.481132",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -44589,7 +45419,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.235224",
+      "generated_at": "2026-08-16T10:42:38.488428",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -44707,7 +45537,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.238884",
+      "generated_at": "2026-08-16T10:42:38.495722",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -44825,7 +45655,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-16T08:48:52.242529",
+      "generated_at": "2026-08-16T10:42:38.502966",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
