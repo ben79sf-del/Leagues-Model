@@ -149,8 +149,20 @@ class PredictionEngine:
 
             if match_odds:
                 result["market_comparison"] = self._compare_markets(pred, match_odds)
-                result["value_bets"]        = self._find_value_bets(pred, match_odds)
                 result["market_odds"]       = self._extract_market_odds(match_odds)
+
+                # Never flag a value bet when either team is running on the
+                # fallback rating (see models/dixon_coles_model.py — zero
+                # in-league history, likely newly promoted/relegated). An
+                # "edge" there is just a confident market price compared
+                # against a low-confidence guess, not a real signal — it's
+                # noise that happens to look like signal. Market odds are
+                # still shown above for informational purposes; the match
+                # just never produces a recommended play.
+                if pred.get("provisional_teams"):
+                    result["value_bets"] = []
+                else:
+                    result["value_bets"] = self._find_value_bets(pred, match_odds)
 
         # ── Summary Rating ─────────────────────────────────────────────────────
         result["confidence"] = self._confidence_score(pred)
@@ -369,9 +381,13 @@ class PredictionEngine:
                 kelly = kelly_fraction(model_p, best_odds) if best_odds else 0
                 ev = model_p * (best_odds - 1) - (1 - model_p) if best_odds else 0
 
-                if edge >= 10:
+                # Tiers rescaled to sit above MIN_EDGE_PCT (9%) — the old
+                # GOOD threshold (>=6%) was unreachable once the floor moved
+                # up, which would have collapsed every bet into STRONG/WATCH
+                # with nothing in between.
+                if edge >= 15:
                     rating = "\U0001f525 STRONG"
-                elif edge >= 6:
+                elif edge >= 11:
                     rating = "\u2705 GOOD"
                 else:
                     rating = "\U0001f440 WATCH"
@@ -387,9 +403,14 @@ class PredictionEngine:
                     "rating":      rating,
                 })
 
-        # Sort by edge
+        # Sort by edge, then keep only the single best bet for this match.
+        # Multiple markets on the same fixture are usually correlated
+        # (Under 3.0 and BTTS Yes on the same game aren't two independent
+        # opportunities), so flagging all of them inflates the pick count
+        # without adding real independent edges. One recommendation per
+        # match keeps the value-bets list to things actually worth acting on.
         value_bets.sort(key=lambda x: -x["edge_pct"])
-        return value_bets
+        return value_bets[:1]
 
     def _confidence_score(self, pred: dict) -> str:
         """Rate prediction confidence based on how decisive the model is."""
