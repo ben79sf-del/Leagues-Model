@@ -5,6 +5,15 @@ Combines Dixon-Coles model probabilities with live odds
 to identify edges across all markets.
 
 Outputs structured predictions for the dashboard + GitHub.
+
+FIX: predict_match() now builds its odds lookup key with
+config.leagues.normalize_for_match() instead of raw string concatenation.
+football-data.org (source of home/away here) appends club-type suffixes
+("Watford FC"); The Odds API (source of odds_data's keys, built by
+data/fetch_odds.py's match_key()) uses short names ("Watford"). Without
+normalizing both sides the same way, match_odds silently came back empty
+for nearly every fixture in every league — only pairs spelled identically
+in both sources (e.g. Borussia Dortmund vs Hamburger SV) ever matched.
 """
 
 import json
@@ -13,7 +22,10 @@ import sys
 import math
 from datetime import datetime
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from config.leagues import MIN_EDGE_PCT, MAX_EDGE_PCT, KELLY_FRACTION, MAX_KELLY, DAILY_STAKE_CAP, get_league
+from config.leagues import (
+    MIN_EDGE_PCT, MAX_EDGE_PCT, KELLY_FRACTION, MAX_KELLY, DAILY_STAKE_CAP,
+    get_league, normalize_for_match,
+)
 
 
 def edge_pct(model_prob: float, market_implied: float) -> float:
@@ -128,7 +140,11 @@ class PredictionEngine:
         # ── Market Comparison + Value Bets ────────────────────────────────────
         result["market_odds"] = {}
         if odds_data:
-            match_key = f"{home} vs {away}"
+            # FIX: normalize both team names the same way data/fetch_odds.py
+            # normalized them when it built odds_data's keys — otherwise
+            # "Watford FC vs Southampton FC" (football-data.org) never
+            # matches "Watford vs Southampton" (The Odds API).
+            match_key = f"{normalize_for_match(home)} vs {normalize_for_match(away)}"
             match_odds = odds_data.get(match_key, {})
 
             if match_odds:
@@ -181,11 +197,7 @@ class PredictionEngine:
 
         # Over/Under — generalized to whatever line the bookmaker actually
         # quoted, using DixonColesModel's p_over_X_Y naming directly rather
-        # than special-casing 2.5/3.5. This is the fix for the same class of
-        # bug patch_engine_v2.py was working around on the WC model: a
-        # Bundesliga match quoted at 3.5 (or a Championship one at 1.5)
-        # now gets compared against the RIGHT model probability instead of
-        # silently falling back to the 2.5 line's number.
+        # than special-casing 2.5/3.5.
         for line_key, line_data in totals.get("totals", {}).items():
             lk = line_key.lower()
             try:
@@ -234,9 +246,7 @@ class PredictionEngine:
 
         # Totals -- prefer this league's reference line (config/leagues.py)
         # if available, otherwise use whichever line the bookmakers have
-        # actually posted (e.g. 3.0, 2.25). Each league's totals_lines
-        # (see config/leagues.py) sets a sensible default so a Bundesliga
-        # card doesn't get anchored to 2.5 the way the WC model always was.
+        # actually posted (e.g. 3.0, 2.25).
         reference_line = 2.5
         cfg_lines = self.cfg.get("totals_lines", [])
         if cfg_lines:
@@ -305,10 +315,6 @@ class PredictionEngine:
 
         # Over/Under — loop over every totals line the bookmaker actually
         # quoted for THIS match, instead of assuming a fixed 2.5 line exists.
-        # A Championship match might only have 1.5/2.5 posted; a Bundesliga
-        # one might go up to 4.5. Each gets checked against the model's
-        # matching p_over_X/p_under_X, via the same naming DixonColesModel
-        # produces.
         totals = match_odds.get("totals", {}).get("totals", {})
         seen_lines = set()
         for line_key, line_data in totals.items():
@@ -428,14 +434,11 @@ class PredictionEngine:
                 "fixture_id": fixture.get("fixture_id"),
             }
 
-            # Per-fixture isolation: DixonColesModel now gives newly
+            # Per-fixture isolation: DixonColesModel gives newly
             # promoted/relegated teams a fallback rating instead of raising
             # (see models/dixon_coles_model.py), so this should rarely fire.
-            # But it's kept as defense-in-depth — a bug in ONE fixture (a
-            # malformed odds entry, an unexpected None somewhere) should
-            # never cost the other ~379 fixtures in the same league's batch.
-            # That's exactly what happened in production before this fix:
-            # a single unrated team crashed the entire league to 0 predictions.
+            # Kept as defense-in-depth so a bug in ONE fixture never costs
+            # the other ~379 fixtures in the same league's batch.
             try:
                 pred = self.predict_match(
                     home, away,
