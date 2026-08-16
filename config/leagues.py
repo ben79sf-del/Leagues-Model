@@ -50,7 +50,7 @@ ODDS_BOOKMAKERS = "pinnacle,bet365,draftkings,fanduel,betmgm"
 # Staking / edge thresholds — bet-sizing rules, not football rules, so no
 # reason to vary per league.
 # ---------------------------------------------------------------------------
-MIN_EDGE_PCT = 6.0
+MIN_EDGE_PCT = 9.0
 MAX_EDGE_PCT = 30.0
 KELLY_FRACTION = 0.25
 MAX_KELLY = 0.05
