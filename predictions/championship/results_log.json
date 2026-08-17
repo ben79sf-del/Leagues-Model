@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T08:49:17.390805",
+  "last_updated": "2026-08-17T09:22:26.022883",
   "matches_scored": [
     561761,
     561762,
@@ -9,7 +9,9 @@
     561766,
     561767,
     561768,
-    561769
+    561769,
+    561770,
+    561771
   ],
   "results": [
     {
@@ -326,37 +328,95 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-16T08:49:17.390784"
+    },
+    {
+      "fixture_id": 561770,
+      "date": "2026-08-16",
+      "home_team": "Watford FC",
+      "away_team": "Southampton FC",
+      "score": "2-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 1.0961,
+        "model_probs": {
+          "home": 0.1723,
+          "draw": 0.2288,
+          "away": 0.5989
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.583,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.56
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-17T09:22:25.727191"
+    },
+    {
+      "fixture_id": 561771,
+      "date": "2026-08-16",
+      "home_team": "Burnley FC",
+      "away_team": "West Ham United FC",
+      "score": "2-2",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.3049,
+        "model_probs": {
+          "home": 0.7891,
+          "draw": 0.1748,
+          "away": 0.0361
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4135,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.2242
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-17T09:22:26.022863"
     }
   ],
   "summary": {
-    "total_matches": 9,
+    "total_matches": 11,
     "1x2_correct": 4,
-    "1x2_accuracy": 0.4444,
-    "avg_brier_score": 0.6496,
-    "totals_correct": 3,
-    "totals_accuracy": 0.3333,
-    "btts_correct": 3,
-    "btts_accuracy": 0.3333,
+    "1x2_accuracy": 0.3636,
+    "avg_brier_score": 0.7497,
+    "totals_correct": 4,
+    "totals_accuracy": 0.3636,
+    "btts_correct": 4,
+    "btts_accuracy": 0.3636,
     "value_bets": {},
     "by_matchday": {
       "1": {
-        "n": 9,
+        "n": 11,
         "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "Middlesbrough FC 2-1 Lincoln City FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Stoke City FC 1-2 Swansea City AFC",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "Charlton Athletic FC 2-1 Derby County FC",
         "predicted": "A",
@@ -371,6 +431,18 @@
       },
       {
         "match": "Sheffield United FC 0-0 Birmingham City FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Watford FC 2-1 Southampton FC",
+        "predicted": "A",
+        "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Burnley FC 2-2 West Ham United FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
