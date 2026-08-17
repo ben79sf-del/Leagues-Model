@@ -1,6 +1,8 @@
 {
-  "last_updated": "2026-08-16T08:49:19.336920",
+  "last_updated": "2026-08-17T09:22:28.319083",
   "matches_scored": [
+    564629,
+    564632,
     564633,
     564634
   ],
@@ -74,22 +76,116 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-16T08:49:19.336902"
+    },
+    {
+      "fixture_id": 564629,
+      "date": "2026-08-16",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Villarreal CF",
+      "score": "2-2",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9301,
+        "model_probs": {
+          "home": 0.2584,
+          "draw": 0.2266,
+          "away": 0.515
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5777,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5821
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-17T09:22:28.098388"
+    },
+    {
+      "fixture_id": 564632,
+      "date": "2026-08-16",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Levante UD",
+      "score": "3-0",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4549,
+        "model_probs": {
+          "home": 0.4498,
+          "draw": 0.2546,
+          "away": 0.2956
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4784,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5164
+      },
+      "value_bets_results": [
+        {
+          "market": "Away Win",
+          "odds": 3.95,
+          "edge_pct": 16.76,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-08-17T09:22:28.319065"
     }
   ],
   "summary": {
-    "total_matches": 2,
-    "1x2_correct": 2,
-    "1x2_accuracy": 1.0,
-    "avg_brier_score": 0.5528,
-    "totals_correct": 0,
-    "totals_accuracy": 0.0,
-    "btts_correct": 1,
+    "total_matches": 4,
+    "1x2_correct": 3,
+    "1x2_accuracy": 0.75,
+    "avg_brier_score": 0.6226,
+    "totals_correct": 1,
+    "totals_accuracy": 0.25,
+    "btts_correct": 2,
     "btts_accuracy": 0.5,
-    "value_bets": {},
+    "value_bets": {
+      "total_bets": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "total_pnl_units": -1.0,
+      "roi_pct": -100.0,
+      "by_rating": {
+        "\ud83d\udd25 STRONG": {
+          "n_bets": 1,
+          "wins": 0,
+          "win_rate": 0.0,
+          "pnl_units": -1.0,
+          "roi_pct": -100.0
+        }
+      }
+    },
     "by_matchday": {
       "1": {
-        "n": 2,
-        "correct": 2
+        "n": 4,
+        "correct": 3
       }
     },
     "last_5_results": [
@@ -101,6 +197,18 @@
       },
       {
         "match": "Sevilla FC 2-1 Rayo Vallecano de Madrid",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Real Racing Club de Santander 2-2 Villarreal CF",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "RCD Espanyol de Barcelona 3-0 Levante UD",
         "predicted": "H",
         "actual": "H",
         "correct": true
