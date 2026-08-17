@@ -544,6 +544,7 @@
   <button class="nav-btn" onclick="showTab('fixtures', this)">📅 Fixtures</button>
   <button class="nav-btn" onclick="showTab('model-info', this)">📊 Model</button>
   <button class="nav-btn" onclick="showTab('results', this)">🎯 Results</button>
+  <button class="nav-btn" onclick="showTab('all-leagues', this)">🌐 All Leagues</button>
 </div>
 
 <div class="main">
@@ -588,6 +589,14 @@
       </span>
     </div>
     <div id="resultsContent"></div>
+  </div>
+
+  <!-- ALL LEAGUES TAB (consolidated across all 4 leagues' trackers) -->
+  <div id="tab-all-leagues" class="tab-content">
+    <div class="section-title">🌐 Leagues Model — Combined Summary</div>
+    <div id="allLeaguesContent">
+      <div class="loading"><div class="spinner"></div>Loading combined results...</div>
+    </div>
   </div>
 
 </div>
@@ -642,6 +651,7 @@ function showTab(tabId, btn) {
   document.getElementById(`tab-${tabId}`).classList.add("active");
   btn.classList.add("active");
   if (tabId === "results") renderTracker();
+  if (tabId === "all-leagues") renderAllLeaguesTracker();
 }
 
 // ── Data Loading ────────────────────────────────────────────────────────────
@@ -664,10 +674,10 @@ async function loadData() {
 }
 
 // ── Value Bet Tracker ────────────────────────────────────────────────────────
-function trackerKey() { return `league_vb_tracker_v1_${currentLeague}`; }
+function trackerKey(leagueKey) { return `league_vb_tracker_v1_${leagueKey || currentLeague}`; }
 
-async function loadTrackerState() {
-  try { return JSON.parse(localStorage.getItem(trackerKey()) || "{}"); } catch { return {}; }
+async function loadTrackerState(leagueKey) {
+  try { return JSON.parse(localStorage.getItem(trackerKey(leagueKey)) || "{}"); } catch { return {}; }
 }
 async function saveTrackerState(state) {
   localStorage.setItem(trackerKey(), JSON.stringify(state));
@@ -963,7 +973,113 @@ function renderDailyBreakdown(settled) {
   return html;
 }
 
-function renderBetTable(bets, showResultPicker) {
+// ── Results by league (All Leagues tab only) ─────────────────────────────
+function renderResultsByLeague(settled) {
+  if (!settled.length) return "";
+  const byLeague = {};
+  settled.forEach(b => {
+    const lg = b.league || "Unknown";
+    if (!byLeague[lg]) byLeague[lg] = { n: 0, w: 0, l: 0, p: 0, pnl: 0 };
+    const t = byLeague[lg];
+    t.n++;
+    if (b.result === "win") t.w++;
+    else if (b.result === "loss") t.l++;
+    else if (b.result === "void") t.p++;
+    t.pnl += b.pnl || 0;
+  });
+
+  const rows = Object.entries(byLeague)
+    .sort((a, b) => b[1].n - a[1].n)
+    .map(([lg, t]) => {
+      const decided = t.w + t.l;
+      const winPct = decided > 0 ? (t.w / decided * 100).toFixed(1) + "%" : "—";
+      const pnlCls = t.pnl > 0 ? "pnl-pos" : t.pnl < 0 ? "pnl-neg" : "pnl-neu";
+      return `<tr>
+        <td><span class="type-pill" style="color:var(--accent)">${lg}</span></td>
+        <td>${t.n}</td>
+        <td style="color:var(--green)">${t.w}</td>
+        <td style="color:var(--red)">${t.l}</td>
+        <td style="color:var(--muted)">${t.p}</td>
+        <td>${winPct}</td>
+        <td class="${pnlCls}">${t.pnl>=0?"+":""}$${Math.abs(t.pnl).toFixed(0)}</td>
+      </tr>`;
+    }).join("");
+
+  return `<div class="tracker-section-title">🌐 Results by League</div>
+  <div style="overflow-x:auto">
+    <table class="tracker-table">
+      <thead><tr><th>League</th><th>Graded</th><th>W</th><th>L</th><th>P</th><th>Win%</th><th>P&L</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+// ── All Leagues — combined summary across all 4 trackers ────────────────
+// Reads each league's localStorage tracker independently (they're keyed
+// per-league on purpose, see trackerKey()) and merges them into one view.
+// Tags every bet with its league label so the breakdown table and the
+// per-row League column in the combined pending/settled tables can show
+// where each play came from. Editing happens from each league's own
+// Results tab — this view is read-only (see renderBetTable's opts.readOnly
+// note for why).
+async function renderAllLeaguesTracker() {
+  const container = document.getElementById("allLeaguesContent");
+  container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading combined results...</div>`;
+
+  let allBets = [];
+  for (const [key, cfg] of Object.entries(LEAGUES)) {
+    const state = await loadTrackerState(key);
+    Object.values(state).forEach(b => allBets.push({ ...b, league: cfg.label }));
+  }
+
+  if (!allBets.length) {
+    container.innerHTML = `<div class="tracker-empty">
+      ⏳ No value bets tracked yet across any league.<br>
+      <span style="font-size:12px;margin-top:8px;display:block">Visit each league's Value Bets tab first so plays get added to their tracker.</span>
+    </div>`;
+    return;
+  }
+
+  allBets.sort((a, b) => (a.date||"").localeCompare(b.date||"") || (a.home||"").localeCompare(b.home||""));
+
+  const pending  = allBets.filter(b => b.result === "pending");
+  const settled  = allBets.filter(b => b.result !== "pending");
+  const wins     = settled.filter(b => b.result === "win");
+  const totalPnl = settled.reduce((s, b) => s + (b.pnl || 0), 0);
+  const staked   = settled.filter(b => b.result !== "void").reduce((s, b) => s + (b.stake_dollars || roundToFive((b.units||1)*20)), 0);
+  const roi      = staked > 0 ? (totalPnl / staked * 100) : 0;
+  const winRate  = settled.filter(b => b.result !== "void").length > 0
+    ? wins.length / settled.filter(b => b.result !== "void").length * 100 : 0;
+
+  let html = `<div class="tracker-summary">`;
+  html += trackerStat(allBets.length, "Total Plays (All Leagues)", "var(--accent)");
+  html += trackerStat(pending.length, "Pending", "var(--gold)");
+  html += trackerStat(settled.length > 0 ? winRate.toFixed(0)+"%" : "—", "Win Rate", winRate >= 50 ? "var(--green)" : "var(--orange)");
+  html += trackerStat(staked > 0 ? (totalPnl >= 0 ? "+" : "") + "$" + totalPnl.toFixed(0) : "—", "P&L", totalPnl >= 0 ? "var(--green)" : "var(--red)");
+  html += trackerStat(staked > 0 ? (roi >= 0 ? "+" : "") + roi.toFixed(1) + "%" : "—", "ROI", roi >= 0 ? "var(--green)" : "var(--red)");
+  html += `</div>`;
+
+  const decided = settled.filter(b => b.result === "win" || b.result === "loss");
+  html += renderCumulativeChart(decided);
+  html += renderResultsByLeague(settled);
+  html += renderResultsByType(settled);
+  html += renderDailyBreakdown(settled);
+
+  if (pending.length) {
+    html += `<div class="tracker-section-title">⏳ Awaiting Result (${pending.length})</div>`;
+    html += renderBetTable(pending, true, { showLeague: true, readOnly: true });
+  }
+
+  if (settled.length) {
+    html += `<div class="tracker-section-title">✅ Settled (${settled.length})</div>`;
+    html += renderBetTable(settled, false, { showLeague: true, readOnly: true });
+  }
+
+  container.innerHTML = html;
+}
+
+function renderBetTable(bets, showResultPicker, opts) {
+  opts = opts || {};
   const rows = bets.map(b => {
     const dateStr = b.date ? new Date(b.date).toLocaleDateString("en-AU", {weekday:"short", month:"short", day:"numeric"}) : "—";
     const ratingEmoji = b.rating?.includes("STRONG") ? "🔥" : b.rating?.includes("GOOD") ? "✅" : "👀";
@@ -972,7 +1088,14 @@ function renderBetTable(bets, showResultPicker) {
       ? `<span class="${b.pnl >= 0 ? "pnl-pos" : "pnl-neg"}">${b.pnl >= 0 ? "+" : ""}$${Math.abs(b.pnl).toFixed(0)}</span>`
       : `<span class="pnl-neu">—</span>`;
 
-    const resultHtml = showResultPicker
+    // Combined (All Leagues) view is read-only — editing a result always
+    // writes to currentLeague's tracker, so an editable control here would
+    // silently target the wrong league's storage for every row that isn't
+    // the currently-selected league. Edit results from each league's own
+    // Results tab instead.
+    const resultHtml = opts.readOnly
+      ? `<span class="result-badge rb-${b.result}">${b.result==="pending"?"Pending":b.result==="win"?"✓ Win":b.result==="loss"?"✗ Loss":"Void"}</span>`
+      : showResultPicker
       ? `<select class="result-select" onchange="setResult('${b.id.replace(/'/g,"\\'")}', this.value)">
           <option value="pending" ${b.result==="pending"?"selected":""}>Pending</option>
           <option value="win"  ${b.result==="win"?"selected":""}>Win ✓</option>
@@ -983,8 +1106,13 @@ function renderBetTable(bets, showResultPicker) {
           ${b.result === "win" ? "✓ Win" : b.result === "loss" ? "✗ Loss" : "Void"}
         </button>`;
 
+    const leagueCol = opts.showLeague
+      ? `<td><span class="type-pill" style="color:var(--accent)">${b.league || "—"}</span></td>`
+      : "";
+
     return `<tr>
       <td style="color:var(--muted);font-size:11px">${dateStr}</td>
+      ${leagueCol}
       <td><strong>${b.home}</strong> vs <strong>${b.away}</strong>${b.matchday ? `<span style="font-size:10px;color:var(--muted);margin-left:6px">MD ${b.matchday}</span>` : ""}</td>
       <td style="color:var(--gold)">${b.market}</td>
       <td>${ratingEmoji} <span style="font-size:11px;color:var(--muted)">${b.edge ? "+"+b.edge.toFixed(1)+"%" : "—"}</span></td>
@@ -995,10 +1123,12 @@ function renderBetTable(bets, showResultPicker) {
     </tr>`;
   }).join("");
 
+  const leagueHeader = opts.showLeague ? "<th>League</th>" : "";
+
   return `<div style="overflow-x:auto">
     <table class="tracker-table">
       <thead><tr>
-        <th>Date</th><th>Match</th><th>Bet</th><th>Edge</th><th>Odds</th><th>Stake</th><th>P&L</th><th>Result</th>
+        <th>Date</th>${leagueHeader}<th>Match</th><th>Bet</th><th>Edge</th><th>Odds</th><th>Stake</th><th>P&L</th><th>Result</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
