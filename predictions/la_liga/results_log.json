@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-08-17T09:22:28.319083",
+  "last_updated": "2026-08-18T09:03:58.827907",
   "matches_scored": [
     564629,
     564632,
     564633,
-    564634
+    564634,
+    564635
   ],
   "results": [
     {
@@ -155,17 +156,52 @@
         }
       ],
       "scored_at": "2026-08-17T09:22:28.319065"
+    },
+    {
+      "fixture_id": 564635,
+      "date": "2026-08-17",
+      "home_team": "RC Deportivo La Coru\u00f1a",
+      "away_team": "Elche CF",
+      "score": "1-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8362,
+        "model_probs": {
+          "home": 0.4032,
+          "draw": 0.2542,
+          "away": 0.3426
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4971,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5377
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-18T09:03:58.827882"
     }
   ],
   "summary": {
-    "total_matches": 4,
+    "total_matches": 5,
     "1x2_correct": 3,
-    "1x2_accuracy": 0.75,
-    "avg_brier_score": 0.6226,
-    "totals_correct": 1,
-    "totals_accuracy": 0.25,
-    "btts_correct": 2,
-    "btts_accuracy": 0.5,
+    "1x2_accuracy": 0.6,
+    "avg_brier_score": 0.6654,
+    "totals_correct": 2,
+    "totals_accuracy": 0.4,
+    "btts_correct": 3,
+    "btts_accuracy": 0.6,
     "value_bets": {
       "total_bets": 1,
       "wins": 0,
@@ -184,7 +220,7 @@
     },
     "by_matchday": {
       "1": {
-        "n": 4,
+        "n": 5,
         "correct": 3
       }
     },
@@ -212,6 +248,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "RC Deportivo La Coru\u00f1a 1-1 Elche CF",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
       }
     ]
   }
