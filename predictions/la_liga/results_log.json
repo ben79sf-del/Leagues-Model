@@ -1,12 +1,13 @@
 {
-  "last_updated": "2026-08-20T09:20:06.200416",
+  "last_updated": "2026-08-21T09:08:52.990842",
   "matches_scored": [
     564628,
     564629,
     564632,
     564633,
     564634,
-    564635
+    564635,
+    564638
   ],
   "results": [
     {
@@ -227,17 +228,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-20T09:20:06.200396"
+    },
+    {
+      "fixture_id": 564638,
+      "date": "2026-08-20",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Deportivo Alav\u00e9s",
+      "score": "1-1",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8064,
+        "model_probs": {
+          "home": 0.4648,
+          "draw": 0.2765,
+          "away": 0.2587
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.3884,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4384
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-21T09:08:52.990815"
     }
   ],
   "summary": {
-    "total_matches": 6,
+    "total_matches": 7,
     "1x2_correct": 4,
-    "1x2_accuracy": 0.6667,
-    "avg_brier_score": 0.5779,
-    "totals_correct": 2,
-    "totals_accuracy": 0.3333,
+    "1x2_accuracy": 0.5714,
+    "avg_brier_score": 0.6106,
+    "totals_correct": 3,
+    "totals_accuracy": 0.4286,
     "btts_correct": 4,
-    "btts_accuracy": 0.6667,
+    "btts_accuracy": 0.5714,
     "value_bets": {
       "total_bets": 1,
       "wins": 0,
@@ -258,15 +294,13 @@
       "1": {
         "n": 6,
         "correct": 4
+      },
+      "2": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Sevilla FC 2-1 Rayo Vallecano de Madrid",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Real Racing Club de Santander 2-2 Villarreal CF",
         "predicted": "A",
@@ -290,6 +324,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Rayo Vallecano de Madrid 1-1 Deportivo Alav\u00e9s",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
       }
     ]
   }
