@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T09:08:52.990842",
+  "last_updated": "2026-08-22T08:48:05.497550",
   "matches_scored": [
     564628,
     564629,
@@ -7,7 +7,8 @@
     564633,
     564634,
     564635,
-    564638
+    564638,
+    564647
   ],
   "results": [
     {
@@ -263,30 +264,74 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-21T09:08:52.990815"
+    },
+    {
+      "fixture_id": 564647,
+      "date": "2026-08-21",
+      "home_team": "Real Betis Balompi\u00e9",
+      "away_team": "Real Sociedad de F\u00fatbol",
+      "score": "1-0",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2627,
+        "model_probs": {
+          "home": 0.5815,
+          "draw": 0.2072,
+          "away": 0.2113
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6367,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6092
+      },
+      "value_bets_results": [
+        {
+          "market": "Home Win",
+          "odds": 2.14,
+          "edge_pct": 24.44,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 1.14
+        }
+      ],
+      "scored_at": "2026-08-22T08:48:05.497526"
     }
   ],
   "summary": {
-    "total_matches": 7,
-    "1x2_correct": 4,
-    "1x2_accuracy": 0.5714,
-    "avg_brier_score": 0.6106,
+    "total_matches": 8,
+    "1x2_correct": 5,
+    "1x2_accuracy": 0.625,
+    "avg_brier_score": 0.5671,
     "totals_correct": 3,
-    "totals_accuracy": 0.4286,
+    "totals_accuracy": 0.375,
     "btts_correct": 4,
-    "btts_accuracy": 0.5714,
+    "btts_accuracy": 0.5,
     "value_bets": {
-      "total_bets": 1,
-      "wins": 0,
-      "win_rate": 0.0,
-      "total_pnl_units": -1.0,
-      "roi_pct": -100.0,
+      "total_bets": 2,
+      "wins": 1,
+      "win_rate": 0.5,
+      "total_pnl_units": 0.14,
+      "roi_pct": 7.0,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 1,
-          "wins": 0,
-          "win_rate": 0.0,
-          "pnl_units": -1.0,
-          "roi_pct": -100.0
+          "n_bets": 2,
+          "wins": 1,
+          "win_rate": 0.5,
+          "pnl_units": 0.14,
+          "roi_pct": 7.0
         }
       }
     },
@@ -296,17 +341,11 @@
         "correct": 4
       },
       "2": {
-        "n": 1,
-        "correct": 0
+        "n": 2,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Real Racing Club de Santander 2-2 Villarreal CF",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "RCD Espanyol de Barcelona 3-0 Levante UD",
         "predicted": "H",
@@ -330,6 +369,12 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Real Betis Balompi\u00e9 1-0 Real Sociedad de F\u00fatbol",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
