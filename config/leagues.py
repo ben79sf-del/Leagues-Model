@@ -164,56 +164,6 @@ TEAM_ALIASES = {
     "Sevilla": "Sevilla FC",
     "Getafe": "Getafe CF",
     "Levante": "Levante UD",
-
-    # --- MLS: odds feeds use common short names, football-data.org uses
-    # full official club names ("Inter Miami CF", "D.C. United", etc.).
-    # NOTE: MLS has no promotion/relegation, so unlike the European leagues,
-    # if a well-established MLS club ever shows up in the pipeline's
-    # [PROVISIONAL] warning (see models/dixon_coles_model.py), it is almost
-    # certainly a naming mismatch here rather than a genuine "new team" case
-    # — worth checking this list first before assuming it's a real cold-start.
-    # This list is a best-effort guess at football-data.org's exact naming
-    # (unverified against a live pipeline run, unlike the European aliases
-    # earlier in this file, which were built from real production logs) —
-    # watch the first live MLS run's [PROVISIONAL] warnings and extend here.
-    "LA Galaxy": "LA Galaxy",
-    "LAFC": "Los Angeles FC",
-    "Los Angeles FC": "Los Angeles FC",
-    "Inter Miami": "Inter Miami CF",
-    "Inter Miami CF": "Inter Miami CF",
-    "NYCFC": "New York City FC",
-    "New York City FC": "New York City FC",
-    "NY Red Bulls": "New York Red Bulls",
-    "New York Red Bulls": "New York Red Bulls",
-    "Atlanta United": "Atlanta United FC",
-    "Seattle Sounders": "Seattle Sounders FC",
-    "Portland Timbers": "Portland Timbers",
-    "Sporting KC": "Sporting Kansas City",
-    "Sporting Kansas City": "Sporting Kansas City",
-    "Real Salt Lake": "Real Salt Lake",
-    "Toronto FC": "Toronto FC",
-    "Montreal": "CF Montréal",
-    "CF Montreal": "CF Montréal",
-    "Nashville SC": "Nashville SC",
-    "Austin FC": "Austin FC",
-    "Charlotte FC": "Charlotte FC",
-    "St. Louis City": "St. Louis City SC",
-    "St Louis City": "St. Louis City SC",
-    "FC Cincinnati": "FC Cincinnati",
-    "Colorado Rapids": "Colorado Rapids",
-    "Columbus Crew": "Columbus Crew SC",
-    "DC United": "D.C. United",
-    "D.C. United": "D.C. United",
-    "Houston Dynamo": "Houston Dynamo FC",
-    "Minnesota United": "Minnesota United FC",
-    "New England Revolution": "New England Revolution",
-    "Orlando City": "Orlando City SC",
-    "Philadelphia Union": "Philadelphia Union",
-    "San Jose Earthquakes": "San Jose Earthquakes",
-    "Vancouver Whitecaps": "Vancouver Whitecaps FC",
-    "Chicago Fire": "Chicago Fire FC",
-    "FC Dallas": "FC Dallas",
-    "San Diego FC": "San Diego FC",
 }
 
 DATA_DIR = "data/raw"
@@ -322,37 +272,6 @@ LEAGUES = {
         "history_dir": "predictions/bundesliga/history",
         "results_log_path": "predictions/bundesliga/results_log.json",
         "model_params_path": "models/params/bundesliga_dixon_coles.json",
-    },
-    "mls": {
-        "label": "MLS",
-        "odds_sport_key": "soccer_usa_mls",
-        # football-data.org lists "United States | MLS" in their competitions
-        # table, but doesn't confirm free-tier access in the coverage page —
-        # verify your plan actually returns data for this code before relying
-        # on it (fetch_results.py degrades gracefully either way: a 403 just
-        # gets logged and skipped like the existing older-season 403s do).
-        "fd_code": "MLS",
-        # MLS runs Feb-Nov within a single calendar year, not Europe's
-        # Aug-May split — season_start_year_for() branches on this key so
-        # "season=2026" means the 2026 calendar-year season, not Aug
-        # 2026-May 2027. MLS switches to a fall-spring calendar starting in
-        # 2027 per their announced schedule change — revisit this flag
-        # when that season begins.
-        "season_mode": "calendar",
-        "fd_seasons": 6,
-        "time_decay_days": 240,
-        "totals_lines": [2.0, 2.5, 3.0, 3.5],
-        # clubelo.com's MLS coverage is unconfirmed — fetch_elo.py already
-        # degrades gracefully (skips/empty result) if this country/level
-        # combination doesn't match anything in their snapshot, so this is
-        # safe to leave in even if wrong.
-        "clubelo_country": "USA",
-        "clubelo_level": 1,
-        "predictions_path": "predictions/mls/latest.json",
-        "history_path": "predictions/mls/history.json",
-        "history_dir": "predictions/mls/history",
-        "results_log_path": "predictions/mls/results_log.json",
-        "model_params_path": "models/params/mls_dixon_coles.json",
     },
 }
 
