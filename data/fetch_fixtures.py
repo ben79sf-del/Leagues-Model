@@ -1,24 +1,8 @@
 """
 data/fetch_fixtures.py — Upcoming fixtures fetcher, per league
 ==================================================================
-Adapted directly from your WC model's fetch_wc2026_fixtures() (inside
-fetch_results.py) — same football-data.org endpoint pattern
-(status filtered to SCHEDULED/TIMED), just parameterized per league
-instead of hardcoded to competition "WC" / season 2026.
-
-CHANGES FROM THE WC VERSION:
-  - `season` uses config.leagues.current_season_start_year() (the current
-    league season) instead of a hardcoded "2026" tournament year.
-  - Dropped the `group` field (World Cup group letter) — domestic league
-    fixtures don't have groups, just `matchday`, which was already being
-    captured alongside it.
-  - Writes to data/raw/{league_key}_fixtures.json instead of a single
-    wc2026_fixtures.json, matching what predictions_engine.py's main()
-    already expects.
-
-This is a separate step from data/fetch_results.py (which pulls SETTLED
-history for model training) because football-data.org's /matches endpoint
-serves both with the same call, just filtered by `status`.
+Pulls upcoming (SCHEDULED/TIMED) fixtures for the current season and writes
+to data/raw/{league_key}_fixtures.json.
 """
 
 import requests
@@ -29,7 +13,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config.leagues import (
     FD_BASE_URL, FOOTBALL_DATA_KEY, LEAGUES, TEAM_ALIASES,
-    current_season_start_year,
+    season_start_year_for,
 )
 
 FD_HEADERS = {"X-Auth-Token": FOOTBALL_DATA_KEY}
@@ -43,7 +27,7 @@ def fetch_league_fixtures(league_key: str) -> list:
     """Fetch upcoming (SCHEDULED/TIMED) fixtures for one league's current season."""
     cfg = LEAGUES[league_key]
     url = f"{FD_BASE_URL}/competitions/{cfg['fd_code']}/matches"
-    params = {"season": current_season_start_year()}
+    params = {"season": season_start_year_for(league_key)}
 
     try:
         r = requests.get(url, headers=FD_HEADERS, params=params, timeout=15)
