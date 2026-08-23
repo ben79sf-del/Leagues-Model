@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T04:41:08.941419",
+  "generated_at": "2026-08-23T07:09:57.915883",
   "league": "La Liga",
   "total_fixtures": 369,
-  "total_value_bets": 2,
+  "total_value_bets": 3,
   "predictions": [
     {
       "home_team": "Club Atl\u00e9tico de Madrid",
@@ -117,7 +117,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.028065",
+      "generated_at": "2026-08-23T07:09:55.183617",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -233,52 +233,67 @@
         "over_2_5_decimal": 2.368,
         "under_2_5_decimal": 1.731
       },
-      "value_bets": [],
+      "value_bets": [
+        {
+          "market": "Under 2.0",
+          "model_prob": 0.5777,
+          "market_prob": 0.5,
+          "edge_pct": 15.54,
+          "best_odds": 2.0,
+          "kelly_pct": 3.88,
+          "ev_per_unit": 0.1554,
+          "rating": "\ud83d\udd25 STRONG",
+          "kelly_pct_raw": 3.88,
+          "daily_cap_applied": false,
+          "match": "Getafe CF vs Real Racing Club de Santander",
+          "date": "2026-08-23"
+        }
+      ],
       "market_comparison": {
         "home_win": {
           "model_prob": 0.3724,
-          "market_prob": 0.4301,
-          "edge_pct": -13.42,
-          "best_odds": 2.3
+          "market_prob": 0.4299,
+          "edge_pct": -13.38,
+          "best_odds": 2.34
         },
         "draw": {
           "model_prob": 0.2783,
-          "market_prob": 0.3256,
-          "edge_pct": -14.53,
+          "market_prob": 0.3168,
+          "edge_pct": -12.15,
           "best_odds": 3.1
         },
         "away_win": {
           "model_prob": 0.3493,
-          "market_prob": 0.2443,
-          "edge_pct": 42.98,
-          "best_odds": 4.1
+          "market_prob": 0.2532,
+          "edge_pct": 37.95,
+          "best_odds": 3.95
         },
         "over_2.0": {
           "model_prob": 0.4223,
-          "market_prob": 0.4808,
-          "edge_pct": -12.17,
-          "best_odds": 2.08
+          "market_prob": 0.5305,
+          "edge_pct": -20.4,
+          "best_odds": 1.885
         }
       },
-      "generated_at": "2026-08-23T04:41:07.034202",
+      "generated_at": "2026-08-23T07:09:55.190906",
       "market_odds": {
         "1x2": {
-          "home": 2.3,
+          "home": 2.34,
           "draw": 3.1,
-          "away": 4.1
+          "away": 3.95
         },
         "totals": {
           "line": 2.0,
-          "over": 2.08,
-          "under": 1.83
+          "over": 1.89,
+          "under": 2.0
         },
         "btts": {
-          "yes": 2.28,
-          "no": 1.76
+          "yes": 2.16,
+          "no": 1.83
         }
       },
       "confidence": "LOW",
-      "bet_recommendation": "No value identified"
+      "bet_recommendation": "\ud83d\udd25 STRONG \u2014 Under 2.0 @ 2.0 (+15.5% edge)"
     },
     {
       "home_team": "Elche CF",
@@ -395,38 +410,38 @@
       "market_comparison": {
         "home_win": {
           "model_prob": 0.1759,
-          "market_prob": 0.1086,
-          "edge_pct": 61.97,
-          "best_odds": 9.6
+          "market_prob": 0.1165,
+          "edge_pct": 50.99,
+          "best_odds": 9.2
         },
         "draw": {
           "model_prob": 0.1905,
-          "market_prob": 0.1698,
-          "edge_pct": 12.19,
-          "best_odds": 5.9
+          "market_prob": 0.1719,
+          "edge_pct": 10.82,
+          "best_odds": 5.8
         },
         "away_win": {
           "model_prob": 0.6337,
-          "market_prob": 0.7217,
-          "edge_pct": -12.19,
-          "best_odds": 1.3597
+          "market_prob": 0.7117,
+          "edge_pct": -10.96,
+          "best_odds": 1.3802
         }
       },
-      "generated_at": "2026-08-23T04:41:07.040400",
+      "generated_at": "2026-08-23T07:09:55.198286",
       "market_odds": {
         "1x2": {
-          "home": 9.6,
-          "draw": 5.9,
-          "away": 1.36
+          "home": 9.2,
+          "draw": 5.8,
+          "away": 1.38
         },
         "totals": {
           "line": 3.25,
-          "over": 1.99,
-          "under": 1.89
+          "over": 1.98,
+          "under": 1.91
         },
         "btts": {
-          "yes": 1.83,
-          "no": 2.16
+          "yes": 1.78,
+          "no": 2.22
         }
       },
       "confidence": "HIGH",
@@ -547,20 +562,20 @@
       "market_comparison": {
         "home_win": {
           "model_prob": 0.5219,
-          "market_prob": 0.5264,
-          "edge_pct": -0.85,
+          "market_prob": 0.5273,
+          "edge_pct": -1.02,
           "best_odds": 1.8696
         },
         "draw": {
           "model_prob": 0.2413,
-          "market_prob": 0.2632,
-          "edge_pct": -8.32,
-          "best_odds": 3.8
+          "market_prob": 0.2619,
+          "edge_pct": -7.87,
+          "best_odds": 3.85
         },
         "away_win": {
           "model_prob": 0.2367,
-          "market_prob": 0.2104,
-          "edge_pct": 12.5,
+          "market_prob": 0.2107,
+          "edge_pct": 12.34,
           "best_odds": 4.8
         },
         "over_2.5": {
@@ -570,11 +585,11 @@
           "best_odds": 2.08
         }
       },
-      "generated_at": "2026-08-23T04:41:07.046405",
+      "generated_at": "2026-08-23T07:09:55.205615",
       "market_odds": {
         "1x2": {
           "home": 1.87,
-          "draw": 3.8,
+          "draw": 3.85,
           "away": 4.8
         },
         "totals": {
@@ -705,20 +720,20 @@
       "market_comparison": {
         "home_win": {
           "model_prob": 0.0322,
-          "market_prob": 0.3683,
-          "edge_pct": -91.26,
-          "best_odds": 2.68
+          "market_prob": 0.3692,
+          "edge_pct": -91.28,
+          "best_odds": 2.66
         },
         "draw": {
           "model_prob": 0.5037,
-          "market_prob": 0.3262,
-          "edge_pct": 54.41,
+          "market_prob": 0.3257,
+          "edge_pct": 54.65,
           "best_odds": 3.05
         },
         "away_win": {
           "model_prob": 0.4641,
-          "market_prob": 0.3054,
-          "edge_pct": 51.96,
+          "market_prob": 0.305,
+          "edge_pct": 52.16,
           "best_odds": 3.3
         },
         "over_2.0": {
@@ -728,10 +743,10 @@
           "best_odds": 1.9434
         }
       },
-      "generated_at": "2026-08-23T04:41:07.051594",
+      "generated_at": "2026-08-23T07:09:55.215280",
       "market_odds": {
         "1x2": {
-          "home": 2.68,
+          "home": 2.66,
           "draw": 3.05,
           "away": 3.3
         },
@@ -886,7 +901,7 @@
           "best_odds": 1.9709
         }
       },
-      "generated_at": "2026-08-23T04:41:07.057140",
+      "generated_at": "2026-08-23T07:09:55.222623",
       "market_odds": {
         "1x2": {
           "home": 2.84,
@@ -900,7 +915,7 @@
         },
         "btts": {
           "yes": 1.8,
-          "no": 2.18
+          "no": 2.16
         }
       },
       "confidence": "LOW",
@@ -1038,7 +1053,7 @@
           "best_odds": 8.4
         }
       },
-      "generated_at": "2026-08-23T04:41:07.062346",
+      "generated_at": "2026-08-23T07:09:55.230133",
       "market_odds": {
         "1x2": {
           "home": 1.42,
@@ -1052,7 +1067,7 @@
         },
         "btts": {
           "yes": 1.75,
-          "no": 2.14
+          "no": 2.12
         }
       },
       "confidence": "HIGH",
@@ -1190,7 +1205,7 @@
           "best_odds": 4.0
         }
       },
-      "generated_at": "2026-08-23T04:41:07.067449",
+      "generated_at": "2026-08-23T07:09:55.237494",
       "market_odds": {
         "1x2": {
           "home": 2.05,
@@ -1325,21 +1340,21 @@
       "market_comparison": {
         "home_win": {
           "model_prob": 0.8197,
-          "market_prob": 0.6946,
-          "edge_pct": 18.01,
-          "best_odds": 1.3906
+          "market_prob": 0.696,
+          "edge_pct": 17.77,
+          "best_odds": 1.4
         },
         "draw": {
           "model_prob": 0.116,
-          "market_prob": 0.1795,
-          "edge_pct": -35.38,
+          "market_prob": 0.1804,
+          "edge_pct": -35.7,
           "best_odds": 5.6
         },
         "away_win": {
           "model_prob": 0.0642,
-          "market_prob": 0.1259,
-          "edge_pct": -49.01,
-          "best_odds": 8.0
+          "market_prob": 0.1236,
+          "edge_pct": -48.06,
+          "best_odds": 8.4
         },
         "over_3.0": {
           "model_prob": 0.5127,
@@ -1348,12 +1363,12 @@
           "best_odds": 1.8264
         }
       },
-      "generated_at": "2026-08-23T04:41:07.072622",
+      "generated_at": "2026-08-23T07:09:55.244756",
       "market_odds": {
         "1x2": {
-          "home": 1.39,
+          "home": 1.4,
           "draw": 5.6,
-          "away": 8.0
+          "away": 8.4
         },
         "totals": {
           "line": 3.0,
@@ -1361,8 +1376,8 @@
           "under": 2.02
         },
         "btts": {
-          "yes": 1.83,
-          "no": 2.12
+          "yes": 1.8,
+          "no": 2.1
         }
       },
       "confidence": "HIGH",
@@ -1481,7 +1496,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.077789",
+      "generated_at": "2026-08-23T07:09:55.252130",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -1599,7 +1614,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.082956",
+      "generated_at": "2026-08-23T07:09:55.259580",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -1719,24 +1734,24 @@
       "market_comparison": {
         "home_win": {
           "model_prob": 0.334,
-          "market_prob": 0.2362,
-          "edge_pct": 41.41,
+          "market_prob": 0.2356,
+          "edge_pct": 41.77,
           "best_odds": 3.15
         },
         "draw": {
           "model_prob": 0.2485,
-          "market_prob": 0.4027,
-          "edge_pct": -38.29,
+          "market_prob": 0.4077,
+          "edge_pct": -39.05,
           "best_odds": 3.5
         },
         "away_win": {
           "model_prob": 0.4175,
-          "market_prob": 0.3611,
-          "edge_pct": 15.62,
+          "market_prob": 0.3567,
+          "edge_pct": 17.05,
           "best_odds": 2.35
         }
       },
-      "generated_at": "2026-08-23T04:41:07.088135",
+      "generated_at": "2026-08-23T07:09:55.266929",
       "market_odds": {
         "1x2": {
           "home": 3.15,
@@ -1864,7 +1879,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.093293",
+      "generated_at": "2026-08-23T07:09:55.274282",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -1982,7 +1997,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.098409",
+      "generated_at": "2026-08-23T07:09:55.281583",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2100,7 +2115,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.103590",
+      "generated_at": "2026-08-23T07:09:55.288794",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -2252,7 +2267,7 @@
           "best_odds": 2.7
         }
       },
-      "generated_at": "2026-08-23T04:41:07.108779",
+      "generated_at": "2026-08-23T07:09:55.296078",
       "market_odds": {
         "1x2": {
           "home": 2.7,
@@ -2414,7 +2429,7 @@
           "best_odds": 3.1
         }
       },
-      "generated_at": "2026-08-23T04:41:07.114126",
+      "generated_at": "2026-08-23T07:09:55.303395",
       "market_odds": {
         "1x2": {
           "home": 2.25,
@@ -2542,7 +2557,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.119288",
+      "generated_at": "2026-08-23T07:09:55.310719",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2660,7 +2675,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.124398",
+      "generated_at": "2026-08-23T07:09:55.318022",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -2778,7 +2793,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.129549",
+      "generated_at": "2026-08-23T07:09:55.325233",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -2896,7 +2911,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.134815",
+      "generated_at": "2026-08-23T07:09:55.332469",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3014,7 +3029,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.140011",
+      "generated_at": "2026-08-23T07:09:55.339683",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3132,7 +3147,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.145258",
+      "generated_at": "2026-08-23T07:09:55.347138",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3250,7 +3265,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.150393",
+      "generated_at": "2026-08-23T07:09:55.354422",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -3368,7 +3383,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.155556",
+      "generated_at": "2026-08-23T07:09:55.361638",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3486,7 +3501,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.160732",
+      "generated_at": "2026-08-23T07:09:55.368912",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3604,7 +3619,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.165898",
+      "generated_at": "2026-08-23T07:09:55.376131",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -3722,7 +3737,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.171006",
+      "generated_at": "2026-08-23T07:09:55.383330",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -3840,7 +3855,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.176114",
+      "generated_at": "2026-08-23T07:09:55.390564",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -3958,7 +3973,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.181320",
+      "generated_at": "2026-08-23T07:09:55.397796",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4076,7 +4091,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.186516",
+      "generated_at": "2026-08-23T07:09:55.405134",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4194,7 +4209,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.191683",
+      "generated_at": "2026-08-23T07:09:55.412376",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4312,7 +4327,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.196827",
+      "generated_at": "2026-08-23T07:09:55.419712",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4430,7 +4445,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.201960",
+      "generated_at": "2026-08-23T07:09:55.426935",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4548,7 +4563,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.207038",
+      "generated_at": "2026-08-23T07:09:55.434149",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -4666,7 +4681,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.212220",
+      "generated_at": "2026-08-23T07:09:55.441383",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -4784,7 +4799,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.217298",
+      "generated_at": "2026-08-23T07:09:55.448589",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -4902,7 +4917,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.222367",
+      "generated_at": "2026-08-23T07:09:55.455812",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5020,7 +5035,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.227472",
+      "generated_at": "2026-08-23T07:09:55.463090",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5138,7 +5153,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.232579",
+      "generated_at": "2026-08-23T07:09:55.470316",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5256,7 +5271,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.237689",
+      "generated_at": "2026-08-23T07:09:55.477613",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5374,7 +5389,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.242842",
+      "generated_at": "2026-08-23T07:09:55.484901",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -5492,7 +5507,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.248000",
+      "generated_at": "2026-08-23T07:09:55.492220",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5610,7 +5625,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.253117",
+      "generated_at": "2026-08-23T07:09:55.499560",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -5728,7 +5743,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.258187",
+      "generated_at": "2026-08-23T07:09:55.506795",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5846,7 +5861,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.263349",
+      "generated_at": "2026-08-23T07:09:55.514566",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -5964,7 +5979,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.268527",
+      "generated_at": "2026-08-23T07:09:55.521890",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -6082,7 +6097,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.273651",
+      "generated_at": "2026-08-23T07:09:55.529050",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6200,7 +6215,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.278940",
+      "generated_at": "2026-08-23T07:09:55.536275",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -6318,7 +6333,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.284080",
+      "generated_at": "2026-08-23T07:09:55.543607",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -6436,7 +6451,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.289205",
+      "generated_at": "2026-08-23T07:09:55.550956",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6554,7 +6569,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.294688",
+      "generated_at": "2026-08-23T07:09:55.558173",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -6672,7 +6687,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.299818",
+      "generated_at": "2026-08-23T07:09:55.565422",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -6790,7 +6805,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.304967",
+      "generated_at": "2026-08-23T07:09:55.572675",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -6908,7 +6923,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.310120",
+      "generated_at": "2026-08-23T07:09:55.579941",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7026,7 +7041,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.315243",
+      "generated_at": "2026-08-23T07:09:55.587140",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -7144,7 +7159,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.320486",
+      "generated_at": "2026-08-23T07:09:55.594542",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7262,7 +7277,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.325680",
+      "generated_at": "2026-08-23T07:09:55.601840",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -7380,7 +7395,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.330870",
+      "generated_at": "2026-08-23T07:09:55.609093",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -7498,7 +7513,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.336073",
+      "generated_at": "2026-08-23T07:09:55.616356",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -7616,7 +7631,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.341207",
+      "generated_at": "2026-08-23T07:09:55.623567",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -7734,7 +7749,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.346361",
+      "generated_at": "2026-08-23T07:09:55.630758",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -7852,7 +7867,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.351531",
+      "generated_at": "2026-08-23T07:09:55.637952",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -7970,7 +7985,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.356695",
+      "generated_at": "2026-08-23T07:09:55.645125",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8088,7 +8103,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.361901",
+      "generated_at": "2026-08-23T07:09:55.652328",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -8206,7 +8221,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.367066",
+      "generated_at": "2026-08-23T07:09:55.659483",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -8324,7 +8339,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.372187",
+      "generated_at": "2026-08-23T07:09:55.666686",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -8442,7 +8457,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.377324",
+      "generated_at": "2026-08-23T07:09:55.673924",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8560,7 +8575,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.382485",
+      "generated_at": "2026-08-23T07:09:55.681112",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -8678,7 +8693,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.387630",
+      "generated_at": "2026-08-23T07:09:55.688296",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8796,7 +8811,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.392811",
+      "generated_at": "2026-08-23T07:09:55.695542",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -8914,7 +8929,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.397933",
+      "generated_at": "2026-08-23T07:09:55.702729",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9032,7 +9047,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.403102",
+      "generated_at": "2026-08-23T07:09:55.709962",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9150,7 +9165,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.408307",
+      "generated_at": "2026-08-23T07:09:55.717865",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9268,7 +9283,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.413469",
+      "generated_at": "2026-08-23T07:09:55.725065",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9386,7 +9401,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.418656",
+      "generated_at": "2026-08-23T07:09:55.732256",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -9504,7 +9519,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.423789",
+      "generated_at": "2026-08-23T07:09:55.739475",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9622,7 +9637,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.429054",
+      "generated_at": "2026-08-23T07:09:55.746621",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9740,7 +9755,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.434212",
+      "generated_at": "2026-08-23T07:09:55.753895",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -9858,7 +9873,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.439370",
+      "generated_at": "2026-08-23T07:09:55.761005",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -9976,7 +9991,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.444530",
+      "generated_at": "2026-08-23T07:09:55.768168",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -10094,7 +10109,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.449695",
+      "generated_at": "2026-08-23T07:09:55.775351",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10212,7 +10227,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.454796",
+      "generated_at": "2026-08-23T07:09:55.782558",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10330,7 +10345,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.459958",
+      "generated_at": "2026-08-23T07:09:55.789731",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10448,7 +10463,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.465654",
+      "generated_at": "2026-08-23T07:09:55.796906",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10566,7 +10581,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.470818",
+      "generated_at": "2026-08-23T07:09:55.804065",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -10684,7 +10699,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.475955",
+      "generated_at": "2026-08-23T07:09:55.811242",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -10802,7 +10817,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.481174",
+      "generated_at": "2026-08-23T07:09:55.818411",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -10920,7 +10935,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.486295",
+      "generated_at": "2026-08-23T07:09:55.825679",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11038,7 +11053,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.491393",
+      "generated_at": "2026-08-23T07:09:55.832873",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11156,7 +11171,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.496520",
+      "generated_at": "2026-08-23T07:09:55.840255",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11274,7 +11289,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.501650",
+      "generated_at": "2026-08-23T07:09:55.847661",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11392,7 +11407,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.506746",
+      "generated_at": "2026-08-23T07:09:55.854937",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11510,7 +11525,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.511934",
+      "generated_at": "2026-08-23T07:09:55.862161",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -11628,7 +11643,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.517062",
+      "generated_at": "2026-08-23T07:09:55.869408",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11746,7 +11761,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.522207",
+      "generated_at": "2026-08-23T07:09:55.876505",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -11864,7 +11879,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.527425",
+      "generated_at": "2026-08-23T07:09:55.883760",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -11982,7 +11997,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.532647",
+      "generated_at": "2026-08-23T07:09:55.891205",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12100,7 +12115,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.537851",
+      "generated_at": "2026-08-23T07:09:55.898605",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12218,7 +12233,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.543071",
+      "generated_at": "2026-08-23T07:09:55.905876",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -12336,7 +12351,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.548213",
+      "generated_at": "2026-08-23T07:09:55.913095",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12454,7 +12469,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.553323",
+      "generated_at": "2026-08-23T07:09:55.920292",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12572,7 +12587,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.558424",
+      "generated_at": "2026-08-23T07:09:55.927505",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12690,7 +12705,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.563619",
+      "generated_at": "2026-08-23T07:09:55.934762",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -12808,7 +12823,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.568714",
+      "generated_at": "2026-08-23T07:09:55.942025",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -12926,7 +12941,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.574000",
+      "generated_at": "2026-08-23T07:09:55.949173",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -13044,7 +13059,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.579183",
+      "generated_at": "2026-08-23T07:09:55.956313",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13162,7 +13177,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.584406",
+      "generated_at": "2026-08-23T07:09:55.963564",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13280,7 +13295,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.589598",
+      "generated_at": "2026-08-23T07:09:55.970813",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -13398,7 +13413,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.594769",
+      "generated_at": "2026-08-23T07:09:55.978133",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13516,7 +13531,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.599928",
+      "generated_at": "2026-08-23T07:09:55.985413",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -13634,7 +13649,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.605141",
+      "generated_at": "2026-08-23T07:09:55.992620",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -13752,7 +13767,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.610318",
+      "generated_at": "2026-08-23T07:09:55.999896",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -13870,7 +13885,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.615570",
+      "generated_at": "2026-08-23T07:09:56.007254",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -13988,7 +14003,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.620760",
+      "generated_at": "2026-08-23T07:09:56.014499",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14106,7 +14121,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.625958",
+      "generated_at": "2026-08-23T07:09:56.021793",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -14224,7 +14239,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.631139",
+      "generated_at": "2026-08-23T07:09:56.033919",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14342,7 +14357,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.636276",
+      "generated_at": "2026-08-23T07:09:56.041432",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14460,7 +14475,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.641447",
+      "generated_at": "2026-08-23T07:09:56.048828",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14578,7 +14593,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.646647",
+      "generated_at": "2026-08-23T07:09:56.056784",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14696,7 +14711,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.651825",
+      "generated_at": "2026-08-23T07:09:56.064295",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -14814,7 +14829,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.656995",
+      "generated_at": "2026-08-23T07:09:56.071773",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -14932,7 +14947,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.662179",
+      "generated_at": "2026-08-23T07:09:56.079140",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15050,7 +15065,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.667294",
+      "generated_at": "2026-08-23T07:09:56.086848",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -15168,7 +15183,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.672470",
+      "generated_at": "2026-08-23T07:09:56.094293",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -15286,7 +15301,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.677647",
+      "generated_at": "2026-08-23T07:09:56.101708",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15404,7 +15419,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.682882",
+      "generated_at": "2026-08-23T07:09:56.108988",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -15522,7 +15537,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.688273",
+      "generated_at": "2026-08-23T07:09:56.121568",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -15640,7 +15655,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.693629",
+      "generated_at": "2026-08-23T07:09:56.131277",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -15758,7 +15773,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.698919",
+      "generated_at": "2026-08-23T07:09:56.138586",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -15876,7 +15891,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.704156",
+      "generated_at": "2026-08-23T07:09:56.145889",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -15994,7 +16009,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.709356",
+      "generated_at": "2026-08-23T07:09:56.160287",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16112,7 +16127,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.714552",
+      "generated_at": "2026-08-23T07:09:56.172119",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16230,7 +16245,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.719725",
+      "generated_at": "2026-08-23T07:09:56.181199",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -16348,7 +16363,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.724852",
+      "generated_at": "2026-08-23T07:09:56.188547",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -16466,7 +16481,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.730019",
+      "generated_at": "2026-08-23T07:09:56.195843",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -16584,7 +16599,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.735155",
+      "generated_at": "2026-08-23T07:09:56.203087",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16702,7 +16717,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.740331",
+      "generated_at": "2026-08-23T07:09:56.210409",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -16820,7 +16835,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.745464",
+      "generated_at": "2026-08-23T07:09:56.217677",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -16938,7 +16953,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.750634",
+      "generated_at": "2026-08-23T07:09:56.224940",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -17056,7 +17071,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.755804",
+      "generated_at": "2026-08-23T07:09:56.232194",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17174,7 +17189,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.760961",
+      "generated_at": "2026-08-23T07:09:56.239439",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17292,7 +17307,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.766106",
+      "generated_at": "2026-08-23T07:09:56.246725",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -17410,7 +17425,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.771899",
+      "generated_at": "2026-08-23T07:09:56.254350",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -17528,7 +17543,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.777157",
+      "generated_at": "2026-08-23T07:09:56.261774",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -17646,7 +17661,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.782441",
+      "generated_at": "2026-08-23T07:09:56.269053",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -17764,7 +17779,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.787630",
+      "generated_at": "2026-08-23T07:09:56.276375",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -17882,7 +17897,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.792806",
+      "generated_at": "2026-08-23T07:09:56.283659",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18000,7 +18015,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.798012",
+      "generated_at": "2026-08-23T07:09:56.290936",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -18118,7 +18133,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.803227",
+      "generated_at": "2026-08-23T07:09:56.298178",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18236,7 +18251,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.808383",
+      "generated_at": "2026-08-23T07:09:56.305416",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18354,7 +18369,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.813599",
+      "generated_at": "2026-08-23T07:09:56.312590",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18472,7 +18487,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.818765",
+      "generated_at": "2026-08-23T07:09:56.319841",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -18590,7 +18605,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.823894",
+      "generated_at": "2026-08-23T07:09:56.327097",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18708,7 +18723,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.829030",
+      "generated_at": "2026-08-23T07:09:56.334414",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -18826,7 +18841,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.834182",
+      "generated_at": "2026-08-23T07:09:56.341747",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -18944,7 +18959,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.839325",
+      "generated_at": "2026-08-23T07:09:56.349082",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -19062,7 +19077,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.844448",
+      "generated_at": "2026-08-23T07:09:56.356292",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19180,7 +19195,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.849652",
+      "generated_at": "2026-08-23T07:09:56.363597",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -19298,7 +19313,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.854786",
+      "generated_at": "2026-08-23T07:09:56.370821",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -19416,7 +19431,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.859932",
+      "generated_at": "2026-08-23T07:09:56.378131",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19534,7 +19549,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.865084",
+      "generated_at": "2026-08-23T07:09:56.385387",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -19652,7 +19667,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.870251",
+      "generated_at": "2026-08-23T07:09:56.392639",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -19770,7 +19785,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.875381",
+      "generated_at": "2026-08-23T07:09:56.399903",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -19888,7 +19903,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.880568",
+      "generated_at": "2026-08-23T07:09:56.407170",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20006,7 +20021,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.885733",
+      "generated_at": "2026-08-23T07:09:56.414425",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20124,7 +20139,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.890872",
+      "generated_at": "2026-08-23T07:09:56.421660",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20242,7 +20257,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.895978",
+      "generated_at": "2026-08-23T07:09:56.428946",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20360,7 +20375,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.901127",
+      "generated_at": "2026-08-23T07:09:56.436161",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -20478,7 +20493,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.906208",
+      "generated_at": "2026-08-23T07:09:56.443415",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20596,7 +20611,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.911289",
+      "generated_at": "2026-08-23T07:09:56.450663",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -20714,7 +20729,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.916439",
+      "generated_at": "2026-08-23T07:09:56.457921",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20832,7 +20847,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.921558",
+      "generated_at": "2026-08-23T07:09:56.465214",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -20950,7 +20965,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.926661",
+      "generated_at": "2026-08-23T07:09:56.472484",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21068,7 +21083,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.931767",
+      "generated_at": "2026-08-23T07:09:56.479783",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21186,7 +21201,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.936915",
+      "generated_at": "2026-08-23T07:09:56.487141",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -21304,7 +21319,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.942079",
+      "generated_at": "2026-08-23T07:09:56.494484",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21422,7 +21437,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.947313",
+      "generated_at": "2026-08-23T07:09:56.501729",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -21540,7 +21555,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.952539",
+      "generated_at": "2026-08-23T07:09:56.509432",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21658,7 +21673,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.957697",
+      "generated_at": "2026-08-23T07:09:56.516827",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21776,7 +21791,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.962854",
+      "generated_at": "2026-08-23T07:09:56.524102",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -21894,7 +21909,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.970691",
+      "generated_at": "2026-08-23T07:09:56.531357",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22012,7 +22027,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.975953",
+      "generated_at": "2026-08-23T07:09:56.538722",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -22130,7 +22145,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.981134",
+      "generated_at": "2026-08-23T07:09:56.546038",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -22248,7 +22263,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.986274",
+      "generated_at": "2026-08-23T07:09:56.553224",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -22366,7 +22381,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.991485",
+      "generated_at": "2026-08-23T07:09:56.560477",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -22484,7 +22499,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:07.996601",
+      "generated_at": "2026-08-23T07:09:56.567777",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -22602,7 +22617,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.001815",
+      "generated_at": "2026-08-23T07:09:56.575339",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22720,7 +22735,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.006971",
+      "generated_at": "2026-08-23T07:09:56.582590",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22838,7 +22853,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.012127",
+      "generated_at": "2026-08-23T07:09:56.589937",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -22956,7 +22971,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.017356",
+      "generated_at": "2026-08-23T07:09:56.597228",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -23074,7 +23089,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.022473",
+      "generated_at": "2026-08-23T07:09:56.604500",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23192,7 +23207,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.027639",
+      "generated_at": "2026-08-23T07:09:56.611799",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -23310,7 +23325,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.032770",
+      "generated_at": "2026-08-23T07:09:56.619212",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -23428,7 +23443,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.037908",
+      "generated_at": "2026-08-23T07:09:56.626514",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -23546,7 +23561,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.043037",
+      "generated_at": "2026-08-23T07:09:56.633911",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23664,7 +23679,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.048238",
+      "generated_at": "2026-08-23T07:09:56.641288",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -23782,7 +23797,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.053350",
+      "generated_at": "2026-08-23T07:09:56.648506",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -23900,7 +23915,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.058460",
+      "generated_at": "2026-08-23T07:09:56.655877",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24018,7 +24033,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.063606",
+      "generated_at": "2026-08-23T07:09:56.663158",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24136,7 +24151,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.068784",
+      "generated_at": "2026-08-23T07:09:56.670455",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24254,7 +24269,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.073899",
+      "generated_at": "2026-08-23T07:09:56.677835",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -24372,7 +24387,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.079025",
+      "generated_at": "2026-08-23T07:09:56.685129",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24490,7 +24505,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.084141",
+      "generated_at": "2026-08-23T07:09:56.692390",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -24608,7 +24623,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.089314",
+      "generated_at": "2026-08-23T07:09:56.699656",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -24726,7 +24741,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.094476",
+      "generated_at": "2026-08-23T07:09:56.706947",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -24844,7 +24859,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.099625",
+      "generated_at": "2026-08-23T07:09:56.714348",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -24962,7 +24977,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.104816",
+      "generated_at": "2026-08-23T07:09:56.721847",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25080,7 +25095,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.110039",
+      "generated_at": "2026-08-23T07:09:56.729236",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -25198,7 +25213,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.115242",
+      "generated_at": "2026-08-23T07:09:56.736508",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25316,7 +25331,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.120448",
+      "generated_at": "2026-08-23T07:09:56.743785",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -25434,7 +25449,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.125643",
+      "generated_at": "2026-08-23T07:09:56.751076",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25552,7 +25567,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.130789",
+      "generated_at": "2026-08-23T07:09:56.758417",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -25670,7 +25685,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.135991",
+      "generated_at": "2026-08-23T07:09:56.765732",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -25788,7 +25803,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.141137",
+      "generated_at": "2026-08-23T07:09:56.773092",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -25906,7 +25921,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.146301",
+      "generated_at": "2026-08-23T07:09:56.780365",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26024,7 +26039,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.151532",
+      "generated_at": "2026-08-23T07:09:56.787747",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26142,7 +26157,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.156707",
+      "generated_at": "2026-08-23T07:09:56.795067",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26260,7 +26275,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.162176",
+      "generated_at": "2026-08-23T07:09:56.802405",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -26378,7 +26393,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.167376",
+      "generated_at": "2026-08-23T07:09:56.809670",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26496,7 +26511,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.172566",
+      "generated_at": "2026-08-23T07:09:56.816888",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -26614,7 +26629,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.177766",
+      "generated_at": "2026-08-23T07:09:56.824402",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26732,7 +26747,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.182958",
+      "generated_at": "2026-08-23T07:09:56.831845",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -26850,7 +26865,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.188134",
+      "generated_at": "2026-08-23T07:09:56.839116",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -26968,7 +26983,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.193368",
+      "generated_at": "2026-08-23T07:09:56.846399",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27086,7 +27101,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.198614",
+      "generated_at": "2026-08-23T07:09:56.853664",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27204,7 +27219,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.203829",
+      "generated_at": "2026-08-23T07:09:56.861075",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -27322,7 +27337,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.209042",
+      "generated_at": "2026-08-23T07:09:56.868399",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27440,7 +27455,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.214207",
+      "generated_at": "2026-08-23T07:09:56.875658",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -27558,7 +27573,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.219367",
+      "generated_at": "2026-08-23T07:09:56.887778",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -27676,7 +27691,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.224546",
+      "generated_at": "2026-08-23T07:09:56.896452",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -27794,7 +27809,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.229748",
+      "generated_at": "2026-08-23T07:09:56.904155",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -27912,7 +27927,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.234937",
+      "generated_at": "2026-08-23T07:09:56.911533",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -28030,7 +28045,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.240126",
+      "generated_at": "2026-08-23T07:09:56.918886",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28148,7 +28163,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.245285",
+      "generated_at": "2026-08-23T07:09:56.926146",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28266,7 +28281,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.250444",
+      "generated_at": "2026-08-23T07:09:56.933469",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -28384,7 +28399,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.255615",
+      "generated_at": "2026-08-23T07:09:56.940788",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -28502,7 +28517,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.260844",
+      "generated_at": "2026-08-23T07:09:56.948099",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28620,7 +28635,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.266051",
+      "generated_at": "2026-08-23T07:09:56.955483",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -28738,7 +28753,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.271250",
+      "generated_at": "2026-08-23T07:09:56.962878",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -28856,7 +28871,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.276427",
+      "generated_at": "2026-08-23T07:09:56.970194",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -28974,7 +28989,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.281642",
+      "generated_at": "2026-08-23T07:09:56.977515",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -29092,7 +29107,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.286834",
+      "generated_at": "2026-08-23T07:09:56.984811",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29210,7 +29225,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.292022",
+      "generated_at": "2026-08-23T07:09:56.992125",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -29328,7 +29343,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.297576",
+      "generated_at": "2026-08-23T07:09:56.999374",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -29446,7 +29461,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.302837",
+      "generated_at": "2026-08-23T07:09:57.006661",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -29564,7 +29579,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.307949",
+      "generated_at": "2026-08-23T07:09:57.014530",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29682,7 +29697,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.313097",
+      "generated_at": "2026-08-23T07:09:57.021981",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -29800,7 +29815,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.318301",
+      "generated_at": "2026-08-23T07:09:57.029330",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -29918,7 +29933,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.323509",
+      "generated_at": "2026-08-23T07:09:57.036795",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -30036,7 +30051,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.328677",
+      "generated_at": "2026-08-23T07:09:57.044085",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -30154,7 +30169,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.333840",
+      "generated_at": "2026-08-23T07:09:57.051353",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30272,7 +30287,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.339006",
+      "generated_at": "2026-08-23T07:09:57.058573",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30390,7 +30405,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.344150",
+      "generated_at": "2026-08-23T07:09:57.065991",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30508,7 +30523,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.349307",
+      "generated_at": "2026-08-23T07:09:57.073334",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30626,7 +30641,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.354665",
+      "generated_at": "2026-08-23T07:09:57.080774",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -30744,7 +30759,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.359893",
+      "generated_at": "2026-08-23T07:09:57.088079",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -30862,7 +30877,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.365059",
+      "generated_at": "2026-08-23T07:09:57.095392",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -30980,7 +30995,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.370228",
+      "generated_at": "2026-08-23T07:09:57.102733",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31098,7 +31113,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.375407",
+      "generated_at": "2026-08-23T07:09:57.110007",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31216,7 +31231,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.380575",
+      "generated_at": "2026-08-23T07:09:57.117274",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31334,7 +31349,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.385737",
+      "generated_at": "2026-08-23T07:09:57.124539",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31452,7 +31467,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.390923",
+      "generated_at": "2026-08-23T07:09:57.131880",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31570,7 +31585,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.396078",
+      "generated_at": "2026-08-23T07:09:57.139125",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -31688,7 +31703,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.401250",
+      "generated_at": "2026-08-23T07:09:57.146497",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -31806,7 +31821,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.406446",
+      "generated_at": "2026-08-23T07:09:57.153875",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -31924,7 +31939,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.411652",
+      "generated_at": "2026-08-23T07:09:57.161196",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -32042,7 +32057,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.416823",
+      "generated_at": "2026-08-23T07:09:57.168483",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -32160,7 +32175,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.422032",
+      "generated_at": "2026-08-23T07:09:57.175868",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -32278,7 +32293,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.427391",
+      "generated_at": "2026-08-23T07:09:57.183166",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -32396,7 +32411,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.432594",
+      "generated_at": "2026-08-23T07:09:57.190522",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32514,7 +32529,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.437779",
+      "generated_at": "2026-08-23T07:09:57.197854",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -32632,7 +32647,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.442960",
+      "generated_at": "2026-08-23T07:09:57.205138",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32750,7 +32765,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.448134",
+      "generated_at": "2026-08-23T07:09:57.212500",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32868,7 +32883,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.453273",
+      "generated_at": "2026-08-23T07:09:57.219854",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -32986,7 +33001,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.458608",
+      "generated_at": "2026-08-23T07:09:57.227149",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33104,7 +33119,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.463831",
+      "generated_at": "2026-08-23T07:09:57.234407",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33222,7 +33237,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.469533",
+      "generated_at": "2026-08-23T07:09:57.241710",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33340,7 +33355,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.474774",
+      "generated_at": "2026-08-23T07:09:57.249078",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -33458,7 +33473,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.479918",
+      "generated_at": "2026-08-23T07:09:57.256388",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -33576,7 +33591,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.485061",
+      "generated_at": "2026-08-23T07:09:57.263835",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -33694,7 +33709,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.490190",
+      "generated_at": "2026-08-23T07:09:57.271195",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -33812,7 +33827,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.495334",
+      "generated_at": "2026-08-23T07:09:57.278613",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -33930,7 +33945,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.500510",
+      "generated_at": "2026-08-23T07:09:57.286001",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34048,7 +34063,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.505649",
+      "generated_at": "2026-08-23T07:09:57.293233",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34166,7 +34181,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.510818",
+      "generated_at": "2026-08-23T07:09:57.300543",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34284,7 +34299,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.516099",
+      "generated_at": "2026-08-23T07:09:57.307898",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -34402,7 +34417,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.521293",
+      "generated_at": "2026-08-23T07:09:57.315313",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -34520,7 +34535,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.526477",
+      "generated_at": "2026-08-23T07:09:57.322683",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34638,7 +34653,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.531648",
+      "generated_at": "2026-08-23T07:09:57.329980",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -34756,7 +34771,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.536843",
+      "generated_at": "2026-08-23T07:09:57.337297",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -34874,7 +34889,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.542067",
+      "generated_at": "2026-08-23T07:09:57.344608",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -34992,7 +35007,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.547223",
+      "generated_at": "2026-08-23T07:09:57.352013",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -35110,7 +35125,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.552354",
+      "generated_at": "2026-08-23T07:09:57.359339",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35228,7 +35243,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.557564",
+      "generated_at": "2026-08-23T07:09:57.366627",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35346,7 +35361,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.562728",
+      "generated_at": "2026-08-23T07:09:57.373963",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35464,7 +35479,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.567901",
+      "generated_at": "2026-08-23T07:09:57.381249",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -35582,7 +35597,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.573092",
+      "generated_at": "2026-08-23T07:09:57.388522",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -35700,7 +35715,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.578209",
+      "generated_at": "2026-08-23T07:09:57.395799",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -35818,7 +35833,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.583370",
+      "generated_at": "2026-08-23T07:09:57.403060",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -35936,7 +35951,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.588572",
+      "generated_at": "2026-08-23T07:09:57.410386",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36054,7 +36069,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.593699",
+      "generated_at": "2026-08-23T07:09:57.417729",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36172,7 +36187,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.598847",
+      "generated_at": "2026-08-23T07:09:57.425002",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36290,7 +36305,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.604036",
+      "generated_at": "2026-08-23T07:09:57.432343",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -36408,7 +36423,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.610226",
+      "generated_at": "2026-08-23T07:09:57.439687",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -36526,7 +36541,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.615456",
+      "generated_at": "2026-08-23T07:09:57.447065",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36644,7 +36659,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.620558",
+      "generated_at": "2026-08-23T07:09:57.454366",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -36762,7 +36777,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.625746",
+      "generated_at": "2026-08-23T07:09:57.461736",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36880,7 +36895,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.630874",
+      "generated_at": "2026-08-23T07:09:57.469094",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -36998,7 +37013,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.635976",
+      "generated_at": "2026-08-23T07:09:57.476437",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37116,7 +37131,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.641099",
+      "generated_at": "2026-08-23T07:09:57.483865",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -37234,7 +37249,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.646321",
+      "generated_at": "2026-08-23T07:09:57.491290",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37352,7 +37367,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.651466",
+      "generated_at": "2026-08-23T07:09:57.498637",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37470,7 +37485,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.656648",
+      "generated_at": "2026-08-23T07:09:57.505941",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -37588,7 +37603,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.661771",
+      "generated_at": "2026-08-23T07:09:57.513331",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37706,7 +37721,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.666892",
+      "generated_at": "2026-08-23T07:09:57.520638",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -37824,7 +37839,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.672047",
+      "generated_at": "2026-08-23T07:09:57.527940",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -37942,7 +37957,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.677256",
+      "generated_at": "2026-08-23T07:09:57.535248",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38060,7 +38075,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.682438",
+      "generated_at": "2026-08-23T07:09:57.542627",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -38178,7 +38193,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.687597",
+      "generated_at": "2026-08-23T07:09:57.549898",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -38296,7 +38311,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.692758",
+      "generated_at": "2026-08-23T07:09:57.557381",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38414,7 +38429,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.697962",
+      "generated_at": "2026-08-23T07:09:57.564641",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38532,7 +38547,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.703111",
+      "generated_at": "2026-08-23T07:09:57.571890",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -38650,7 +38665,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.708278",
+      "generated_at": "2026-08-23T07:09:57.579140",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -38768,7 +38783,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.713425",
+      "generated_at": "2026-08-23T07:09:57.586361",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -38886,7 +38901,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.718582",
+      "generated_at": "2026-08-23T07:09:57.593724",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39004,7 +39019,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.723800",
+      "generated_at": "2026-08-23T07:09:57.600946",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39122,7 +39137,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.728924",
+      "generated_at": "2026-08-23T07:09:57.608193",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -39240,7 +39255,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.734043",
+      "generated_at": "2026-08-23T07:09:57.615524",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -39358,7 +39373,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.739199",
+      "generated_at": "2026-08-23T07:09:57.622898",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -39476,7 +39491,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.744398",
+      "generated_at": "2026-08-23T07:09:57.630317",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39594,7 +39609,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.749757",
+      "generated_at": "2026-08-23T07:09:57.637753",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39712,7 +39727,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.754967",
+      "generated_at": "2026-08-23T07:09:57.645175",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -39830,7 +39845,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.760356",
+      "generated_at": "2026-08-23T07:09:57.652509",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -39948,7 +39963,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.765546",
+      "generated_at": "2026-08-23T07:09:57.659805",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40066,7 +40081,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.770745",
+      "generated_at": "2026-08-23T07:09:57.667130",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40184,7 +40199,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.775987",
+      "generated_at": "2026-08-23T07:09:57.674415",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -40302,7 +40317,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.781183",
+      "generated_at": "2026-08-23T07:09:57.681865",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -40420,7 +40435,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.786397",
+      "generated_at": "2026-08-23T07:09:57.689158",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40538,7 +40553,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.791638",
+      "generated_at": "2026-08-23T07:09:57.696617",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -40656,7 +40671,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.796832",
+      "generated_at": "2026-08-23T07:09:57.703975",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -40774,7 +40789,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.802003",
+      "generated_at": "2026-08-23T07:09:57.711441",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -40892,7 +40907,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.807172",
+      "generated_at": "2026-08-23T07:09:57.723626",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41010,7 +41025,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.812298",
+      "generated_at": "2026-08-23T07:09:57.731145",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -41128,7 +41143,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.817447",
+      "generated_at": "2026-08-23T07:09:57.738519",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41246,7 +41261,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.822613",
+      "generated_at": "2026-08-23T07:09:57.745933",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41364,7 +41379,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.827749",
+      "generated_at": "2026-08-23T07:09:57.753334",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41482,7 +41497,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.832835",
+      "generated_at": "2026-08-23T07:09:57.760710",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -41600,7 +41615,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.837959",
+      "generated_at": "2026-08-23T07:09:57.768125",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -41718,7 +41733,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.843091",
+      "generated_at": "2026-08-23T07:09:57.775484",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -41836,7 +41851,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.848267",
+      "generated_at": "2026-08-23T07:09:57.782910",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -41954,7 +41969,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.853373",
+      "generated_at": "2026-08-23T07:09:57.790327",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -42072,7 +42087,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.858508",
+      "generated_at": "2026-08-23T07:09:57.797734",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -42190,7 +42205,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.863647",
+      "generated_at": "2026-08-23T07:09:57.805124",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -42308,7 +42323,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.868760",
+      "generated_at": "2026-08-23T07:09:57.812509",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42426,7 +42441,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.873912",
+      "generated_at": "2026-08-23T07:09:57.819912",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -42544,7 +42559,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.879075",
+      "generated_at": "2026-08-23T07:09:57.827307",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -42662,7 +42677,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.884250",
+      "generated_at": "2026-08-23T07:09:57.834596",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -42780,7 +42795,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.889416",
+      "generated_at": "2026-08-23T07:09:57.841968",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -42898,7 +42913,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.894583",
+      "generated_at": "2026-08-23T07:09:57.849306",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43016,7 +43031,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.899718",
+      "generated_at": "2026-08-23T07:09:57.856727",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -43134,7 +43149,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.904865",
+      "generated_at": "2026-08-23T07:09:57.863968",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43252,7 +43267,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.910023",
+      "generated_at": "2026-08-23T07:09:57.871259",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43370,7 +43385,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.915195",
+      "generated_at": "2026-08-23T07:09:57.878537",
       "market_odds": {},
       "confidence": "HIGH",
       "bet_recommendation": "No value identified"
@@ -43488,7 +43503,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.920347",
+      "generated_at": "2026-08-23T07:09:57.885900",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43606,7 +43621,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.925548",
+      "generated_at": "2026-08-23T07:09:57.893715",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43724,7 +43739,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.930714",
+      "generated_at": "2026-08-23T07:09:57.901123",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
@@ -43842,7 +43857,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.935889",
+      "generated_at": "2026-08-23T07:09:57.908417",
       "market_odds": {},
       "confidence": "MEDIUM",
       "bet_recommendation": "No value identified"
@@ -43960,7 +43975,7 @@
       },
       "value_bets": [],
       "market_comparison": {},
-      "generated_at": "2026-08-23T04:41:08.941046",
+      "generated_at": "2026-08-23T07:09:57.915684",
       "market_odds": {},
       "confidence": "LOW",
       "bet_recommendation": "No value identified"
