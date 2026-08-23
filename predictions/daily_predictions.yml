@@ -1,0 +1,51 @@
+name: League Model — Daily Predictions
+
+on:
+  schedule:
+    # 08:00 UTC = 6:00 PM AEST (UTC+10). Runs once for all leagues.
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      league:
+        description: 'Run a single league only (leave blank for all)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - epl
+          - championship
+          - la_liga
+          - bundesliga
+          - mls
+
+jobs:
+  run-predictions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      # config/leagues.py reads these directly from os.environ — no
+      # separate config-writing step needed.
+      - name: Run daily pipeline
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          if [ -n "${{ github.event.inputs.league }}" ]; then
+            python run_daily.py --league "${{ github.event.inputs.league }}"
+          else
+            python run_daily.py
+          fi
