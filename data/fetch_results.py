@@ -1,18 +1,8 @@
 """
 data/fetch_results.py — Historical results fetcher, per league
 ==================================================================
-The WC model's version of this file pulled from a handful of hardcoded
-tournaments (WC, EC, CL codes) plus a martj42 qualifiers dataset, because
-that's genuinely all the relevant international data that exists.
-
-For domestic leagues you get real season-over-season depth for free from
-football-data.org's competition endpoints, so this fetches N seasons
-(config: fd_seasons) per league and writes one clean CSV per league to
-data/processed/{league}_matches.csv — exactly the input dixon_coles_model.py
-expects.
-
-Rate limits: football-data.org's free tier is 10 req/min. With 4 leagues x
-~6 seasons each = ~24 requests, add a short sleep between calls.
+Pulls N seasons per league from football-data.org's competition endpoints,
+writing one clean CSV per league to data/processed/{league}_matches.csv.
 """
 
 import os
@@ -22,7 +12,7 @@ import pandas as pd
 
 from config.leagues import (
     FD_BASE_URL, FOOTBALL_DATA_KEY, LEAGUES, TEAM_ALIASES, PROCESSED_DIR,
-    current_season_start_year,
+    season_start_year_for,
 )
 
 
@@ -30,17 +20,17 @@ def _normalise_team(name: str) -> str:
     return TEAM_ALIASES.get(name, name)
 
 
-def _season_start_years(n_seasons: int) -> list:
-    """football-data.org identifies a season by its start year, e.g. 2024
-    for the 2024-25 season. Build the list of the last n_seasons start years."""
-    current_start = current_season_start_year()
+def _season_start_years(league_key: str, n_seasons: int) -> list:
+    """Build the list of the last n_seasons start years for this league,
+    using its own season-year convention (see season_start_year_for)."""
+    current_start = season_start_year_for(league_key)
     return list(range(current_start - n_seasons + 1, current_start + 1))
 
 
 def fetch_league_matches(league_key: str) -> pd.DataFrame:
     cfg = LEAGUES[league_key]
     code = cfg["fd_code"]
-    seasons = _season_start_years(cfg["fd_seasons"])
+    seasons = _season_start_years(league_key, cfg["fd_seasons"])
 
     headers = {"X-Auth-Token": FOOTBALL_DATA_KEY}
     rows = []
