@@ -1,34 +1,9 @@
 """
 tracking/results_tracker.py — Track Model Accuracy vs Real Outcomes, per league
 ==================================================================================
-Same 6-step workflow as the WC model's version:
-  1. Each daily run snapshots predictions for upcoming fixtures
-     (predictions/{league}/history/YYYY-MM-DD.json)
-  2. This script checks football-data.org for newly FINISHED matches
-     (per league's fd_code + current season, not a single hardcoded WC season)
-  3. Matches finished games against the prediction that was made for them
-  4. Scores: 1X2 accuracy, Brier score, value-bet hit rate, ROI
-  5. Appends results to a running ledger (predictions/{league}/results_log.json)
-  6. Pushes ledger + summary stats to GitHub for the dashboard
-
-CHANGES FROM THE WC VERSION:
-  - Everything takes a `league_key` argument and reads paths/fd_code from
-    config/leagues.py instead of a single hardcoded WC config.
-  - `group` (World Cup group letter) is replaced with `matchday`
-    (football-data.org's round number for domestic leagues).
-  - Totals/BTTS scoring no longer assumes every match was quoted at a 2.5
-    line. score_value_bets() now parses the actual line out of the bet's
-    market string (e.g. "Over 3.5" -> 3.5) so Bundesliga's higher-scoring
-    matches don't get scored against the wrong threshold. This is the
-    proper fix for what patch_engine_v2.py was patching around on the
-    odds side — same problem, this time on the scoring side.
-  - score_totals() (used for the model's own "did it call Over/Under
-    right" stat, independent of any specific bet) uses a per-league
-    reference line taken from config/leagues.py's totals_lines (defaults
-    to 2.5 if present, otherwise the middle of the list), so the headline
-    accuracy number is meaningful for that league's actual scoring rate.
-
-Run this daily per league, ideally a few hours after matches finish.
+Checks football-data.org for newly FINISHED matches, matches them against the
+prediction snapshot made for them, scores accuracy + value-bet P&L, and pushes
+the results log to GitHub for the dashboard.
 """
 
 import requests
@@ -38,7 +13,10 @@ import re
 import sys
 import datetime
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.leagues import FD_BASE_URL, FOOTBALL_DATA_KEY, TEAM_ALIASES, get_league, current_season_start_year
+from config.leagues import (
+    FD_BASE_URL, FOOTBALL_DATA_KEY, TEAM_ALIASES, get_league,
+    season_start_year_for,
+)
 
 FD_HEADERS = {"X-Auth-Token": FOOTBALL_DATA_KEY}
 
@@ -60,7 +38,7 @@ def fetch_finished_matches(league_key: str) -> list:
     """Fetch all FINISHED matches for this league's current season."""
     cfg = get_league(league_key)
     url = f"{FD_BASE_URL}/competitions/{cfg['fd_code']}/matches"
-    params = {"season": current_season_start_year(), "status": "FINISHED"}
+    params = {"season": season_start_year_for(league_key), "status": "FINISHED"}
 
     try:
         r = requests.get(url, headers=FD_HEADERS, params=params, timeout=15)
@@ -140,13 +118,9 @@ def score_1x2(pred: dict, actual_result: str) -> dict:
 
 
 def score_totals(pred: dict, total_goals: int, cfg: dict) -> dict:
-    """Score the model's Over/Under call against this league's reference line
-    (not always 2.5 — see reference_totals_line())."""
+    """Score the model's Over/Under call against this league's reference line."""
     line = reference_totals_line(cfg)
     model = pred.get("model", {})
-    # predictions_engine.py is expected to expose p_over_2_5 as a canonical
-    # probability regardless of which market line ended up quoted; if you've
-    # generalized that field name too, swap this key accordingly.
     p_over = model.get("p_over_2_5", 0.5)
     predicted = "Over" if p_over >= 0.5 else "Under"
     actual = "Over" if total_goals > line else "Under"
@@ -177,21 +151,13 @@ _LINE_RE = re.compile(r"(\d+(?:\.\d+)?)")
 
 
 def _parse_market_line(market: str, default: float = 2.5) -> float:
-    """Pull the numeric line out of a market string like 'Over 3.5' or
-    'Under 1.5'. Falls back to `default` if no number is present (e.g. a
-    plain 'Home Win' market has no line to parse)."""
     m = _LINE_RE.search(market)
     return float(m.group(1)) if m else default
 
 
 def score_value_bets(pred: dict, actual_result: str, total_goals: int,
                       home_goals: int, away_goals: int) -> list:
-    """For each value bet flagged, determine if it won and its P&L in units.
-
-    Totals markets are scored against the LINE ACTUALLY EMBEDDED IN THE BET
-    (parsed from the market string), not a hardcoded 2.5 — this is the fix
-    for the same class of bug patch_engine_v2.py patched on the odds side.
-    """
+    """For each value bet flagged, determine if it won and its P&L in units."""
     scored_bets = []
 
     for bet in pred.get("value_bets", []):
@@ -216,7 +182,7 @@ def score_value_bets(pred: dict, actual_result: str, total_goals: int,
         elif market == "BTTS No":
             won = not (home_goals > 0 and away_goals > 0)
         else:
-            continue  # unknown market, skip
+            continue
 
         pnl = round(odds - 1, 4) if won else -1.0
 
@@ -356,7 +322,6 @@ def compute_summary(results: list) -> dict:
             "by_rating": by_rating,
         }
 
-    # Per-matchday breakdown, replacing the WC version's per-group breakdown
     by_matchday = {}
     for r in results:
         md = r.get("matchday") or "Unknown"
