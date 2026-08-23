@@ -593,7 +593,11 @@
 
   <!-- ALL LEAGUES TAB (consolidated across all 4 leagues' trackers) -->
   <div id="tab-all-leagues" class="tab-content">
-    <div class="section-title">🌐 Leagues Model — Combined Summary</div>
+    <div class="section-title">🌐 Leagues Model — Combined Summary
+      <span style="float:right;display:flex;gap:8px;margin-top:-2px">
+        <button onclick="resetAllTrackers()" style="font-size:11px;padding:4px 10px;background:var(--card);border:1px solid var(--red);color:var(--red);border-radius:6px;cursor:pointer">🗑️ Reset All Data</button>
+      </span>
+    </div>
     <div id="allLeaguesContent">
       <div class="loading"><div class="spinner"></div>Loading combined results...</div>
     </div>
@@ -619,6 +623,10 @@ const LEAGUES = {
   bundesliga: {
     label: "Bundesliga",
     url: "https://raw.githubusercontent.com/ben79sf-del/Leagues-Model/main/predictions/bundesliga/latest.json",
+  },
+  mls: {
+    label: "MLS",
+    url: "https://raw.githubusercontent.com/ben79sf-del/Leagues-Model/main/predictions/mls/latest.json",
   },
 };
 
@@ -759,6 +767,33 @@ async function importTracker() {
   } catch(e) {
     alert("Invalid data — make sure you pasted the full export.");
   }
+}
+
+// Clears every league's tracker (all keys in LEAGUES, so this automatically
+// covers MLS and any future leagues without needing an update here). Used
+// to start fresh after a filter/threshold change — e.g. the volume-cap and
+// edge-threshold tightening — so old picks made under looser rules don't
+// keep sitting in the Results tabs alongside new ones made under stricter
+// ones.
+async function resetAllTrackers() {
+  const leagueNames = Object.values(LEAGUES).map(cfg => cfg.label).join(", ");
+  const confirmed = confirm(
+    `This will permanently delete ALL tracked value bets across every league (${leagueNames}) on this device.\n\n` +
+    `This cannot be undone. Export first if you want a backup.\n\n` +
+    `Continue?`
+  );
+  if (!confirmed) return;
+
+  for (const key of Object.keys(LEAGUES)) {
+    localStorage.removeItem(trackerKey(key));
+  }
+
+  // Re-render whatever's currently visible so the reset is immediately reflected
+  const activeTab = document.querySelector(".tab-content.active")?.id;
+  if (activeTab === "tab-results") renderTracker();
+  if (activeTab === "tab-all-leagues") renderAllLeaguesTracker();
+
+  alert("All tracked value bets cleared. Starting fresh across all leagues.");
 }
 
 async function renderTracker() {
@@ -1179,6 +1214,11 @@ const DEMO_FIXTURES = {
     { home:"Bayern Munich", away:"Borussia Dortmund", md:5, date:"2026-08-23", ph:0.58, pd:0.22, pa:0.20, xG:[2.1,1.1], o25:0.68, btts:0.55 },
     { home:"Bayer Leverkusen", away:"RB Leipzig", md:5, date:"2026-08-23", ph:0.46, pd:0.25, pa:0.29, xG:[1.8,1.5], o25:0.66, btts:0.58 },
     { home:"Borussia Mönchengladbach", away:"Eintracht Frankfurt", md:5, date:"2026-08-24", ph:0.42, pd:0.27, pa:0.31, xG:[1.6,1.4], o25:0.62, btts:0.53 },
+  ],
+  mls: [
+    { home:"LA Galaxy", away:"LAFC", md:28, date:"2026-08-23", ph:0.44, pd:0.27, pa:0.29, xG:[1.6,1.4], o25:0.63, btts:0.54 },
+    { home:"Inter Miami CF", away:"Orlando City", md:28, date:"2026-08-23", ph:0.52, pd:0.24, pa:0.24, xG:[1.9,1.2], o25:0.65, btts:0.52 },
+    { home:"Seattle Sounders FC", away:"Portland Timbers", md:28, date:"2026-08-24", ph:0.47, pd:0.26, pa:0.27, xG:[1.7,1.3], o25:0.60, btts:0.50 },
   ],
 };
 
