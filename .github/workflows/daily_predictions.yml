@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       league:
-        description: 'Run a single league only (leave blank for all)'
+        description: 'Run a single league only (leave blank for all four)'
         required: false
         type: choice
         options:
@@ -16,7 +16,6 @@ on:
           - championship
           - la_liga
           - bundesliga
-          - mls
 
 jobs:
   run-predictions:
