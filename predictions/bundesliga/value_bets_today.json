@@ -1,31 +1,43 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "league": "Bundesliga",
-  "generated": "2026-08-23T09:18:17.141697",
-  "count": 3,
+  "generated": "2026-08-24T09:36:13.950560",
+  "count": 5,
   "value_bets": [
-    {
-      "match": "Borussia Dortmund vs Hamburger SV",
-      "date": "2026-08-29",
-      "matchday": 1,
-      "market": "Under 3.0",
-      "edge_pct": 28.88,
-      "model_prob": 0.6476,
-      "market_prob": 0.5025,
-      "best_odds": 1.9901,
-      "kelly_pct": 5.0,
-      "rating": "\ud83d\udd25 STRONG"
-    },
     {
       "match": "FC Bayern M\u00fcnchen vs VfB Stuttgart",
       "date": "2026-08-28",
       "matchday": 1,
       "market": "Away Win",
-      "edge_pct": 21.9,
+      "edge_pct": 24.55,
       "model_prob": 0.1325,
-      "market_prob": 0.1113,
-      "best_odds": 9.2,
-      "kelly_pct": 0.67,
+      "market_prob": 0.1091,
+      "best_odds": 9.4,
+      "kelly_pct": 0.73,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "TSG 1899 Hoffenheim vs Borussia Dortmund",
+      "date": "2026-09-05",
+      "matchday": 2,
+      "market": "Away Win",
+      "edge_pct": 24.46,
+      "model_prob": 0.5186,
+      "market_prob": 0.3549,
+      "best_odds": 2.4,
+      "kelly_pct": 4.37,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "SV Werder Bremen vs RB Leipzig",
+      "date": "2026-09-05",
+      "matchday": 2,
+      "market": "BTTS No",
+      "edge_pct": 18.06,
+      "model_prob": 0.4293,
+      "market_prob": 0.4478,
+      "best_odds": 2.75,
+      "kelly_pct": 2.58,
       "rating": "\ud83d\udd25 STRONG"
     },
     {
@@ -33,11 +45,23 @@
       "date": "2026-08-29",
       "matchday": 1,
       "market": "Away Win",
-      "edge_pct": 15.86,
+      "edge_pct": 17.93,
       "model_prob": 0.2069,
-      "market_prob": 0.1774,
-      "best_odds": 5.6,
-      "kelly_pct": 0.86,
+      "market_prob": 0.1762,
+      "best_odds": 5.7,
+      "kelly_pct": 0.95,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "Hamburger SV vs 1. FSV Mainz 05",
+      "date": "2026-09-06",
+      "matchday": 2,
+      "market": "BTTS No",
+      "edge_pct": 16.93,
+      "model_prob": 0.4872,
+      "market_prob": 0.4727,
+      "best_odds": 2.4,
+      "kelly_pct": 3.02,
       "rating": "\ud83d\udd25 STRONG"
     }
   ]
