@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T09:36:36.968664",
+  "last_updated": "2026-08-25T09:11:03.777498",
   "matches_scored": [
     564628,
     564629,
@@ -8,6 +8,8 @@
     564634,
     564635,
     564638,
+    564639,
+    564640,
     564641,
     564642,
     564643,
@@ -560,17 +562,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-24T09:36:36.968633"
+    },
+    {
+      "fixture_id": 564639,
+      "date": "2026-08-24",
+      "home_team": "CA Osasuna",
+      "away_team": "Levante UD",
+      "score": "0-0",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9035,
+        "model_probs": {
+          "home": 0.5199,
+          "draw": 0.241,
+          "away": 0.2391
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5133,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5285
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-25T09:11:03.506438"
+    },
+    {
+      "fixture_id": 564640,
+      "date": "2026-08-24",
+      "home_team": "M\u00e1laga CF",
+      "away_team": "RC Deportivo La Coru\u00f1a",
+      "score": "1-1",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "D",
+        "actual_outcome": "D",
+        "correct": true,
+        "brier_score": 0.4217,
+        "model_probs": {
+          "home": 0.0343,
+          "draw": 0.5247,
+          "away": 0.4411
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.0322,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.0286
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-25T09:11:03.777476"
     }
   ],
   "summary": {
-    "total_matches": 14,
-    "1x2_correct": 8,
-    "1x2_accuracy": 0.5714,
-    "avg_brier_score": 0.5936,
-    "totals_correct": 6,
-    "totals_accuracy": 0.4286,
+    "total_matches": 16,
+    "1x2_correct": 9,
+    "1x2_accuracy": 0.5625,
+    "avg_brier_score": 0.6022,
+    "totals_correct": 7,
+    "totals_accuracy": 0.4375,
     "btts_correct": 8,
-    "btts_accuracy": 0.5714,
+    "btts_accuracy": 0.5,
     "value_bets": {
       "total_bets": 6,
       "wins": 3,
@@ -600,23 +672,11 @@
         "correct": 4
       },
       "2": {
-        "n": 8,
-        "correct": 4
+        "n": 10,
+        "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Valencia CF 0-0 RC Celta de Vigo",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "RCD Espanyol de Barcelona 1-2 Real Madrid CF",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "Club Atl\u00e9tico de Madrid 2-2 Villarreal CF",
         "predicted": "H",
@@ -633,6 +693,18 @@
         "match": "Elche CF 0-5 FC Barcelona",
         "predicted": "A",
         "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "CA Osasuna 0-0 Levante UD",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "M\u00e1laga CF 1-1 RC Deportivo La Coru\u00f1a",
+        "predicted": "D",
+        "actual": "D",
         "correct": true
       }
     ]
