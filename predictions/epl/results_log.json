@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T09:36:32.459090",
+  "last_updated": "2026-08-25T09:11:00.239445",
   "matches_scored": [
     560542,
     560543,
@@ -9,7 +9,8 @@
     560547,
     560548,
     560549,
-    560550
+    560550,
+    560551
   ],
   "results": [
     {
@@ -371,29 +372,73 @@
         }
       ],
       "scored_at": "2026-08-24T09:36:32.459072"
+    },
+    {
+      "fixture_id": 560551,
+      "date": "2026-08-24",
+      "home_team": "Fulham FC",
+      "away_team": "Chelsea FC",
+      "score": "2-3",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.6737,
+        "model_probs": {
+          "home": 0.3786,
+          "draw": 0.2896,
+          "away": 0.3318
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4829,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5428
+      },
+      "value_bets_results": [
+        {
+          "market": "Draw",
+          "odds": 4.0,
+          "edge_pct": 15.84,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-08-25T09:11:00.239422"
     }
   ],
   "summary": {
-    "total_matches": 9,
+    "total_matches": 10,
     "1x2_correct": 5,
-    "1x2_accuracy": 0.5556,
-    "avg_brier_score": 0.6082,
+    "1x2_accuracy": 0.5,
+    "avg_brier_score": 0.6147,
     "totals_correct": 7,
-    "totals_accuracy": 0.7778,
-    "btts_correct": 5,
-    "btts_accuracy": 0.5556,
+    "totals_accuracy": 0.7,
+    "btts_correct": 6,
+    "btts_accuracy": 0.6,
     "value_bets": {
-      "total_bets": 5,
+      "total_bets": 6,
       "wins": 2,
-      "win_rate": 0.4,
-      "total_pnl_units": -0.62,
-      "roi_pct": -12.4,
+      "win_rate": 0.3333,
+      "total_pnl_units": -1.62,
+      "roi_pct": -27.0,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 2,
+          "n_bets": 3,
           "wins": 0,
           "win_rate": 0.0,
-          "pnl_units": -2.0,
+          "pnl_units": -3.0,
           "roi_pct": -100.0
         },
         "\u2705 GOOD": {
@@ -414,17 +459,11 @@
     },
     "by_matchday": {
       "1": {
-        "n": 9,
+        "n": 10,
         "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Everton FC 2-0 Crystal Palace FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Brentford FC 3-0 Tottenham Hotspur FC",
         "predicted": "H",
@@ -447,6 +486,12 @@
         "match": "Newcastle United FC 2-2 Liverpool FC",
         "predicted": "A",
         "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Fulham FC 2-3 Chelsea FC",
+        "predicted": "H",
+        "actual": "A",
         "correct": false
       }
     ]
