@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T09:11:03.777498",
+  "last_updated": "2026-08-26T09:32:56.304836",
   "matches_scored": [
     564628,
     564629,
@@ -7,6 +7,7 @@
     564633,
     564634,
     564635,
+    564637,
     564638,
     564639,
     564640,
@@ -632,17 +633,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-25T09:11:03.777476"
+    },
+    {
+      "fixture_id": 564637,
+      "date": "2026-08-25",
+      "home_team": "Valencia CF",
+      "away_team": "Real Betis Balompi\u00e9",
+      "score": "0-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.632,
+        "model_probs": {
+          "home": 0.3769,
+          "draw": 0.2692,
+          "away": 0.3539
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4721,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5232
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-26T09:32:56.304811"
     }
   ],
   "summary": {
-    "total_matches": 16,
+    "total_matches": 17,
     "1x2_correct": 9,
-    "1x2_accuracy": 0.5625,
-    "avg_brier_score": 0.6022,
-    "totals_correct": 7,
-    "totals_accuracy": 0.4375,
+    "1x2_accuracy": 0.5294,
+    "avg_brier_score": 0.6039,
+    "totals_correct": 8,
+    "totals_accuracy": 0.4706,
     "btts_correct": 8,
-    "btts_accuracy": 0.5,
+    "btts_accuracy": 0.4706,
     "value_bets": {
       "total_bets": 6,
       "wins": 3,
@@ -668,7 +704,7 @@
     },
     "by_matchday": {
       "1": {
-        "n": 6,
+        "n": 7,
         "correct": 4
       },
       "2": {
@@ -677,12 +713,6 @@
       }
     },
     "last_5_results": [
-      {
-        "match": "Club Atl\u00e9tico de Madrid 2-2 Villarreal CF",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Getafe CF 1-0 Real Racing Club de Santander",
         "predicted": "H",
@@ -706,6 +736,12 @@
         "predicted": "D",
         "actual": "D",
         "correct": true
+      },
+      {
+        "match": "Valencia CF 0-1 Real Betis Balompi\u00e9",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
