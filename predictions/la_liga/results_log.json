@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-08-26T09:32:56.304836",
+  "last_updated": "2026-08-27T19:17:48.078476",
   "matches_scored": [
     564628,
     564629,
+    564631,
     564632,
     564633,
     564634,
@@ -668,30 +669,74 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-26T09:32:56.304811"
+    },
+    {
+      "fixture_id": 564631,
+      "date": "2026-08-26",
+      "home_team": "Real Madrid CF",
+      "away_team": "Real Sociedad de F\u00fatbol",
+      "score": "4-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.096,
+        "model_probs": {
+          "home": 0.7487,
+          "draw": 0.1513,
+          "away": 0.1
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6767,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5374
+      },
+      "value_bets_results": [
+        {
+          "market": "Away Win",
+          "odds": 12.0,
+          "edge_pct": 20.0,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-08-27T19:17:48.078451"
     }
   ],
   "summary": {
-    "total_matches": 17,
-    "1x2_correct": 9,
-    "1x2_accuracy": 0.5294,
-    "avg_brier_score": 0.6039,
-    "totals_correct": 8,
-    "totals_accuracy": 0.4706,
-    "btts_correct": 8,
-    "btts_accuracy": 0.4706,
+    "total_matches": 18,
+    "1x2_correct": 10,
+    "1x2_accuracy": 0.5556,
+    "avg_brier_score": 0.5757,
+    "totals_correct": 9,
+    "totals_accuracy": 0.5,
+    "btts_correct": 9,
+    "btts_accuracy": 0.5,
     "value_bets": {
-      "total_bets": 6,
+      "total_bets": 7,
       "wins": 3,
-      "win_rate": 0.5,
-      "total_pnl_units": 0.35,
-      "roi_pct": 5.83,
+      "win_rate": 0.4286,
+      "total_pnl_units": -0.65,
+      "roi_pct": -9.29,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 4,
+          "n_bets": 5,
           "wins": 2,
-          "win_rate": 0.5,
-          "pnl_units": 0.15,
-          "roi_pct": 3.75
+          "win_rate": 0.4,
+          "pnl_units": -0.85,
+          "roi_pct": -17.0
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -704,8 +749,8 @@
     },
     "by_matchday": {
       "1": {
-        "n": 7,
-        "correct": 4
+        "n": 8,
+        "correct": 5
       },
       "2": {
         "n": 10,
@@ -713,12 +758,6 @@
       }
     },
     "last_5_results": [
-      {
-        "match": "Getafe CF 1-0 Real Racing Club de Santander",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Elche CF 0-5 FC Barcelona",
         "predicted": "A",
@@ -742,6 +781,12 @@
         "predicted": "H",
         "actual": "A",
         "correct": false
+      },
+      {
+        "match": "Real Madrid CF 4-1 Real Sociedad de F\u00fatbol",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
