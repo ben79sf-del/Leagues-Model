@@ -1,13 +1,15 @@
 {
-  "last_updated": "2026-08-27T19:17:48.078476",
+  "last_updated": "2026-08-28T20:30:00.411213",
   "matches_scored": [
     564628,
     564629,
+    564630,
     564631,
     564632,
     564633,
     564634,
     564635,
+    564636,
     564637,
     564638,
     564639,
@@ -18,7 +20,8 @@
     564644,
     564645,
     564646,
-    564647
+    564647,
+    564654
   ],
   "results": [
     {
@@ -713,17 +716,122 @@
         }
       ],
       "scored_at": "2026-08-27T19:17:48.078451"
+    },
+    {
+      "fixture_id": 564636,
+      "date": "2026-08-27",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "CA Osasuna",
+      "score": "1-2",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.9623,
+        "model_probs": {
+          "home": 0.5328,
+          "draw": 0.2515,
+          "away": 0.2157
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4586,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4781
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-28T20:29:59.809142"
+    },
+    {
+      "fixture_id": 564630,
+      "date": "2026-08-27",
+      "home_team": "FC Barcelona",
+      "away_team": "Athletic Club",
+      "score": "2-0",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.0413,
+        "model_probs": {
+          "home": 0.8366,
+          "draw": 0.1071,
+          "away": 0.0563
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.7361,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4958
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-28T20:30:00.125852"
+    },
+    {
+      "fixture_id": 564654,
+      "date": "2026-08-28",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Elche CF",
+      "score": "3-2",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.462,
+        "model_probs": {
+          "home": 0.4458,
+          "draw": 0.2512,
+          "away": 0.303
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5244,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5569
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-28T20:30:00.411186"
     }
   ],
   "summary": {
-    "total_matches": 18,
-    "1x2_correct": 10,
-    "1x2_accuracy": 0.5556,
-    "avg_brier_score": 0.5757,
-    "totals_correct": 9,
-    "totals_accuracy": 0.5,
-    "btts_correct": 9,
-    "btts_accuracy": 0.5,
+    "total_matches": 21,
+    "1x2_correct": 12,
+    "1x2_accuracy": 0.5714,
+    "avg_brier_score": 0.5633,
+    "totals_correct": 10,
+    "totals_accuracy": 0.4762,
+    "btts_correct": 11,
+    "btts_accuracy": 0.5238,
     "value_bets": {
       "total_bets": 7,
       "wins": 3,
@@ -749,33 +857,19 @@
     },
     "by_matchday": {
       "1": {
-        "n": 8,
-        "correct": 5
+        "n": 10,
+        "correct": 6
       },
       "2": {
         "n": 10,
         "correct": 5
+      },
+      "3": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Elche CF 0-5 FC Barcelona",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "CA Osasuna 0-0 Levante UD",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "M\u00e1laga CF 1-1 RC Deportivo La Coru\u00f1a",
-        "predicted": "D",
-        "actual": "D",
-        "correct": true
-      },
       {
         "match": "Valencia CF 0-1 Real Betis Balompi\u00e9",
         "predicted": "H",
@@ -784,6 +878,24 @@
       },
       {
         "match": "Real Madrid CF 4-1 Real Sociedad de F\u00fatbol",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "RC Celta de Vigo 1-2 CA Osasuna",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "FC Barcelona 2-0 Athletic Club",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Real Racing Club de Santander 3-2 Elche CF",
         "predicted": "H",
         "actual": "H",
         "correct": true
