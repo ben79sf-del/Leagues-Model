@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T09:11:00.239445",
+  "last_updated": "2026-08-29T14:11:04.518486",
   "matches_scored": [
     560542,
     560543,
@@ -10,7 +10,9 @@
     560548,
     560549,
     560550,
-    560551
+    560551,
+    560552,
+    560555
   ],
   "results": [
     {
@@ -416,30 +418,109 @@
         }
       ],
       "scored_at": "2026-08-25T09:11:00.239422"
+    },
+    {
+      "fixture_id": 560555,
+      "date": "2026-08-28",
+      "home_team": "Crystal Palace FC",
+      "away_team": "Manchester City FC",
+      "score": "1-4",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.255,
+        "model_probs": {
+          "home": 0.1621,
+          "draw": 0.2473,
+          "away": 0.5906
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5042,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4964
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-29T14:11:04.196772"
+    },
+    {
+      "fixture_id": 560552,
+      "date": "2026-08-29",
+      "home_team": "Liverpool FC",
+      "away_team": "Nottingham Forest FC",
+      "score": "2-2",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.877,
+        "model_probs": {
+          "home": 0.5111,
+          "draw": 0.2519,
+          "away": 0.237
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5787,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5936
+      },
+      "value_bets_results": [
+        {
+          "market": "Draw",
+          "odds": 4.8,
+          "edge_pct": 20.91,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 3.8
+        }
+      ],
+      "scored_at": "2026-08-29T14:11:04.518463"
     }
   ],
   "summary": {
-    "total_matches": 10,
-    "1x2_correct": 5,
+    "total_matches": 12,
+    "1x2_correct": 6,
     "1x2_accuracy": 0.5,
-    "avg_brier_score": 0.6147,
-    "totals_correct": 7,
-    "totals_accuracy": 0.7,
-    "btts_correct": 6,
-    "btts_accuracy": 0.6,
+    "avg_brier_score": 0.6066,
+    "totals_correct": 9,
+    "totals_accuracy": 0.75,
+    "btts_correct": 7,
+    "btts_accuracy": 0.5833,
     "value_bets": {
-      "total_bets": 6,
-      "wins": 2,
-      "win_rate": 0.3333,
-      "total_pnl_units": -1.62,
-      "roi_pct": -27.0,
+      "total_bets": 7,
+      "wins": 3,
+      "win_rate": 0.4286,
+      "total_pnl_units": 2.18,
+      "roi_pct": 31.14,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 3,
-          "wins": 0,
-          "win_rate": 0.0,
-          "pnl_units": -3.0,
-          "roi_pct": -100.0
+          "n_bets": 4,
+          "wins": 1,
+          "win_rate": 0.25,
+          "pnl_units": 0.8,
+          "roi_pct": 20.0
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -461,21 +542,13 @@
       "1": {
         "n": 10,
         "correct": 5
+      },
+      "2": {
+        "n": 2,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Brentford FC 3-0 Tottenham Hotspur FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Manchester City FC 2-1 AFC Bournemouth",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Brighton & Hove Albion FC 4-0 Aston Villa FC",
         "predicted": "H",
@@ -492,6 +565,18 @@
         "match": "Fulham FC 2-3 Chelsea FC",
         "predicted": "H",
         "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Crystal Palace FC 1-4 Manchester City FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Liverpool FC 2-2 Nottingham Forest FC",
+        "predicted": "H",
+        "actual": "D",
         "correct": false
       }
     ]
