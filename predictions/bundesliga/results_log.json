@@ -1,13 +1,68 @@
 {
-  "last_updated": null,
-  "matches_scored": [],
-  "results": [],
+  "last_updated": "2026-08-29T14:11:11.589062",
+  "matches_scored": [
+    565776
+  ],
+  "results": [
+    {
+      "fixture_id": 565776,
+      "date": "2026-08-28",
+      "home_team": "FC Bayern M\u00fcnchen",
+      "away_team": "VfB Stuttgart",
+      "score": "5-1",
+      "matchday": 1,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.1127,
+        "model_probs": {
+          "home": 0.726,
+          "draw": 0.1416,
+          "away": 0.1325
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.8502,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.7383
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-29T14:11:11.589041"
+    }
+  ],
   "summary": {
-    "total_matches": 0,
-    "1x2_accuracy": null,
-    "avg_brier_score": null,
-    "totals_accuracy": null,
-    "btts_accuracy": null,
-    "value_bets": {}
+    "total_matches": 1,
+    "1x2_correct": 1,
+    "1x2_accuracy": 1.0,
+    "avg_brier_score": 0.1127,
+    "totals_correct": 1,
+    "totals_accuracy": 1.0,
+    "btts_correct": 1,
+    "btts_accuracy": 1.0,
+    "value_bets": {},
+    "by_matchday": {
+      "1": {
+        "n": 1,
+        "correct": 1
+      }
+    },
+    "last_5_results": [
+      {
+        "match": "FC Bayern M\u00fcnchen 5-1 VfB Stuttgart",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      }
+    ]
   }
 }
