@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T09:36:34.615159",
+  "last_updated": "2026-08-29T14:11:08.236971",
   "matches_scored": [
     561761,
     561762,
@@ -24,7 +24,11 @@
     561781,
     561782,
     561783,
-    561784
+    561784,
+    561789,
+    561791,
+    561794,
+    561796
   ],
   "results": [
     {
@@ -947,30 +951,179 @@
         }
       ],
       "scored_at": "2026-08-24T09:36:34.615143"
+    },
+    {
+      "fixture_id": 561796,
+      "date": "2026-08-28",
+      "home_team": "Wrexham AFC",
+      "away_team": "Birmingham City FC",
+      "score": "1-2",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.7509,
+        "model_probs": {
+          "home": 0.4091,
+          "draw": 0.2954,
+          "away": 0.2955
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4854,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5455
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-29T14:11:06.841911"
+    },
+    {
+      "fixture_id": 561789,
+      "date": "2026-08-29",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Stoke City FC",
+      "score": "4-1",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.1271,
+        "model_probs": {
+          "home": 0.7096,
+          "draw": 0.1622,
+          "away": 0.1282
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.8027,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6989
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-29T14:11:07.306100"
+    },
+    {
+      "fixture_id": 561791,
+      "date": "2026-08-29",
+      "home_team": "Derby County FC",
+      "away_team": "Swansea City AFC",
+      "score": "0-3",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.7506,
+        "model_probs": {
+          "home": 0.4075,
+          "draw": 0.297,
+          "away": 0.2955
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4798,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5414
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-29T14:11:07.770681"
+    },
+    {
+      "fixture_id": 561794,
+      "date": "2026-08-29",
+      "home_team": "Middlesbrough FC",
+      "away_team": "West Bromwich Albion FC",
+      "score": "3-1",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4788,
+        "model_probs": {
+          "home": 0.4361,
+          "draw": 0.3119,
+          "away": 0.252
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4092,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4781
+      },
+      "value_bets_results": [
+        {
+          "market": "Away Win",
+          "odds": 4.9,
+          "edge_pct": 23.48,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-08-29T14:11:08.236947"
     }
   ],
   "summary": {
-    "total_matches": 24,
-    "1x2_correct": 6,
-    "1x2_accuracy": 0.25,
-    "avg_brier_score": 0.7992,
-    "totals_correct": 8,
-    "totals_accuracy": 0.3333,
-    "btts_correct": 11,
-    "btts_accuracy": 0.4583,
+    "total_matches": 28,
+    "1x2_correct": 8,
+    "1x2_accuracy": 0.2857,
+    "avg_brier_score": 0.7603,
+    "totals_correct": 9,
+    "totals_accuracy": 0.3214,
+    "btts_correct": 13,
+    "btts_accuracy": 0.4643,
     "value_bets": {
-      "total_bets": 9,
+      "total_bets": 10,
       "wins": 3,
-      "win_rate": 0.3333,
-      "total_pnl_units": -2.68,
-      "roi_pct": -29.77,
+      "win_rate": 0.3,
+      "total_pnl_units": -3.68,
+      "roi_pct": -36.79,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 6,
+          "n_bets": 7,
           "wins": 2,
-          "win_rate": 0.3333,
-          "pnl_units": -1.35,
-          "roi_pct": -22.5
+          "win_rate": 0.2857,
+          "pnl_units": -2.35,
+          "roi_pct": -33.57
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -996,38 +1149,42 @@
       "2": {
         "n": 12,
         "correct": 2
+      },
+      "3": {
+        "n": 4,
+        "correct": 2
       }
     },
     "last_5_results": [
-      {
-        "match": "Wrexham AFC 1-1 Watford FC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Blackburn Rovers FC 2-1 Middlesbrough FC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "Southampton FC 3-1 Stoke City FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Queens Park Rangers FC 0-0 Bolton Wanderers FC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "West Bromwich Albion FC 3-1 Burnley FC",
         "predicted": "A",
         "actual": "H",
         "correct": false
+      },
+      {
+        "match": "Wrexham AFC 1-2 Birmingham City FC",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Wolverhampton Wanderers FC 4-1 Stoke City FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Derby County FC 0-3 Swansea City AFC",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Middlesbrough FC 3-1 West Bromwich Albion FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
