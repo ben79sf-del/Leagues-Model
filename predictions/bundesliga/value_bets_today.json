@@ -1,19 +1,31 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "league": "Bundesliga",
-  "generated": "2026-08-29T14:10:46.274607",
-  "count": 2,
+  "generated": "2026-08-30T14:24:05.688339",
+  "count": 4,
   "value_bets": [
     {
-      "match": "TSG 1899 Hoffenheim vs Borussia Dortmund",
-      "date": "2026-09-05",
-      "matchday": 2,
+      "match": "RB Leipzig vs Hamburger SV",
+      "date": "2026-09-13",
+      "matchday": 3,
+      "market": "Draw",
+      "edge_pct": 22.78,
+      "model_prob": 0.2154,
+      "market_prob": 0.1846,
+      "best_odds": 5.7,
+      "kelly_pct": 1.21,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "TSG 1899 Hoffenheim vs VfB Stuttgart",
+      "date": "2026-09-12",
+      "matchday": 3,
       "market": "Away Win",
-      "edge_pct": 23.86,
-      "model_prob": 0.5161,
-      "market_prob": 0.352,
-      "best_odds": 2.4,
-      "kelly_pct": 4.26,
+      "edge_pct": 21.88,
+      "model_prob": 0.4232,
+      "market_prob": 0.3207,
+      "best_odds": 2.88,
+      "kelly_pct": 2.91,
       "rating": "\ud83d\udd25 STRONG"
     },
     {
@@ -21,11 +33,23 @@
       "date": "2026-09-06",
       "matchday": 2,
       "market": "BTTS No",
-      "edge_pct": 17.19,
-      "model_prob": 0.4883,
-      "market_prob": 0.4661,
-      "best_odds": 2.4,
-      "kelly_pct": 3.07,
+      "edge_pct": 17.7,
+      "model_prob": 0.4884,
+      "market_prob": 0.4201,
+      "best_odds": 2.41,
+      "kelly_pct": 3.14,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "TSG 1899 Hoffenheim vs Borussia Dortmund",
+      "date": "2026-09-05",
+      "matchday": 2,
+      "market": "Away Win",
+      "edge_pct": 17.33,
+      "model_prob": 0.5285,
+      "market_prob": 0.3845,
+      "best_odds": 2.22,
+      "kelly_pct": 3.55,
       "rating": "\ud83d\udd25 STRONG"
     }
   ]
