@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T14:11:10.039744",
+  "last_updated": "2026-08-31T16:34:09.461987",
   "matches_scored": [
     564628,
     564629,
@@ -22,7 +22,11 @@
     564646,
     564647,
     564648,
-    564654
+    564649,
+    564653,
+    564654,
+    564655,
+    564656
   ],
   "results": [
     {
@@ -857,17 +861,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-29T14:11:10.039722"
+    },
+    {
+      "fixture_id": 564655,
+      "date": "2026-08-29",
+      "home_team": "Levante UD",
+      "away_team": "Real Betis Balompi\u00e9",
+      "score": "5-2",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.7227,
+        "model_probs": {
+          "home": 0.3134,
+          "draw": 0.2548,
+          "away": 0.4317
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4991,
+        "actual_total_goals": 7
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5374
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-31T16:34:08.157735"
+    },
+    {
+      "fixture_id": 564653,
+      "date": "2026-08-29",
+      "home_team": "Real Sociedad de F\u00fatbol",
+      "away_team": "RCD Espanyol de Barcelona",
+      "score": "2-1",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.3676,
+        "model_probs": {
+          "home": 0.5051,
+          "draw": 0.2359,
+          "away": 0.2589
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5492,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5626
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-31T16:34:08.597111"
+    },
+    {
+      "fixture_id": 564649,
+      "date": "2026-08-29",
+      "home_team": "Sevilla FC",
+      "away_team": "Club Atl\u00e9tico de Madrid",
+      "score": "1-3",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.4559,
+        "model_probs": {
+          "home": 0.3066,
+          "draw": 0.2434,
+          "away": 0.4499
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5466,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5728
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-31T16:34:09.067393"
+    },
+    {
+      "fixture_id": 564656,
+      "date": "2026-08-30",
+      "home_team": "Real Madrid CF",
+      "away_team": "M\u00e1laga CF",
+      "score": "4-0",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.0186,
+        "model_probs": {
+          "home": 0.8952,
+          "draw": 0.085,
+          "away": 0.0198
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6003,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.2223
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-08-31T16:34:09.461962"
     }
   ],
   "summary": {
-    "total_matches": 22,
-    "1x2_correct": 12,
-    "1x2_accuracy": 0.5455,
-    "avg_brier_score": 0.5697,
-    "totals_correct": 10,
-    "totals_accuracy": 0.4545,
-    "btts_correct": 11,
-    "btts_accuracy": 0.5,
+    "total_matches": 26,
+    "1x2_correct": 15,
+    "1x2_accuracy": 0.5769,
+    "avg_brier_score": 0.5423,
+    "totals_correct": 13,
+    "totals_accuracy": 0.5,
+    "btts_correct": 15,
+    "btts_accuracy": 0.5769,
     "value_bets": {
       "total_bets": 7,
       "wins": 3,
@@ -901,40 +1045,40 @@
         "correct": 5
       },
       "3": {
-        "n": 2,
-        "correct": 1
+        "n": 6,
+        "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "Real Madrid CF 4-1 Real Sociedad de F\u00fatbol",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "RC Celta de Vigo 1-2 CA Osasuna",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
-      {
-        "match": "FC Barcelona 2-0 Athletic Club",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Real Racing Club de Santander 3-2 Elche CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Deportivo Alav\u00e9s 1-0 Villarreal CF",
         "predicted": "A",
         "actual": "H",
         "correct": false
+      },
+      {
+        "match": "Levante UD 5-2 Real Betis Balompi\u00e9",
+        "predicted": "A",
+        "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Real Sociedad de F\u00fatbol 2-1 RCD Espanyol de Barcelona",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Sevilla FC 1-3 Club Atl\u00e9tico de Madrid",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Real Madrid CF 4-0 M\u00e1laga CF",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
