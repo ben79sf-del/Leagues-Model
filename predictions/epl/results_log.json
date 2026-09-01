@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T16:33:57.572375",
+  "last_updated": "2026-09-01T14:08:56.893354",
   "matches_scored": [
     560542,
     560543,
@@ -16,6 +16,7 @@
     560554,
     560555,
     560556,
+    560557,
     560558,
     560559,
     560560,
@@ -749,30 +750,74 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-08-31T16:33:57.572346"
+    },
+    {
+      "fixture_id": 560557,
+      "date": "2026-08-31",
+      "home_team": "Aston Villa FC",
+      "away_team": "Arsenal FC",
+      "score": "0-1",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.3051,
+        "model_probs": {
+          "home": 0.1829,
+          "draw": 0.2656,
+          "away": 0.5515
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4727,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4891
+      },
+      "value_bets_results": [
+        {
+          "market": "Home Win",
+          "odds": 7.0,
+          "edge_pct": 28.03,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-01T14:08:56.893333"
     }
   ],
   "summary": {
-    "total_matches": 19,
-    "1x2_correct": 11,
-    "1x2_accuracy": 0.5789,
-    "avg_brier_score": 0.5578,
-    "totals_correct": 14,
-    "totals_accuracy": 0.7368,
-    "btts_correct": 13,
-    "btts_accuracy": 0.6842,
+    "total_matches": 20,
+    "1x2_correct": 12,
+    "1x2_accuracy": 0.6,
+    "avg_brier_score": 0.5452,
+    "totals_correct": 15,
+    "totals_accuracy": 0.75,
+    "btts_correct": 14,
+    "btts_accuracy": 0.7,
     "value_bets": {
-      "total_bets": 7,
+      "total_bets": 8,
       "wins": 3,
-      "win_rate": 0.4286,
-      "total_pnl_units": 2.18,
-      "roi_pct": 31.14,
+      "win_rate": 0.375,
+      "total_pnl_units": 1.18,
+      "roi_pct": 14.75,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 4,
+          "n_bets": 5,
           "wins": 1,
-          "win_rate": 0.25,
-          "pnl_units": 0.8,
-          "roi_pct": 20.0
+          "win_rate": 0.2,
+          "pnl_units": -0.2,
+          "roi_pct": -4.0
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -796,17 +841,11 @@
         "correct": 5
       },
       "2": {
-        "n": 9,
-        "correct": 6
+        "n": 10,
+        "correct": 7
       }
     },
     "last_5_results": [
-      {
-        "match": "Tottenham Hotspur FC 0-2 Newcastle United FC",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "Sunderland AFC 1-0 Fulham FC",
         "predicted": "H",
@@ -829,6 +868,12 @@
         "match": "Manchester United FC 5-2 Ipswich Town FC",
         "predicted": "H",
         "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Aston Villa FC 0-1 Arsenal FC",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
