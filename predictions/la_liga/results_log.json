@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T14:09:02.273990",
+  "last_updated": "2026-09-05T12:36:02.615689",
   "matches_scored": [
     564628,
     564629,
@@ -30,7 +30,9 @@
     564654,
     564655,
     564656,
-    564657
+    564657,
+    564667,
+    564682
   ],
   "results": [
     {
@@ -1145,30 +1147,109 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-01T14:09:02.273970"
+    },
+    {
+      "fixture_id": 564682,
+      "date": "2026-09-03",
+      "home_team": "Real Sociedad de F\u00fatbol",
+      "away_team": "RC Celta de Vigo",
+      "score": "0-0",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8869,
+        "model_probs": {
+          "home": 0.4649,
+          "draw": 0.2371,
+          "away": 0.2979
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5673,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5864
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-05T12:36:02.209197"
+    },
+    {
+      "fixture_id": 564667,
+      "date": "2026-09-04",
+      "home_team": "Real Betis Balompi\u00e9",
+      "away_team": "Real Madrid CF",
+      "score": "1-0",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.8177,
+        "model_probs": {
+          "home": 0.2768,
+          "draw": 0.2328,
+          "away": 0.4904
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.574,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5864
+      },
+      "value_bets_results": [
+        {
+          "market": "Under 3.5",
+          "odds": 1.885,
+          "edge_pct": 22.56,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 0.885
+        }
+      ],
+      "scored_at": "2026-09-05T12:36:02.615670"
     }
   ],
   "summary": {
-    "total_matches": 30,
+    "total_matches": 32,
     "1x2_correct": 17,
-    "1x2_accuracy": 0.5667,
-    "avg_brier_score": 0.5457,
+    "1x2_accuracy": 0.5312,
+    "avg_brier_score": 0.5648,
     "totals_correct": 16,
-    "totals_accuracy": 0.5333,
+    "totals_accuracy": 0.5,
     "btts_correct": 16,
-    "btts_accuracy": 0.5333,
+    "btts_accuracy": 0.5,
     "value_bets": {
-      "total_bets": 7,
-      "wins": 3,
-      "win_rate": 0.4286,
-      "total_pnl_units": -0.65,
-      "roi_pct": -9.29,
+      "total_bets": 8,
+      "wins": 4,
+      "win_rate": 0.5,
+      "total_pnl_units": 0.23,
+      "roi_pct": 2.94,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 5,
-          "wins": 2,
-          "win_rate": 0.4,
-          "pnl_units": -0.85,
-          "roi_pct": -17.0
+          "n_bets": 6,
+          "wins": 3,
+          "win_rate": 0.5,
+          "pnl_units": 0.03,
+          "roi_pct": 0.58
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -1191,21 +1272,17 @@
       "3": {
         "n": 10,
         "correct": 6
+      },
+      "6": {
+        "n": 1,
+        "correct": 0
+      },
+      "4": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Real Madrid CF 4-0 M\u00e1laga CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "RC Deportivo La Coru\u00f1a 3-1 Valencia CF",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
       {
         "match": "RC Celta de Vigo 0-2 Athletic Club",
         "predicted": "H",
@@ -1223,6 +1300,18 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Real Sociedad de F\u00fatbol 0-0 RC Celta de Vigo",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Real Betis Balompi\u00e9 1-0 Real Madrid CF",
+        "predicted": "A",
+        "actual": "H",
+        "correct": false
       }
     ]
   }
