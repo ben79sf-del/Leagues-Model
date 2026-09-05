@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T14:08:56.893354",
+  "last_updated": "2026-09-05T12:35:58.435493",
   "matches_scored": [
     560542,
     560543,
@@ -20,7 +20,8 @@
     560558,
     560559,
     560560,
-    560561
+    560561,
+    560566
   ],
   "results": [
     {
@@ -794,30 +795,74 @@
         }
       ],
       "scored_at": "2026-09-01T14:08:56.893333"
+    },
+    {
+      "fixture_id": 560566,
+      "date": "2026-09-04",
+      "home_team": "Ipswich Town FC",
+      "away_team": "Liverpool FC",
+      "score": "0-2",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.1664,
+        "model_probs": {
+          "home": 0.161,
+          "draw": 0.1721,
+          "away": 0.667
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.8025,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.7228
+      },
+      "value_bets_results": [
+        {
+          "market": "BTTS Yes",
+          "odds": 1.61,
+          "edge_pct": 16.37,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-05T12:35:58.435473"
     }
   ],
   "summary": {
-    "total_matches": 20,
-    "1x2_correct": 12,
-    "1x2_accuracy": 0.6,
-    "avg_brier_score": 0.5452,
+    "total_matches": 21,
+    "1x2_correct": 13,
+    "1x2_accuracy": 0.619,
+    "avg_brier_score": 0.5271,
     "totals_correct": 15,
-    "totals_accuracy": 0.75,
+    "totals_accuracy": 0.7143,
     "btts_correct": 14,
-    "btts_accuracy": 0.7,
+    "btts_accuracy": 0.6667,
     "value_bets": {
-      "total_bets": 8,
+      "total_bets": 9,
       "wins": 3,
-      "win_rate": 0.375,
-      "total_pnl_units": 1.18,
-      "roi_pct": 14.75,
+      "win_rate": 0.3333,
+      "total_pnl_units": 0.18,
+      "roi_pct": 2.0,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 5,
+          "n_bets": 6,
           "wins": 1,
-          "win_rate": 0.2,
-          "pnl_units": -0.2,
-          "roi_pct": -4.0
+          "win_rate": 0.1667,
+          "pnl_units": -1.2,
+          "roi_pct": -20.0
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -843,15 +888,13 @@
       "2": {
         "n": 10,
         "correct": 7
+      },
+      "3": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Sunderland AFC 1-0 Fulham FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Chelsea FC 4-3 Brighton & Hove Albion FC",
         "predicted": "H",
@@ -872,6 +915,12 @@
       },
       {
         "match": "Aston Villa FC 0-1 Arsenal FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Ipswich Town FC 0-2 Liverpool FC",
         "predicted": "A",
         "actual": "A",
         "correct": true
