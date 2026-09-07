@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T12:47:11.146570",
+  "last_updated": "2026-09-07T14:30:44.290648",
   "matches_scored": [
     565776,
     565777,
@@ -11,7 +11,9 @@
     565783,
     565784,
     565785,
+    565786,
     565787,
+    565788,
     565789,
     565790,
     565791,
@@ -605,30 +607,109 @@
         }
       ],
       "scored_at": "2026-09-06T12:47:11.146552"
+    },
+    {
+      "fixture_id": 565788,
+      "date": "2026-09-06",
+      "home_team": "Hamburger SV",
+      "away_team": "1. FSV Mainz 05",
+      "score": "0-5",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.644,
+        "model_probs": {
+          "home": 0.362,
+          "draw": 0.292,
+          "away": 0.346
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4149,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4815
+      },
+      "value_bets_results": [
+        {
+          "market": "BTTS No",
+          "odds": 2.36,
+          "edge_pct": 22.37,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 1.36
+        }
+      ],
+      "scored_at": "2026-09-07T14:30:44.023882"
+    },
+    {
+      "fixture_id": 565786,
+      "date": "2026-09-06",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "FC Augsburg",
+      "score": "1-4",
+      "matchday": 2,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.8997,
+        "model_probs": {
+          "home": 0.5337,
+          "draw": 0.2191,
+          "away": 0.2471
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6701,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6572
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-07T14:30:44.290628"
     }
   ],
   "summary": {
-    "total_matches": 16,
+    "total_matches": 18,
     "1x2_correct": 9,
-    "1x2_accuracy": 0.5625,
-    "avg_brier_score": 0.649,
-    "totals_correct": 13,
-    "totals_accuracy": 0.8125,
-    "btts_correct": 12,
-    "btts_accuracy": 0.75,
+    "1x2_accuracy": 0.5,
+    "avg_brier_score": 0.6626,
+    "totals_correct": 14,
+    "totals_accuracy": 0.7778,
+    "btts_correct": 14,
+    "btts_accuracy": 0.7778,
     "value_bets": {
-      "total_bets": 3,
-      "wins": 0,
-      "win_rate": 0.0,
-      "total_pnl_units": -3.0,
-      "roi_pct": -100.0,
+      "total_bets": 4,
+      "wins": 1,
+      "win_rate": 0.25,
+      "total_pnl_units": -1.64,
+      "roi_pct": -41.0,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 3,
-          "wins": 0,
-          "win_rate": 0.0,
-          "pnl_units": -3.0,
-          "roi_pct": -100.0
+          "n_bets": 4,
+          "wins": 1,
+          "win_rate": 0.25,
+          "pnl_units": -1.64,
+          "roi_pct": -41.0
         }
       }
     },
@@ -638,23 +719,11 @@
         "correct": 5
       },
       "2": {
-        "n": 7,
+        "n": 9,
         "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "TSG 1899 Hoffenheim 2-3 Borussia Dortmund",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "Bayer 04 Leverkusen 4-0 1. FC Union Berlin",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Borussia M\u00f6nchengladbach 3-4 SV 07 Elversberg",
         "predicted": "A",
@@ -671,6 +740,18 @@
         "match": "FC Schalke 04 0-0 FC Bayern M\u00fcnchen",
         "predicted": "A",
         "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Hamburger SV 0-5 1. FSV Mainz 05",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Eintracht Frankfurt 1-4 FC Augsburg",
+        "predicted": "H",
+        "actual": "A",
         "correct": false
       }
     ]
