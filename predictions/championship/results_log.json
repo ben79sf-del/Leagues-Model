@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T12:47:05.634568",
+  "last_updated": "2026-09-07T14:30:38.804676",
   "matches_scored": [
     561761,
     561762,
@@ -59,6 +59,7 @@
     561816,
     561817,
     561818,
+    561819,
     561820
   ],
   "results": [
@@ -2324,17 +2325,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-06T12:47:05.634547"
+    },
+    {
+      "fixture_id": 561819,
+      "date": "2026-09-06",
+      "home_team": "Birmingham City FC",
+      "away_team": "Wolverhampton Wanderers FC",
+      "score": "2-2",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9172,
+        "model_probs": {
+          "home": 0.4343,
+          "draw": 0.2197,
+          "away": 0.346
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7924,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.7804
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-07T14:30:38.804654"
     }
   ],
   "summary": {
-    "total_matches": 59,
+    "total_matches": 60,
     "1x2_correct": 21,
-    "1x2_accuracy": 0.3559,
-    "avg_brier_score": 0.723,
-    "totals_correct": 24,
-    "totals_accuracy": 0.4068,
-    "btts_correct": 32,
-    "btts_accuracy": 0.5424,
+    "1x2_accuracy": 0.35,
+    "avg_brier_score": 0.7262,
+    "totals_correct": 25,
+    "totals_accuracy": 0.4167,
+    "btts_correct": 33,
+    "btts_accuracy": 0.55,
     "value_bets": {
       "total_bets": 22,
       "wins": 7,
@@ -2383,17 +2419,11 @@
         "correct": 4
       },
       "5": {
-        "n": 11,
+        "n": 12,
         "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "West Bromwich Albion FC 1-0 Watford FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "West Ham United FC 3-0 Derby County FC",
         "predicted": "H",
@@ -2414,6 +2444,12 @@
       },
       {
         "match": "Swansea City AFC 0-0 Wrexham AFC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Birmingham City FC 2-2 Wolverhampton Wanderers FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
