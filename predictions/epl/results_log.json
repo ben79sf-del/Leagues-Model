@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T12:46:57.615676",
+  "last_updated": "2026-09-07T14:30:36.589078",
   "matches_scored": [
     560542,
     560543,
@@ -26,8 +26,10 @@
     560564,
     560565,
     560566,
+    560567,
     560568,
     560569,
+    560570,
     560571
   ],
   "results": [
@@ -1127,30 +1129,109 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-06T12:46:57.615657"
+    },
+    {
+      "fixture_id": 560567,
+      "date": "2026-09-06",
+      "home_team": "Everton FC",
+      "away_team": "Manchester United FC",
+      "score": "2-2",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7663,
+        "model_probs": {
+          "home": 0.3382,
+          "draw": 0.2856,
+          "away": 0.3762
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5255,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5792
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-07T14:30:36.289887"
+    },
+    {
+      "fixture_id": 560570,
+      "date": "2026-09-06",
+      "home_team": "Arsenal FC",
+      "away_team": "Chelsea FC",
+      "score": "2-1",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.1664,
+        "model_probs": {
+          "home": 0.6724,
+          "draw": 0.2158,
+          "away": 0.1118
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5491,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4832
+      },
+      "value_bets_results": [
+        {
+          "market": "Home Win",
+          "odds": 1.7692,
+          "edge_pct": 18.96,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 0.7692
+        }
+      ],
+      "scored_at": "2026-09-07T14:30:36.589057"
     }
   ],
   "summary": {
-    "total_matches": 28,
-    "1x2_correct": 14,
+    "total_matches": 30,
+    "1x2_correct": 15,
     "1x2_accuracy": 0.5,
-    "avg_brier_score": 0.5872,
-    "totals_correct": 18,
-    "totals_accuracy": 0.6429,
-    "btts_correct": 18,
-    "btts_accuracy": 0.6429,
+    "avg_brier_score": 0.5791,
+    "totals_correct": 20,
+    "totals_accuracy": 0.6667,
+    "btts_correct": 19,
+    "btts_accuracy": 0.6333,
     "value_bets": {
-      "total_bets": 13,
-      "wins": 5,
-      "win_rate": 0.3846,
-      "total_pnl_units": 0.48,
-      "roi_pct": 3.71,
+      "total_bets": 14,
+      "wins": 6,
+      "win_rate": 0.4286,
+      "total_pnl_units": 1.25,
+      "roi_pct": 8.94,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 10,
-          "wins": 3,
-          "win_rate": 0.3,
-          "pnl_units": -0.9,
-          "roi_pct": -8.98
+          "n_bets": 11,
+          "wins": 4,
+          "win_rate": 0.3636,
+          "pnl_units": -0.13,
+          "roi_pct": -1.17
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -1178,23 +1259,11 @@
         "correct": 7
       },
       "3": {
-        "n": 8,
-        "correct": 2
+        "n": 10,
+        "correct": 3
       }
     },
     "last_5_results": [
-      {
-        "match": "Manchester City FC 1-0 Coventry City FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Brighton & Hove Albion FC 1-1 Leeds United FC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Brentford FC 1-1 Sunderland AFC",
         "predicted": "H",
@@ -1212,6 +1281,18 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Everton FC 2-2 Manchester United FC",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Arsenal FC 2-1 Chelsea FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
