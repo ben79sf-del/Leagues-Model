@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "league": "Bundesliga",
-  "generated": "2026-09-09T13:14:10.989523",
+  "generated": "2026-09-10T13:18:10.496351",
   "count": 8,
   "value_bets": [
     {
@@ -9,10 +9,22 @@
       "date": "2026-09-12",
       "matchday": 3,
       "market": "Under 3.0",
-      "edge_pct": 28.94,
+      "edge_pct": 28.33,
       "model_prob": 0.6511,
-      "market_prob": 0.5049,
-      "best_odds": 1.9804,
+      "market_prob": 0.5074,
+      "best_odds": 1.9709,
+      "kelly_pct": 5.0,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "1. FC K\u00f6ln vs SV Werder Bremen",
+      "date": "2026-09-12",
+      "matchday": 3,
+      "market": "Under 3.0",
+      "edge_pct": 26.9,
+      "model_prob": 0.6345,
+      "market_prob": 0.5,
+      "best_odds": 2.0,
       "kelly_pct": 5.0,
       "rating": "\ud83d\udd25 STRONG"
     },
@@ -21,23 +33,11 @@
       "date": "2026-09-12",
       "matchday": 3,
       "market": "Away Win",
-      "edge_pct": 24.54,
+      "edge_pct": 25.43,
       "model_prob": 0.4448,
-      "market_prob": 0.3507,
-      "best_odds": 2.8,
-      "kelly_pct": 3.41,
-      "rating": "\ud83d\udd25 STRONG"
-    },
-    {
-      "match": "1. FC K\u00f6ln vs SV Werder Bremen",
-      "date": "2026-09-12",
-      "matchday": 3,
-      "market": "Under 3.0",
-      "edge_pct": 24.46,
-      "model_prob": 0.6345,
-      "market_prob": 0.5098,
-      "best_odds": 1.9615,
-      "kelly_pct": 5.0,
+      "market_prob": 0.3509,
+      "best_odds": 2.82,
+      "kelly_pct": 3.49,
       "rating": "\ud83d\udd25 STRONG"
     },
     {
@@ -59,7 +59,7 @@
       "market": "BTTS No",
       "edge_pct": 20.82,
       "model_prob": 0.4594,
-      "market_prob": 0.3934,
+      "market_prob": 0.3931,
       "best_odds": 2.63,
       "kelly_pct": 3.19,
       "rating": "\ud83d\udd25 STRONG"
@@ -77,27 +77,27 @@
       "rating": "\ud83d\udd25 STRONG"
     },
     {
-      "match": "FC Augsburg vs Bayer 04 Leverkusen",
-      "date": "2026-09-12",
-      "matchday": 3,
-      "market": "Home Win",
-      "edge_pct": 17.79,
-      "model_prob": 0.2677,
-      "market_prob": 0.2344,
-      "best_odds": 4.4,
-      "kelly_pct": 1.31,
-      "rating": "\ud83d\udd25 STRONG"
-    },
-    {
       "match": "SV Werder Bremen vs FC Augsburg",
       "date": "2026-09-19",
       "matchday": 4,
       "market": "BTTS No",
       "edge_pct": 15.32,
       "model_prob": 0.4271,
-      "market_prob": 0.3798,
+      "market_prob": 0.3796,
       "best_odds": 2.7,
       "kelly_pct": 2.25,
+      "rating": "\ud83d\udd25 STRONG"
+    },
+    {
+      "match": "FC Augsburg vs Bayer 04 Leverkusen",
+      "date": "2026-09-12",
+      "matchday": 3,
+      "market": "Home Win",
+      "edge_pct": 15.11,
+      "model_prob": 0.2677,
+      "market_prob": 0.2362,
+      "best_odds": 4.3,
+      "kelly_pct": 1.14,
       "rating": "\ud83d\udd25 STRONG"
     }
   ]
