@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T14:30:44.290648",
+  "last_updated": "2026-09-12T12:48:41.343837",
   "matches_scored": [
     565776,
     565777,
@@ -18,7 +18,8 @@
     565790,
     565791,
     565792,
-    565793
+    565793,
+    565797
   ],
   "results": [
     {
@@ -686,17 +687,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-07T14:30:44.290628"
+    },
+    {
+      "fixture_id": 565797,
+      "date": "2026-09-11",
+      "home_team": "1. FC Union Berlin",
+      "away_team": "FC Schalke 04",
+      "score": "1-3",
+      "matchday": 3,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 1.4296,
+        "model_probs": {
+          "home": 0.5746,
+          "draw": 0.3962,
+          "away": 0.0292
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.0804,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.0454
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-12T12:48:41.343816"
     }
   ],
   "summary": {
-    "total_matches": 18,
+    "total_matches": 19,
     "1x2_correct": 9,
-    "1x2_accuracy": 0.5,
-    "avg_brier_score": 0.6626,
+    "1x2_accuracy": 0.4737,
+    "avg_brier_score": 0.703,
     "totals_correct": 14,
-    "totals_accuracy": 0.7778,
+    "totals_accuracy": 0.7368,
     "btts_correct": 14,
-    "btts_accuracy": 0.7778,
+    "btts_accuracy": 0.7368,
     "value_bets": {
       "total_bets": 4,
       "wins": 1,
@@ -721,15 +757,13 @@
       "2": {
         "n": 9,
         "correct": 4
+      },
+      "3": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Borussia M\u00f6nchengladbach 3-4 SV 07 Elversberg",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "SC Paderborn 07 0-1 SC Freiburg",
         "predicted": "D",
@@ -750,6 +784,12 @@
       },
       {
         "match": "Eintracht Frankfurt 1-4 FC Augsburg",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "1. FC Union Berlin 1-3 FC Schalke 04",
         "predicted": "H",
         "actual": "A",
         "correct": false
