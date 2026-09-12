@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T13:13:34.948883",
+  "last_updated": "2026-09-12T12:48:39.334560",
   "matches_scored": [
     564628,
     564629,
@@ -41,6 +41,7 @@
     564665,
     564666,
     564667,
+    564669,
     564682
   ],
   "results": [
@@ -1568,17 +1569,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-08T13:13:34.948856"
+    },
+    {
+      "fixture_id": 564669,
+      "date": "2026-09-11",
+      "home_team": "Sevilla FC",
+      "away_team": "Valencia CF",
+      "score": "1-0",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4515,
+        "model_probs": {
+          "home": 0.4515,
+          "draw": 0.2637,
+          "away": 0.2848
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.464,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5068
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-12T12:48:39.334539"
     }
   ],
   "summary": {
-    "total_matches": 41,
-    "1x2_correct": 21,
-    "1x2_accuracy": 0.5122,
-    "avg_brier_score": 0.5875,
-    "totals_correct": 24,
-    "totals_accuracy": 0.5854,
+    "total_matches": 42,
+    "1x2_correct": 22,
+    "1x2_accuracy": 0.5238,
+    "avg_brier_score": 0.5842,
+    "totals_correct": 25,
+    "totals_accuracy": 0.5952,
     "btts_correct": 21,
-    "btts_accuracy": 0.5122,
+    "btts_accuracy": 0.5,
     "value_bets": {
       "total_bets": 10,
       "wins": 5,
@@ -1622,15 +1658,13 @@
       "4": {
         "n": 10,
         "correct": 4
+      },
+      "5": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Deportivo Alav\u00e9s 5-2 CA Osasuna",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "M\u00e1laga CF 0-0 Levante UD",
         "predicted": "A",
@@ -1654,6 +1688,12 @@
         "predicted": "H",
         "actual": "A",
         "correct": false
+      },
+      {
+        "match": "Sevilla FC 1-0 Valencia CF",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
