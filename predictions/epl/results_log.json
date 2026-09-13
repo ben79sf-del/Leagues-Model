@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T14:30:36.589078",
+  "last_updated": "2026-09-13T13:32:54.358629",
   "matches_scored": [
     560542,
     560543,
@@ -30,7 +30,14 @@
     560568,
     560569,
     560570,
-    560571
+    560571,
+    560572,
+    560573,
+    560574,
+    560575,
+    560576,
+    560577,
+    560581
   ],
   "results": [
     {
@@ -1208,30 +1215,320 @@
         }
       ],
       "scored_at": "2026-09-07T14:30:36.589057"
+    },
+    {
+      "fixture_id": 560572,
+      "date": "2026-09-12",
+      "home_team": "Crystal Palace FC",
+      "away_team": "Ipswich Town FC",
+      "score": "2-3",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 1.1353,
+        "model_probs": {
+          "home": 0.6215,
+          "draw": 0.2164,
+          "away": 0.162
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6474,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6056
+      },
+      "value_bets_results": [
+        {
+          "market": "Home Win",
+          "odds": 2.0,
+          "edge_pct": 24.3,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-13T13:32:52.170881"
+    },
+    {
+      "fixture_id": 560573,
+      "date": "2026-09-12",
+      "home_team": "Liverpool FC",
+      "away_team": "Fulham FC",
+      "score": "0-0",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9459,
+        "model_probs": {
+          "home": 0.5755,
+          "draw": 0.2384,
+          "away": 0.1861
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.599,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5872
+      },
+      "value_bets_results": [
+        {
+          "market": "Away Win",
+          "odds": 6.4,
+          "edge_pct": 19.1,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-13T13:32:52.552701"
+    },
+    {
+      "fixture_id": 560574,
+      "date": "2026-09-12",
+      "home_team": "Aston Villa FC",
+      "away_team": "Nottingham Forest FC",
+      "score": "1-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.751,
+        "model_probs": {
+          "home": 0.4074,
+          "draw": 0.2973,
+          "away": 0.2953
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4707,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5332
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-13T13:32:52.908165"
+    },
+    {
+      "fixture_id": 560576,
+      "date": "2026-09-12",
+      "home_team": "AFC Bournemouth",
+      "away_team": "Brentford FC",
+      "score": "2-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7927,
+        "model_probs": {
+          "home": 0.4235,
+          "draw": 0.2766,
+          "away": 0.3
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.549,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5926
+      },
+      "value_bets_results": [
+        {
+          "market": "Under 3.0",
+          "odds": 1.8547,
+          "edge_pct": 25.12,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-13T13:32:53.262496"
+    },
+    {
+      "fixture_id": 560581,
+      "date": "2026-09-12",
+      "home_team": "Chelsea FC",
+      "away_team": "Hull City AFC",
+      "score": "2-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7182,
+        "model_probs": {
+          "home": 0.012,
+          "draw": 0.3949,
+          "away": 0.5932
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.0748,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.0223
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-13T13:32:53.619965"
+    },
+    {
+      "fixture_id": 560575,
+      "date": "2026-09-12",
+      "home_team": "Tottenham Hotspur FC",
+      "away_team": "Everton FC",
+      "score": "0-0",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7214,
+        "model_probs": {
+          "home": 0.3024,
+          "draw": 0.3083,
+          "away": 0.3893
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4341,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.506
+      },
+      "value_bets_results": [
+        {
+          "market": "BTTS No",
+          "odds": 2.4,
+          "edge_pct": 18.56,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": true,
+          "pnl_units": 1.4
+        }
+      ],
+      "scored_at": "2026-09-13T13:32:53.978636"
+    },
+    {
+      "fixture_id": 560577,
+      "date": "2026-09-12",
+      "home_team": "Sunderland AFC",
+      "away_team": "Arsenal FC",
+      "score": "0-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.2929,
+        "model_probs": {
+          "home": 0.1391,
+          "draw": 0.2936,
+          "away": 0.5672
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.3465,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.3676
+      },
+      "value_bets_results": [
+        {
+          "market": "Draw",
+          "odds": 4.0,
+          "edge_pct": 17.44,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-13T13:32:54.358605"
     }
   ],
   "summary": {
-    "total_matches": 30,
-    "1x2_correct": 15,
-    "1x2_accuracy": 0.5,
-    "avg_brier_score": 0.5791,
-    "totals_correct": 20,
-    "totals_accuracy": 0.6667,
-    "btts_correct": 19,
-    "btts_accuracy": 0.6333,
+    "total_matches": 37,
+    "1x2_correct": 16,
+    "1x2_accuracy": 0.4324,
+    "avg_brier_score": 0.6144,
+    "totals_correct": 24,
+    "totals_accuracy": 0.6486,
+    "btts_correct": 23,
+    "btts_accuracy": 0.6216,
     "value_bets": {
-      "total_bets": 14,
-      "wins": 6,
-      "win_rate": 0.4286,
-      "total_pnl_units": 1.25,
-      "roi_pct": 8.94,
+      "total_bets": 19,
+      "wins": 7,
+      "win_rate": 0.3684,
+      "total_pnl_units": -1.35,
+      "roi_pct": -7.1,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 11,
-          "wins": 4,
-          "win_rate": 0.3636,
-          "pnl_units": -0.13,
-          "roi_pct": -1.17
+          "n_bets": 16,
+          "wins": 5,
+          "win_rate": 0.3125,
+          "pnl_units": -2.73,
+          "roi_pct": -17.05
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -1261,37 +1558,41 @@
       "3": {
         "n": 10,
         "correct": 3
+      },
+      "4": {
+        "n": 7,
+        "correct": 1
       }
     },
     "last_5_results": [
       {
-        "match": "Brentford FC 1-1 Sunderland AFC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Fulham FC 2-3 Crystal Palace FC",
+        "match": "Aston Villa FC 1-2 Nottingham Forest FC",
         "predicted": "H",
         "actual": "A",
         "correct": false
       },
       {
-        "match": "Hull City AFC 0-0 Aston Villa FC",
+        "match": "AFC Bournemouth 2-2 Brentford FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
       },
       {
-        "match": "Everton FC 2-2 Manchester United FC",
+        "match": "Chelsea FC 2-2 Hull City AFC",
         "predicted": "A",
         "actual": "D",
         "correct": false
       },
       {
-        "match": "Arsenal FC 2-1 Chelsea FC",
-        "predicted": "H",
-        "actual": "H",
+        "match": "Tottenham Hotspur FC 0-0 Everton FC",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Sunderland AFC 0-2 Arsenal FC",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
