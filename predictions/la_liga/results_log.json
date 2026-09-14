@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T13:33:06.287358",
+  "last_updated": "2026-09-14T15:31:40.566663",
   "matches_scored": [
     564628,
     564629,
@@ -41,9 +41,13 @@
     564665,
     564666,
     564667,
+    564668,
     564669,
     564670,
+    564672,
     564673,
+    564674,
+    564675,
     564676,
     564677,
     564682
@@ -1757,30 +1761,188 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-13T13:33:06.287338"
+    },
+    {
+      "fixture_id": 564672,
+      "date": "2026-09-13",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "M\u00e1laga CF",
+      "score": "1-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.0718,
+        "model_probs": {
+          "home": 0.7077,
+          "draw": 0.2458,
+          "away": 0.0466
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.2356,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.137
+      },
+      "value_bets_results": [
+        {
+          "market": "Home Win",
+          "odds": 1.8,
+          "edge_pct": 27.39,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-14T15:31:39.058074"
+    },
+    {
+      "fixture_id": 564675,
+      "date": "2026-09-13",
+      "home_team": "Levante UD",
+      "away_team": "FC Barcelona",
+      "score": "2-4",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.1362,
+        "model_probs": {
+          "home": 0.1337,
+          "draw": 0.167,
+          "away": 0.6993
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6989,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6002
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-14T15:31:39.543259"
+    },
+    {
+      "fixture_id": 564668,
+      "date": "2026-09-13",
+      "home_team": "Getafe CF",
+      "away_team": "RC Deportivo La Coru\u00f1a",
+      "score": "1-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7609,
+        "model_probs": {
+          "home": 0.3147,
+          "draw": 0.2893,
+          "away": 0.396
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.3855,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4505
+      },
+      "value_bets_results": [
+        {
+          "market": "Away Win",
+          "odds": 3.25,
+          "edge_pct": 28.7,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-14T15:31:40.074534"
+    },
+    {
+      "fixture_id": 564674,
+      "date": "2026-09-13",
+      "home_team": "Real Sociedad de F\u00fatbol",
+      "away_team": "Club Atl\u00e9tico de Madrid",
+      "score": "0-3",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.5654,
+        "model_probs": {
+          "home": 0.3707,
+          "draw": 0.2385,
+          "away": 0.3908
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6052,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6261
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-14T15:31:40.566640"
     }
   ],
   "summary": {
-    "total_matches": 46,
-    "1x2_correct": 24,
-    "1x2_accuracy": 0.5217,
-    "avg_brier_score": 0.5876,
-    "totals_correct": 27,
-    "totals_accuracy": 0.587,
-    "btts_correct": 24,
-    "btts_accuracy": 0.5217,
+    "total_matches": 50,
+    "1x2_correct": 26,
+    "1x2_accuracy": 0.52,
+    "avg_brier_score": 0.5912,
+    "totals_correct": 31,
+    "totals_accuracy": 0.62,
+    "btts_correct": 25,
+    "btts_accuracy": 0.5,
     "value_bets": {
-      "total_bets": 11,
+      "total_bets": 13,
       "wins": 6,
-      "win_rate": 0.5455,
-      "total_pnl_units": 4.3,
-      "roi_pct": 39.14,
+      "win_rate": 0.4615,
+      "total_pnl_units": 2.3,
+      "roi_pct": 17.73,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 9,
+          "n_bets": 11,
           "wins": 5,
-          "win_rate": 0.5556,
-          "pnl_units": 4.11,
-          "roi_pct": 45.61
+          "win_rate": 0.4545,
+          "pnl_units": 2.11,
+          "roi_pct": 19.14
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -1813,39 +1975,39 @@
         "correct": 4
       },
       "5": {
-        "n": 5,
-        "correct": 3
+        "n": 9,
+        "correct": 5
       }
     },
     "last_5_results": [
       {
-        "match": "Sevilla FC 1-0 Valencia CF",
+        "match": "Real Madrid CF 4-1 Rayo Vallecano de Madrid",
         "predicted": "H",
         "actual": "H",
         "correct": true
       },
       {
-        "match": "Real Racing Club de Santander 2-1 Deportivo Alav\u00e9s",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "CA Osasuna 0-2 RCD Espanyol de Barcelona",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
-      {
-        "match": "Athletic Club 1-1 Elche CF",
+        "match": "RC Celta de Vigo 1-1 M\u00e1laga CF",
         "predicted": "H",
         "actual": "D",
         "correct": false
       },
       {
-        "match": "Real Madrid CF 4-1 Rayo Vallecano de Madrid",
-        "predicted": "H",
-        "actual": "H",
+        "match": "Levante UD 2-4 FC Barcelona",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Getafe CF 1-1 RC Deportivo La Coru\u00f1a",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Real Sociedad de F\u00fatbol 0-3 Club Atl\u00e9tico de Madrid",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
