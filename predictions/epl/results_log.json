@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T15:31:35.691882",
+  "last_updated": "2026-09-15T13:57:11.185299",
   "matches_scored": [
     560542,
     560543,
@@ -38,6 +38,7 @@
     560576,
     560577,
     560578,
+    560579,
     560580,
     560581
   ],
@@ -1586,17 +1587,52 @@
         }
       ],
       "scored_at": "2026-09-14T15:31:35.691819"
+    },
+    {
+      "fixture_id": 560579,
+      "date": "2026-09-14",
+      "home_team": "Leeds United FC",
+      "away_team": "Newcastle United FC",
+      "score": "4-1",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5767,
+        "model_probs": {
+          "home": 0.3802,
+          "draw": 0.294,
+          "away": 0.3258
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5076,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5671
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-15T13:57:11.185252"
     }
   ],
   "summary": {
-    "total_matches": 39,
-    "1x2_correct": 18,
-    "1x2_accuracy": 0.4615,
-    "avg_brier_score": 0.597,
-    "totals_correct": 24,
-    "totals_accuracy": 0.6154,
-    "btts_correct": 24,
-    "btts_accuracy": 0.6154,
+    "total_matches": 40,
+    "1x2_correct": 19,
+    "1x2_accuracy": 0.475,
+    "avg_brier_score": 0.5965,
+    "totals_correct": 25,
+    "totals_accuracy": 0.625,
+    "btts_correct": 25,
+    "btts_accuracy": 0.625,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -1641,17 +1677,11 @@
         "correct": 3
       },
       "4": {
-        "n": 9,
-        "correct": 3
+        "n": 10,
+        "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "Chelsea FC 2-2 Hull City AFC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Tottenham Hotspur FC 0-0 Everton FC",
         "predicted": "A",
@@ -1674,6 +1704,12 @@
         "match": "Manchester United FC 0-1 Manchester City FC",
         "predicted": "A",
         "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Leeds United FC 4-1 Newcastle United FC",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
