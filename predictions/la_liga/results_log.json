@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T15:31:40.566663",
+  "last_updated": "2026-09-15T13:57:15.603641",
   "matches_scored": [
     564628,
     564629,
@@ -44,6 +44,7 @@
     564668,
     564669,
     564670,
+    564671,
     564672,
     564673,
     564674,
@@ -1919,17 +1920,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-14T15:31:40.566640"
+    },
+    {
+      "fixture_id": 564671,
+      "date": "2026-09-14",
+      "home_team": "Villarreal CF",
+      "away_team": "Real Betis Balompi\u00e9",
+      "score": "1-2",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.9107,
+        "model_probs": {
+          "home": 0.535,
+          "draw": 0.2231,
+          "away": 0.2419
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6284,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6211
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-15T13:57:15.603621"
     }
   ],
   "summary": {
-    "total_matches": 50,
+    "total_matches": 51,
     "1x2_correct": 26,
-    "1x2_accuracy": 0.52,
-    "avg_brier_score": 0.5912,
-    "totals_correct": 31,
-    "totals_accuracy": 0.62,
-    "btts_correct": 25,
-    "btts_accuracy": 0.5,
+    "1x2_accuracy": 0.5098,
+    "avg_brier_score": 0.5975,
+    "totals_correct": 32,
+    "totals_accuracy": 0.6275,
+    "btts_correct": 26,
+    "btts_accuracy": 0.5098,
     "value_bets": {
       "total_bets": 13,
       "wins": 6,
@@ -1975,17 +2011,11 @@
         "correct": 4
       },
       "5": {
-        "n": 9,
+        "n": 10,
         "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Real Madrid CF 4-1 Rayo Vallecano de Madrid",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "RC Celta de Vigo 1-1 M\u00e1laga CF",
         "predicted": "H",
@@ -2009,6 +2039,12 @@
         "predicted": "A",
         "actual": "A",
         "correct": true
+      },
+      {
+        "match": "Villarreal CF 1-2 Real Betis Balompi\u00e9",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
