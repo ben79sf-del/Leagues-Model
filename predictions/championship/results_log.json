@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T13:33:02.588769",
+  "last_updated": "2026-09-16T13:41:52.803720",
   "matches_scored": [
     561761,
     561762,
@@ -65,7 +65,9 @@
     561822,
     561823,
     561824,
+    561825,
     561827,
+    561828,
     561829,
     561830,
     561831,
@@ -3224,30 +3226,109 @@
         }
       ],
       "scored_at": "2026-09-13T13:33:02.588742"
+    },
+    {
+      "fixture_id": 561825,
+      "date": "2026-09-15",
+      "home_team": "Middlesbrough FC",
+      "away_team": "Millwall FC",
+      "score": "2-2",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8035,
+        "model_probs": {
+          "home": 0.4725,
+          "draw": 0.2797,
+          "away": 0.2479
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5099,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5515
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-16T13:41:52.074640"
+    },
+    {
+      "fixture_id": 561828,
+      "date": "2026-09-15",
+      "home_team": "Bristol City FC",
+      "away_team": "Lincoln City FC",
+      "score": "0-1",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.8518,
+        "model_probs": {
+          "home": 0.3973,
+          "draw": 0.3558,
+          "away": 0.2468
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.2772,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.3688
+      },
+      "value_bets_results": [
+        {
+          "market": "Draw",
+          "odds": 3.65,
+          "edge_pct": 29.87,
+          "rating": "\ud83d\udd25 STRONG",
+          "won": false,
+          "pnl_units": -1.0
+        }
+      ],
+      "scored_at": "2026-09-16T13:41:52.803694"
     }
   ],
   "summary": {
-    "total_matches": 81,
+    "total_matches": 83,
     "1x2_correct": 30,
-    "1x2_accuracy": 0.3704,
-    "avg_brier_score": 0.6884,
-    "totals_correct": 36,
-    "totals_accuracy": 0.4444,
-    "btts_correct": 43,
-    "btts_accuracy": 0.5309,
+    "1x2_accuracy": 0.3614,
+    "avg_brier_score": 0.6917,
+    "totals_correct": 38,
+    "totals_accuracy": 0.4578,
+    "btts_correct": 45,
+    "btts_accuracy": 0.5422,
     "value_bets": {
-      "total_bets": 34,
+      "total_bets": 35,
       "wins": 10,
-      "win_rate": 0.2941,
-      "total_pnl_units": -14.37,
-      "roi_pct": -42.25,
+      "win_rate": 0.2857,
+      "total_pnl_units": -15.37,
+      "roi_pct": -43.9,
       "by_rating": {
         "\ud83d\udd25 STRONG": {
-          "n_bets": 31,
+          "n_bets": 32,
           "wins": 9,
-          "win_rate": 0.2903,
-          "pnl_units": -13.04,
-          "roi_pct": -42.06
+          "win_rate": 0.2812,
+          "pnl_units": -14.04,
+          "roi_pct": -43.87
         },
         "\u2705 GOOD": {
           "n_bets": 2,
@@ -3287,7 +3368,7 @@
         "correct": 5
       },
       "6": {
-        "n": 9,
+        "n": 11,
         "correct": 4
       },
       "7": {
@@ -3296,18 +3377,6 @@
       }
     },
     "last_5_results": [
-      {
-        "match": "Charlton Athletic FC 0-0 Portsmouth FC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Watford FC 1-2 Stoke City FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Swansea City AFC 3-1 Burnley FC",
         "predicted": "H",
@@ -3325,6 +3394,18 @@
         "predicted": "A",
         "actual": "A",
         "correct": true
+      },
+      {
+        "match": "Middlesbrough FC 2-2 Millwall FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Bristol City FC 0-1 Lincoln City FC",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
