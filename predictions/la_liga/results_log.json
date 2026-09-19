@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T13:03:56.708267",
+  "last_updated": "2026-09-19T13:01:31.754869",
   "matches_scored": [
     564628,
     564629,
@@ -59,7 +59,8 @@
     564683,
     564684,
     564686,
-    564687
+    564687,
+    564692
   ],
   "results": [
     {
@@ -2252,17 +2253,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-18T13:03:56.708241"
+    },
+    {
+      "fixture_id": 564692,
+      "date": "2026-09-18",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Elche CF",
+      "score": "1-3",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.8705,
+        "model_probs": {
+          "home": 0.5048,
+          "draw": 0.2417,
+          "away": 0.2535
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5308,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5484
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-19T13:01:31.754849"
     }
   ],
   "summary": {
-    "total_matches": 59,
+    "total_matches": 60,
     "1x2_correct": 32,
-    "1x2_accuracy": 0.5424,
-    "avg_brier_score": 0.5762,
-    "totals_correct": 37,
-    "totals_accuracy": 0.6271,
-    "btts_correct": 30,
-    "btts_accuracy": 0.5085,
+    "1x2_accuracy": 0.5333,
+    "avg_brier_score": 0.5811,
+    "totals_correct": 38,
+    "totals_accuracy": 0.6333,
+    "btts_correct": 31,
+    "btts_accuracy": 0.5167,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -2310,15 +2346,13 @@
       "5": {
         "n": 10,
         "correct": 5
+      },
+      "7": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "RC Deportivo La Coru\u00f1a 0-1 Sevilla FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Club Atl\u00e9tico de Madrid 4-0 CA Osasuna",
         "predicted": "H",
@@ -2342,6 +2376,12 @@
         "predicted": "A",
         "actual": "A",
         "correct": true
+      },
+      {
+        "match": "RCD Espanyol de Barcelona 1-3 Elche CF",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
