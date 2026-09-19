@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T13:41:52.803720",
+  "last_updated": "2026-09-19T13:01:29.432489",
   "matches_scored": [
     561761,
     561762,
@@ -83,7 +83,8 @@
     561841,
     561842,
     561843,
-    561844
+    561844,
+    561845
   ],
   "results": [
     {
@@ -3305,17 +3306,52 @@
         }
       ],
       "scored_at": "2026-09-16T13:41:52.803694"
+    },
+    {
+      "fixture_id": 561845,
+      "date": "2026-09-18",
+      "home_team": "Bristol City FC",
+      "away_team": "Watford FC",
+      "score": "1-0",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4091,
+        "model_probs": {
+          "home": 0.4788,
+          "draw": 0.2892,
+          "away": 0.232
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4597,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5077
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-19T13:01:29.432468"
     }
   ],
   "summary": {
-    "total_matches": 83,
-    "1x2_correct": 30,
-    "1x2_accuracy": 0.3614,
-    "avg_brier_score": 0.6917,
-    "totals_correct": 38,
-    "totals_accuracy": 0.4578,
+    "total_matches": 84,
+    "1x2_correct": 31,
+    "1x2_accuracy": 0.369,
+    "avg_brier_score": 0.6884,
+    "totals_correct": 39,
+    "totals_accuracy": 0.4643,
     "btts_correct": 45,
-    "btts_accuracy": 0.5422,
+    "btts_accuracy": 0.5357,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -3374,15 +3410,13 @@
       "7": {
         "n": 12,
         "correct": 5
+      },
+      "8": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Swansea City AFC 3-1 Burnley FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Middlesbrough FC 4-3 Norwich City FC",
         "predicted": "H",
@@ -3406,6 +3440,12 @@
         "predicted": "H",
         "actual": "A",
         "correct": false
+      },
+      {
+        "match": "Bristol City FC 1-0 Watford FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
