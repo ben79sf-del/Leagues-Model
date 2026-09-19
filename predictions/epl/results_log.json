@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T13:57:11.185299",
+  "last_updated": "2026-09-19T13:01:25.960368",
   "matches_scored": [
     560542,
     560543,
@@ -40,7 +40,8 @@
     560578,
     560579,
     560580,
-    560581
+    560581,
+    560591
   ],
   "results": [
     {
@@ -1622,17 +1623,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-15T13:57:11.185252"
+    },
+    {
+      "fixture_id": 560591,
+      "date": "2026-09-18",
+      "home_team": "Brentford FC",
+      "away_team": "Chelsea FC",
+      "score": "3-0",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.479,
+        "model_probs": {
+          "home": 0.4358,
+          "draw": 0.2542,
+          "away": 0.31
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6536,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6731
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-19T13:01:25.960348"
     }
   ],
   "summary": {
-    "total_matches": 40,
-    "1x2_correct": 19,
-    "1x2_accuracy": 0.475,
-    "avg_brier_score": 0.5965,
-    "totals_correct": 25,
-    "totals_accuracy": 0.625,
+    "total_matches": 41,
+    "1x2_correct": 20,
+    "1x2_accuracy": 0.4878,
+    "avg_brier_score": 0.5936,
+    "totals_correct": 26,
+    "totals_accuracy": 0.6341,
     "btts_correct": 25,
-    "btts_accuracy": 0.625,
+    "btts_accuracy": 0.6098,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -1679,15 +1715,13 @@
       "4": {
         "n": 10,
         "correct": 4
+      },
+      "5": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Tottenham Hotspur FC 0-0 Everton FC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Sunderland AFC 0-2 Arsenal FC",
         "predicted": "A",
@@ -1708,6 +1742,12 @@
       },
       {
         "match": "Leeds United FC 4-1 Newcastle United FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Brentford FC 3-0 Chelsea FC",
         "predicted": "H",
         "actual": "H",
         "correct": true
