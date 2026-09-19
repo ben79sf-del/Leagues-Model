@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T15:31:42.825144",
+  "last_updated": "2026-09-19T13:01:33.971123",
   "matches_scored": [
     565776,
     565777,
@@ -27,7 +27,8 @@
     565799,
     565800,
     565801,
-    565802
+    565802,
+    565804
   ],
   "results": [
     {
@@ -1046,17 +1047,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-14T15:31:42.825124"
+    },
+    {
+      "fixture_id": 565804,
+      "date": "2026-09-18",
+      "home_team": "FC Bayern M\u00fcnchen",
+      "away_team": "1. FC Union Berlin",
+      "score": "7-0",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.0137,
+        "model_probs": {
+          "home": 0.9068,
+          "draw": 0.0654,
+          "away": 0.0278
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.853,
+        "actual_total_goals": 7
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5198
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-19T13:01:33.971105"
     }
   ],
   "summary": {
-    "total_matches": 27,
-    "1x2_correct": 13,
-    "1x2_accuracy": 0.4815,
-    "avg_brier_score": 0.6626,
-    "totals_correct": 20,
-    "totals_accuracy": 0.7407,
+    "total_matches": 28,
+    "1x2_correct": 14,
+    "1x2_accuracy": 0.5,
+    "avg_brier_score": 0.6394,
+    "totals_correct": 21,
+    "totals_accuracy": 0.75,
     "btts_correct": 20,
-    "btts_accuracy": 0.7407,
+    "btts_accuracy": 0.7143,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1085,15 +1121,13 @@
       "3": {
         "n": 9,
         "correct": 4
+      },
+      "4": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "1. FSV Mainz 05 1-3 Eintracht Frankfurt",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "SC Freiburg 5-0 Borussia M\u00f6nchengladbach",
         "predicted": "H",
@@ -1116,6 +1150,12 @@
         "match": "SV 07 Elversberg 1-2 FC Bayern M\u00fcnchen",
         "predicted": "A",
         "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "FC Bayern M\u00fcnchen 7-0 1. FC Union Berlin",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
