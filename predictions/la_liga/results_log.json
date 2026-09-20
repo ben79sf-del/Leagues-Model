@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T13:01:31.754869",
+  "last_updated": "2026-09-20T13:35:54.583892",
   "matches_scored": [
     564628,
     564629,
@@ -60,7 +60,11 @@
     564684,
     564686,
     564687,
-    564692
+    564690,
+    564691,
+    564692,
+    564693,
+    564694
   ],
   "results": [
     {
@@ -2288,17 +2292,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-19T13:01:31.754849"
+    },
+    {
+      "fixture_id": 564693,
+      "date": "2026-09-19",
+      "home_team": "CA Osasuna",
+      "away_team": "Rayo Vallecano de Madrid",
+      "score": "1-1",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.796,
+        "model_probs": {
+          "home": 0.4029,
+          "draw": 0.273,
+          "away": 0.3242
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4403,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4944
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:52.897206"
+    },
+    {
+      "fixture_id": 564691,
+      "date": "2026-09-19",
+      "home_team": "Athletic Club",
+      "away_team": "Deportivo Alav\u00e9s",
+      "score": "0-0",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8331,
+        "model_probs": {
+          "home": 0.4706,
+          "draw": 0.2642,
+          "away": 0.2651
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4484,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4892
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:53.467415"
+    },
+    {
+      "fixture_id": 564694,
+      "date": "2026-09-19",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Real Racing Club de Santander",
+      "score": "5-0",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2685,
+        "model_probs": {
+          "home": 0.5777,
+          "draw": 0.1881,
+          "away": 0.2341
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7685,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.7246
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:54.009248"
+    },
+    {
+      "fixture_id": 564690,
+      "date": "2026-09-19",
+      "home_team": "Sevilla FC",
+      "away_team": "FC Barcelona",
+      "score": "1-3",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.1527,
+        "model_probs": {
+          "home": 0.1437,
+          "draw": 0.1749,
+          "away": 0.6814
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6771,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5919
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:54.583869"
     }
   ],
   "summary": {
-    "total_matches": 60,
-    "1x2_correct": 32,
-    "1x2_accuracy": 0.5333,
-    "avg_brier_score": 0.5811,
-    "totals_correct": 38,
-    "totals_accuracy": 0.6333,
-    "btts_correct": 31,
-    "btts_accuracy": 0.5167,
+    "total_matches": 64,
+    "1x2_correct": 34,
+    "1x2_accuracy": 0.5312,
+    "avg_brier_score": 0.5768,
+    "totals_correct": 42,
+    "totals_accuracy": 0.6562,
+    "btts_correct": 33,
+    "btts_accuracy": 0.5156,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -2348,40 +2492,40 @@
         "correct": 5
       },
       "7": {
-        "n": 1,
-        "correct": 0
+        "n": 5,
+        "correct": 2
       }
     },
     "last_5_results": [
-      {
-        "match": "Club Atl\u00e9tico de Madrid 4-0 CA Osasuna",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "FC Barcelona 7-2 Real Racing Club de Santander",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Real Betis Balompi\u00e9 1-0 Getafe CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "M\u00e1laga CF 1-3 Villarreal CF",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "RCD Espanyol de Barcelona 1-3 Elche CF",
         "predicted": "H",
         "actual": "A",
         "correct": false
+      },
+      {
+        "match": "CA Osasuna 1-1 Rayo Vallecano de Madrid",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Athletic Club 0-0 Deportivo Alav\u00e9s",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "RC Celta de Vigo 5-0 Real Racing Club de Santander",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Sevilla FC 1-3 FC Barcelona",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
       }
     ]
   }
