@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T13:01:33.971123",
+  "last_updated": "2026-09-20T13:35:58.152158",
   "matches_scored": [
     565776,
     565777,
@@ -28,7 +28,12 @@
     565800,
     565801,
     565802,
-    565804
+    565804,
+    565806,
+    565808,
+    565809,
+    565810,
+    565811
   ],
   "results": [
     {
@@ -1082,17 +1087,192 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-19T13:01:33.971105"
+    },
+    {
+      "fixture_id": 565808,
+      "date": "2026-09-19",
+      "home_team": "Hamburger SV",
+      "away_team": "1. FC K\u00f6ln",
+      "score": "2-1",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.6236,
+        "model_probs": {
+          "home": 0.3586,
+          "draw": 0.2638,
+          "away": 0.3776
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5522,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5922
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:56.374843"
+    },
+    {
+      "fixture_id": 565809,
+      "date": "2026-09-19",
+      "home_team": "Borussia M\u00f6nchengladbach",
+      "away_team": "1. FSV Mainz 05",
+      "score": "3-4",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.5796,
+        "model_probs": {
+          "home": 0.3473,
+          "draw": 0.2728,
+          "away": 0.3799
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5139,
+        "actual_total_goals": 7
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5625
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:56.835064"
+    },
+    {
+      "fixture_id": 565810,
+      "date": "2026-09-19",
+      "home_team": "SV Werder Bremen",
+      "away_team": "FC Augsburg",
+      "score": "3-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.636,
+        "model_probs": {
+          "home": 0.3515,
+          "draw": 0.2734,
+          "away": 0.3751
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5116,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5609
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:57.258595"
+    },
+    {
+      "fixture_id": 565811,
+      "date": "2026-09-19",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "SC Freiburg",
+      "score": "2-2",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9055,
+        "model_probs": {
+          "home": 0.4287,
+          "draw": 0.2245,
+          "away": 0.3468
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7245,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.7221
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:57.723124"
+    },
+    {
+      "fixture_id": 565806,
+      "date": "2026-09-19",
+      "home_team": "VfB Stuttgart",
+      "away_team": "Borussia Dortmund",
+      "score": "0-1",
+      "matchday": 4,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.5266,
+        "model_probs": {
+          "home": 0.3484,
+          "draw": 0.2409,
+          "away": 0.4108
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6516,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.667
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-20T13:35:58.152138"
     }
   ],
   "summary": {
-    "total_matches": 28,
-    "1x2_correct": 14,
-    "1x2_accuracy": 0.5,
-    "avg_brier_score": 0.6394,
-    "totals_correct": 21,
-    "totals_accuracy": 0.75,
-    "btts_correct": 20,
-    "btts_accuracy": 0.7143,
+    "total_matches": 33,
+    "1x2_correct": 16,
+    "1x2_accuracy": 0.4848,
+    "avg_brier_score": 0.6417,
+    "totals_correct": 25,
+    "totals_accuracy": 0.7576,
+    "btts_correct": 24,
+    "btts_accuracy": 0.7273,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1123,39 +1303,39 @@
         "correct": 4
       },
       "4": {
-        "n": 1,
-        "correct": 1
+        "n": 6,
+        "correct": 3
       }
     },
     "last_5_results": [
       {
-        "match": "SC Freiburg 5-0 Borussia M\u00f6nchengladbach",
-        "predicted": "H",
+        "match": "Hamburger SV 2-1 1. FC K\u00f6ln",
+        "predicted": "A",
         "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "1. FC K\u00f6ln 1-1 SV Werder Bremen",
-        "predicted": "H",
-        "actual": "D",
         "correct": false
       },
       {
-        "match": "RB Leipzig 5-0 Hamburger SV",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "SV 07 Elversberg 1-2 FC Bayern M\u00fcnchen",
+        "match": "Borussia M\u00f6nchengladbach 3-4 1. FSV Mainz 05",
         "predicted": "A",
         "actual": "A",
         "correct": true
       },
       {
-        "match": "FC Bayern M\u00fcnchen 7-0 1. FC Union Berlin",
-        "predicted": "H",
+        "match": "SV Werder Bremen 3-2 FC Augsburg",
+        "predicted": "A",
         "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Eintracht Frankfurt 2-2 SC Freiburg",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "VfB Stuttgart 0-1 Borussia Dortmund",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
