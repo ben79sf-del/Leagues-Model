@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T13:35:41.065434",
+  "last_updated": "2026-09-21T15:16:34.637936",
   "matches_scored": [
     560542,
     560543,
@@ -41,11 +41,15 @@
     560579,
     560580,
     560581,
+    560582,
+    560583,
     560584,
+    560585,
     560586,
     560587,
     560588,
     560589,
+    560590,
     560591
   ],
   "results": [
@@ -1838,17 +1842,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-20T13:35:41.065413"
+    },
+    {
+      "fixture_id": 560582,
+      "date": "2026-09-20",
+      "home_team": "AFC Bournemouth",
+      "away_team": "Liverpool FC",
+      "score": "0-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.6354,
+        "model_probs": {
+          "home": 0.3775,
+          "draw": 0.2704,
+          "away": 0.3521
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6003,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6376
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-21T15:16:33.231064"
+    },
+    {
+      "fixture_id": 560585,
+      "date": "2026-09-20",
+      "home_team": "Leeds United FC",
+      "away_team": "Crystal Palace FC",
+      "score": "0-0",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8782,
+        "model_probs": {
+          "home": 0.5471,
+          "draw": 0.2632,
+          "away": 0.1897
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5283,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5413
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-21T15:16:33.695424"
+    },
+    {
+      "fixture_id": 560590,
+      "date": "2026-09-20",
+      "home_team": "Manchester City FC",
+      "away_team": "Sunderland AFC",
+      "score": "5-3",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.182,
+        "model_probs": {
+          "home": 0.6608,
+          "draw": 0.2381,
+          "away": 0.1011
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4574,
+        "actual_total_goals": 8
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4075
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-21T15:16:34.179879"
+    },
+    {
+      "fixture_id": 560583,
+      "date": "2026-09-20",
+      "home_team": "Fulham FC",
+      "away_team": "Manchester United FC",
+      "score": "1-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.791,
+        "model_probs": {
+          "home": 0.2954,
+          "draw": 0.2778,
+          "away": 0.4268
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5323,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.578
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-21T15:16:34.637910"
     }
   ],
   "summary": {
-    "total_matches": 46,
-    "1x2_correct": 22,
-    "1x2_accuracy": 0.4783,
-    "avg_brier_score": 0.6246,
+    "total_matches": 50,
+    "1x2_correct": 23,
+    "1x2_accuracy": 0.46,
+    "avg_brier_score": 0.6244,
     "totals_correct": 27,
-    "totals_accuracy": 0.587,
-    "btts_correct": 28,
-    "btts_accuracy": 0.6087,
+    "totals_accuracy": 0.54,
+    "btts_correct": 29,
+    "btts_accuracy": 0.58,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -1897,39 +2041,39 @@
         "correct": 4
       },
       "5": {
-        "n": 6,
-        "correct": 3
+        "n": 10,
+        "correct": 4
       }
     },
     "last_5_results": [
       {
-        "match": "Tottenham Hotspur FC 2-3 Aston Villa FC",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "Everton FC 1-0 Ipswich Town FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Brighton & Hove Albion FC 3-0 Arsenal FC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "Newcastle United FC 2-1 Hull City AFC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
         "match": "Nottingham Forest FC 0-1 Coventry City FC",
         "predicted": "H",
         "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "AFC Bournemouth 0-1 Liverpool FC",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Leeds United FC 0-0 Crystal Palace FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Manchester City FC 5-3 Sunderland AFC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Fulham FC 1-1 Manchester United FC",
+        "predicted": "A",
+        "actual": "D",
         "correct": false
       }
     ]
