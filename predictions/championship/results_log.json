@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T13:35:50.949470",
+  "last_updated": "2026-09-21T15:16:37.474258",
   "matches_scored": [
     561761,
     561762,
@@ -89,6 +89,7 @@
     561847,
     561848,
     561849,
+    561850,
     561851,
     561852,
     561853,
@@ -3701,17 +3702,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-20T13:35:50.949444"
+    },
+    {
+      "fixture_id": 561850,
+      "date": "2026-09-20",
+      "home_team": "Norwich City FC",
+      "away_team": "Bolton Wanderers FC",
+      "score": "3-4",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 1.2309,
+        "model_probs": {
+          "home": 0.6589,
+          "draw": 0.2089,
+          "away": 0.1322
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6114,
+        "actual_total_goals": 7
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.55
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-09-21T15:16:37.474232"
     }
   ],
   "summary": {
-    "total_matches": 94,
+    "total_matches": 95,
     "1x2_correct": 33,
-    "1x2_accuracy": 0.3511,
-    "avg_brier_score": 0.6925,
-    "totals_correct": 42,
-    "totals_accuracy": 0.4468,
-    "btts_correct": 51,
-    "btts_accuracy": 0.5426,
+    "1x2_accuracy": 0.3474,
+    "avg_brier_score": 0.6982,
+    "totals_correct": 43,
+    "totals_accuracy": 0.4526,
+    "btts_correct": 52,
+    "btts_accuracy": 0.5474,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -3772,17 +3808,11 @@
         "correct": 5
       },
       "8": {
-        "n": 11,
+        "n": 12,
         "correct": 3
       }
     },
     "last_5_results": [
-      {
-        "match": "Queens Park Rangers FC 2-2 Preston North End FC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Portsmouth FC 2-2 Blackburn Rovers FC",
         "predicted": "H",
@@ -3806,6 +3836,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Norwich City FC 3-4 Bolton Wanderers FC",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
