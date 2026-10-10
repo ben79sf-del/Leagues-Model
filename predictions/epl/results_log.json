@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T15:16:34.637936",
+  "last_updated": "2026-10-10T14:34:48.882821",
   "matches_scored": [
     560542,
     560543,
@@ -50,7 +50,8 @@
     560588,
     560589,
     560590,
-    560591
+    560591,
+    560593
   ],
   "results": [
     {
@@ -1982,17 +1983,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-21T15:16:34.637910"
+    },
+    {
+      "fixture_id": 560593,
+      "date": "2026-10-10",
+      "home_team": "Arsenal FC",
+      "away_team": "Leeds United FC",
+      "score": "2-1",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2739,
+        "model_probs": {
+          "home": 0.5796,
+          "draw": 0.2767,
+          "away": 0.1437
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.3923,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4029
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-10T14:34:48.882796"
     }
   ],
   "summary": {
-    "total_matches": 50,
-    "1x2_correct": 23,
-    "1x2_accuracy": 0.46,
-    "avg_brier_score": 0.6244,
+    "total_matches": 51,
+    "1x2_correct": 24,
+    "1x2_accuracy": 0.4706,
+    "avg_brier_score": 0.6175,
     "totals_correct": 27,
-    "totals_accuracy": 0.54,
+    "totals_accuracy": 0.5294,
     "btts_correct": 29,
-    "btts_accuracy": 0.58,
+    "btts_accuracy": 0.5686,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -2043,15 +2079,13 @@
       "5": {
         "n": 10,
         "correct": 4
+      },
+      "6": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Nottingham Forest FC 0-1 Coventry City FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "AFC Bournemouth 0-1 Liverpool FC",
         "predicted": "H",
@@ -2075,6 +2109,12 @@
         "predicted": "A",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Arsenal FC 2-1 Leeds United FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
