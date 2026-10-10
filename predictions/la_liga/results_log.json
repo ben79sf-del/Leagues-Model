@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T15:16:41.991809",
+  "last_updated": "2026-10-10T14:34:58.086271",
   "matches_scored": [
     564628,
     564629,
@@ -69,7 +69,8 @@
     564694,
     564695,
     564696,
-    564697
+    564697,
+    564706
   ],
   "results": [
     {
@@ -2612,17 +2613,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-21T15:16:41.991786"
+    },
+    {
+      "fixture_id": 564706,
+      "date": "2026-10-09",
+      "home_team": "M\u00e1laga CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "score": "1-1",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7139,
+        "model_probs": {
+          "home": 0.1844,
+          "draw": 0.3321,
+          "away": 0.4835
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.2329,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.2897
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-10T14:34:58.086247"
     }
   ],
   "summary": {
-    "total_matches": 69,
+    "total_matches": 70,
     "1x2_correct": 36,
-    "1x2_accuracy": 0.5217,
-    "avg_brier_score": 0.5747,
-    "totals_correct": 45,
-    "totals_accuracy": 0.6522,
+    "1x2_accuracy": 0.5143,
+    "avg_brier_score": 0.5767,
+    "totals_correct": 46,
+    "totals_accuracy": 0.6571,
     "btts_correct": 38,
-    "btts_accuracy": 0.5507,
+    "btts_accuracy": 0.5429,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -2674,15 +2710,13 @@
       "7": {
         "n": 10,
         "correct": 4
+      },
+      "8": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Getafe CF 1-0 M\u00e1laga CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Club Atl\u00e9tico de Madrid 2-1 Real Madrid CF",
         "predicted": "A",
@@ -2705,6 +2739,12 @@
         "match": "Valencia CF 2-3 Real Sociedad de F\u00fatbol",
         "predicted": "H",
         "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "M\u00e1laga CF 1-1 RCD Espanyol de Barcelona",
+        "predicted": "A",
+        "actual": "D",
         "correct": false
       }
     ]
