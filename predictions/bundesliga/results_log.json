@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T15:16:45.197739",
+  "last_updated": "2026-10-10T14:35:01.094583",
   "matches_scored": [
     565776,
     565777,
@@ -36,7 +36,8 @@
     565808,
     565809,
     565810,
-    565811
+    565811,
+    565820
   ],
   "results": [
     {
@@ -1370,17 +1371,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-09-21T15:16:45.197715"
+    },
+    {
+      "fixture_id": 565820,
+      "date": "2026-10-09",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "score": "2-2",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.2703,
+        "model_probs": {
+          "home": 0.7517,
+          "draw": 0.1644,
+          "away": 0.0839
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6057,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4639
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-10T14:35:01.094564"
     }
   ],
   "summary": {
-    "total_matches": 36,
+    "total_matches": 37,
     "1x2_correct": 17,
-    "1x2_accuracy": 0.4722,
-    "avg_brier_score": 0.6634,
-    "totals_correct": 25,
-    "totals_accuracy": 0.6944,
+    "1x2_accuracy": 0.4595,
+    "avg_brier_score": 0.6798,
+    "totals_correct": 26,
+    "totals_accuracy": 0.7027,
     "btts_correct": 24,
-    "btts_accuracy": 0.6667,
+    "btts_accuracy": 0.6486,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1413,15 +1449,13 @@
       "4": {
         "n": 9,
         "correct": 4
+      },
+      "5": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Eintracht Frankfurt 2-2 SC Freiburg",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "VfB Stuttgart 0-1 Borussia Dortmund",
         "predicted": "A",
@@ -1444,6 +1478,12 @@
         "match": "SC Paderborn 07 3-1 TSG 1899 Hoffenheim",
         "predicted": "A",
         "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Borussia Dortmund 2-2 SV Werder Bremen",
+        "predicted": "H",
+        "actual": "D",
         "correct": false
       }
     ]
