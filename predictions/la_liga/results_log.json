@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T15:23:05.528784",
+  "last_updated": "2026-10-12T18:10:28.504617",
   "matches_scored": [
     564628,
     564629,
@@ -72,9 +72,12 @@
     564697,
     564699,
     564700,
+    564701,
     564702,
     564703,
-    564706
+    564705,
+    564706,
+    564707
   ],
   "results": [
     {
@@ -2792,17 +2795,122 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-11T15:23:05.528762"
+    },
+    {
+      "fixture_id": 564707,
+      "date": "2026-10-11",
+      "home_team": "Real Sociedad de F\u00fatbol",
+      "away_team": "RC Deportivo La Coru\u00f1a",
+      "score": "3-2",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4627,
+        "model_probs": {
+          "home": 0.4457,
+          "draw": 0.2467,
+          "away": 0.3076
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5779,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6024
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-12T18:10:27.128246"
+    },
+    {
+      "fixture_id": 564701,
+      "date": "2026-10-11",
+      "home_team": "Real Betis Balompi\u00e9",
+      "away_team": "CA Osasuna",
+      "score": "5-2",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2149,
+        "model_probs": {
+          "home": 0.6234,
+          "draw": 0.2214,
+          "away": 0.1552
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5262,
+        "actual_total_goals": 7
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4938
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-12T18:10:27.817309"
+    },
+    {
+      "fixture_id": 564705,
+      "date": "2026-10-11",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Valencia CF",
+      "score": "2-2",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9311,
+        "model_probs": {
+          "home": 0.4275,
+          "draw": 0.2131,
+          "away": 0.3594
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7562,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.7449
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-12T18:10:28.504595"
     }
   ],
   "summary": {
-    "total_matches": 74,
-    "1x2_correct": 39,
-    "1x2_accuracy": 0.527,
-    "avg_brier_score": 0.5664,
-    "totals_correct": 47,
-    "totals_accuracy": 0.6351,
-    "btts_correct": 40,
-    "btts_accuracy": 0.5405,
+    "total_matches": 77,
+    "1x2_correct": 41,
+    "1x2_accuracy": 0.5325,
+    "avg_brier_score": 0.5652,
+    "totals_correct": 50,
+    "totals_accuracy": 0.6494,
+    "btts_correct": 42,
+    "btts_accuracy": 0.5455,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -2856,29 +2964,11 @@
         "correct": 4
       },
       "8": {
-        "n": 5,
-        "correct": 3
+        "n": 8,
+        "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "M\u00e1laga CF 1-1 RCD Espanyol de Barcelona",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Deportivo Alav\u00e9s 1-2 Club Atl\u00e9tico de Madrid",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "FC Barcelona 3-0 Getafe CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Real Madrid CF 1-0 Villarreal CF",
         "predicted": "H",
@@ -2887,6 +2977,24 @@
       },
       {
         "match": "Elche CF 0-0 RC Celta de Vigo",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Real Sociedad de F\u00fatbol 3-2 RC Deportivo La Coru\u00f1a",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Real Betis Balompi\u00e9 5-2 CA Osasuna",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Real Racing Club de Santander 2-2 Valencia CF",
         "predicted": "H",
         "actual": "D",
         "correct": false
