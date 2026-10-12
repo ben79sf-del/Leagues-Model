@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T15:23:10.449547",
+  "last_updated": "2026-10-12T18:10:31.207962",
   "matches_scored": [
     565776,
     565777,
@@ -39,7 +39,9 @@
     565811,
     565812,
     565813,
+    565814,
     565815,
+    565816,
     565817,
     565818,
     565819,
@@ -1622,17 +1624,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-11T15:23:10.449529"
+    },
+    {
+      "fixture_id": 565814,
+      "date": "2026-10-11",
+      "home_team": "1. FC K\u00f6ln",
+      "away_team": "Borussia M\u00f6nchengladbach",
+      "score": "2-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.461,
+        "model_probs": {
+          "home": 0.4474,
+          "draw": 0.2379,
+          "away": 0.3147
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.641,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6536
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-12T18:10:30.668341"
+    },
+    {
+      "fixture_id": 565816,
+      "date": "2026-10-11",
+      "home_team": "SC Freiburg",
+      "away_team": "FC Schalke 04",
+      "score": "2-1",
+      "matchday": 5,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5197,
+        "model_probs": {
+          "home": 0.4143,
+          "draw": 0.3437,
+          "away": 0.2419
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.2398,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.3188
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-12T18:10:31.207944"
     }
   ],
   "summary": {
-    "total_matches": 43,
-    "1x2_correct": 20,
-    "1x2_accuracy": 0.4651,
-    "avg_brier_score": 0.6965,
-    "totals_correct": 31,
-    "totals_accuracy": 0.7209,
-    "btts_correct": 28,
-    "btts_accuracy": 0.6512,
+    "total_matches": 45,
+    "1x2_correct": 22,
+    "1x2_accuracy": 0.4889,
+    "avg_brier_score": 0.6874,
+    "totals_correct": 32,
+    "totals_accuracy": 0.7111,
+    "btts_correct": 29,
+    "btts_accuracy": 0.6444,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1667,23 +1739,11 @@
         "correct": 4
       },
       "5": {
-        "n": 7,
-        "correct": 3
+        "n": 9,
+        "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "SC Paderborn 07 0-2 VfB Stuttgart",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "1. FC Union Berlin 1-0 SV 07 Elversberg",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
       {
         "match": "TSG 1899 Hoffenheim 2-3 Hamburger SV",
         "predicted": "H",
@@ -1698,6 +1758,18 @@
       },
       {
         "match": "RB Leipzig 6-0 Eintracht Frankfurt",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "1. FC K\u00f6ln 2-1 Borussia M\u00f6nchengladbach",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "SC Freiburg 2-1 FC Schalke 04",
         "predicted": "H",
         "actual": "H",
         "correct": true
