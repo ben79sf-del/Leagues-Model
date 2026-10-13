@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T18:10:28.504617",
+  "last_updated": "2026-10-13T16:20:18.897177",
   "matches_scored": [
     564628,
     564629,
@@ -75,6 +75,7 @@
     564701,
     564702,
     564703,
+    564704,
     564705,
     564706,
     564707
@@ -2900,17 +2901,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-12T18:10:28.504595"
+    },
+    {
+      "fixture_id": 564704,
+      "date": "2026-10-12",
+      "home_team": "Levante UD",
+      "away_team": "Sevilla FC",
+      "score": "3-3",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8488,
+        "model_probs": {
+          "home": 0.4567,
+          "draw": 0.254,
+          "away": 0.2893
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5418,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5722
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-13T16:20:18.897158"
     }
   ],
   "summary": {
-    "total_matches": 77,
+    "total_matches": 78,
     "1x2_correct": 41,
-    "1x2_accuracy": 0.5325,
-    "avg_brier_score": 0.5652,
-    "totals_correct": 50,
-    "totals_accuracy": 0.6494,
-    "btts_correct": 42,
-    "btts_accuracy": 0.5455,
+    "1x2_accuracy": 0.5256,
+    "avg_brier_score": 0.5688,
+    "totals_correct": 51,
+    "totals_accuracy": 0.6538,
+    "btts_correct": 43,
+    "btts_accuracy": 0.5513,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -2964,17 +3000,11 @@
         "correct": 4
       },
       "8": {
-        "n": 8,
+        "n": 9,
         "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Real Madrid CF 1-0 Villarreal CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Elche CF 0-0 RC Celta de Vigo",
         "predicted": "H",
@@ -2995,6 +3025,12 @@
       },
       {
         "match": "Real Racing Club de Santander 2-2 Valencia CF",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Levante UD 3-3 Sevilla FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
