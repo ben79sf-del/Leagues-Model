@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T13:50:27.613460",
+  "last_updated": "2026-10-16T13:26:36.590280",
   "matches_scored": [
     561761,
     561762,
@@ -115,7 +115,11 @@
     561873,
     561874,
     561875,
-    561876
+    561876,
+    561877,
+    561878,
+    561879,
+    561880
   ],
   "results": [
     {
@@ -4457,17 +4461,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-14T13:50:27.613431"
+    },
+    {
+      "fixture_id": 561877,
+      "date": "2026-10-14",
+      "home_team": "Portsmouth FC",
+      "away_team": "Sheffield United FC",
+      "score": "3-2",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.6849,
+        "model_probs": {
+          "home": 0.3276,
+          "draw": 0.278,
+          "away": 0.3943
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4909,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5437
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-16T13:26:33.859669"
+    },
+    {
+      "fixture_id": 561879,
+      "date": "2026-10-14",
+      "home_team": "Norwich City FC",
+      "away_team": "Southampton FC",
+      "score": "0-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.3918,
+        "model_probs": {
+          "home": 0.2853,
+          "draw": 0.2246,
+          "away": 0.4901
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6985,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.693
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-16T13:26:34.730030"
+    },
+    {
+      "fixture_id": 561880,
+      "date": "2026-10-14",
+      "home_team": "Queens Park Rangers FC",
+      "away_team": "Derby County FC",
+      "score": "4-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4968,
+        "model_probs": {
+          "home": 0.4245,
+          "draw": 0.2846,
+          "away": 0.2909
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4547,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.511
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-16T13:26:35.605446"
+    },
+    {
+      "fixture_id": 561878,
+      "date": "2026-10-14",
+      "home_team": "Lincoln City FC",
+      "away_team": "West Ham United FC",
+      "score": "0-6",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.2384,
+        "model_probs": {
+          "home": 0.1605,
+          "draw": 0.2358,
+          "away": 0.6037
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5115,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4938
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-16T13:26:36.590253"
     }
   ],
   "summary": {
-    "total_matches": 115,
-    "1x2_correct": 41,
-    "1x2_accuracy": 0.3565,
-    "avg_brier_score": 0.6914,
-    "totals_correct": 51,
-    "totals_accuracy": 0.4435,
-    "btts_correct": 62,
-    "btts_accuracy": 0.5391,
+    "total_matches": 119,
+    "1x2_correct": 44,
+    "1x2_accuracy": 0.3697,
+    "avg_brier_score": 0.6833,
+    "totals_correct": 52,
+    "totals_accuracy": 0.437,
+    "btts_correct": 65,
+    "btts_accuracy": 0.5462,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -4536,37 +4680,37 @@
         "correct": 5
       },
       "10": {
-        "n": 8,
-        "correct": 3
+        "n": 12,
+        "correct": 6
       }
     },
     "last_5_results": [
       {
-        "match": "Cardiff City FC 5-1 Watford FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Burnley FC 2-2 Charlton Athletic FC",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Bristol City FC 0-1 Blackburn Rovers FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
-      {
-        "match": "Birmingham City FC 4-0 Preston North End FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
         "match": "Stoke City FC 2-3 Middlesbrough FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Portsmouth FC 3-2 Sheffield United FC",
+        "predicted": "A",
+        "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Norwich City FC 0-1 Southampton FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Queens Park Rangers FC 4-1 Derby County FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Lincoln City FC 0-6 West Ham United FC",
         "predicted": "A",
         "actual": "A",
         "correct": true
