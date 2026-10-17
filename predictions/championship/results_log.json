@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T13:26:36.590280",
+  "last_updated": "2026-10-17T12:22:30.922473",
   "matches_scored": [
     561761,
     561762,
@@ -119,7 +119,8 @@
     561877,
     561878,
     561879,
-    561880
+    561880,
+    561883
   ],
   "results": [
     {
@@ -4601,17 +4602,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-16T13:26:36.590253"
+    },
+    {
+      "fixture_id": 561883,
+      "date": "2026-10-16",
+      "home_team": "Burnley FC",
+      "away_team": "Wolverhampton Wanderers FC",
+      "score": "1-2",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.56,
+        "model_probs": {
+          "home": 0.3742,
+          "draw": 0.2312,
+          "away": 0.3946
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6849,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6919
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-17T12:22:30.922450"
     }
   ],
   "summary": {
-    "total_matches": 119,
-    "1x2_correct": 44,
-    "1x2_accuracy": 0.3697,
-    "avg_brier_score": 0.6833,
-    "totals_correct": 52,
-    "totals_accuracy": 0.437,
-    "btts_correct": 65,
-    "btts_accuracy": 0.5462,
+    "total_matches": 120,
+    "1x2_correct": 45,
+    "1x2_accuracy": 0.375,
+    "avg_brier_score": 0.6823,
+    "totals_correct": 53,
+    "totals_accuracy": 0.4417,
+    "btts_correct": 66,
+    "btts_accuracy": 0.55,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -4682,15 +4718,13 @@
       "10": {
         "n": 12,
         "correct": 6
+      },
+      "11": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Stoke City FC 2-3 Middlesbrough FC",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "Portsmouth FC 3-2 Sheffield United FC",
         "predicted": "A",
@@ -4711,6 +4745,12 @@
       },
       {
         "match": "Lincoln City FC 0-6 West Ham United FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Burnley FC 1-2 Wolverhampton Wanderers FC",
         "predicted": "A",
         "actual": "A",
         "correct": true
