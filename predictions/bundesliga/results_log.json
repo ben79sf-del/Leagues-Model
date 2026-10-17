@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T18:10:31.207962",
+  "last_updated": "2026-10-17T12:22:35.073110",
   "matches_scored": [
     565776,
     565777,
@@ -45,7 +45,8 @@
     565817,
     565818,
     565819,
-    565820
+    565820,
+    565828
   ],
   "results": [
     {
@@ -1694,17 +1695,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-12T18:10:31.207944"
+    },
+    {
+      "fixture_id": 565828,
+      "date": "2026-10-16",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC K\u00f6ln",
+      "score": "1-0",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2943,
+        "model_probs": {
+          "home": 0.5576,
+          "draw": 0.2017,
+          "away": 0.2406
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.7379,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.7062
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-17T12:22:35.073090"
     }
   ],
   "summary": {
-    "total_matches": 45,
-    "1x2_correct": 22,
-    "1x2_accuracy": 0.4889,
-    "avg_brier_score": 0.6874,
+    "total_matches": 46,
+    "1x2_correct": 23,
+    "1x2_accuracy": 0.5,
+    "avg_brier_score": 0.6788,
     "totals_correct": 32,
-    "totals_accuracy": 0.7111,
+    "totals_accuracy": 0.6957,
     "btts_correct": 29,
-    "btts_accuracy": 0.6444,
+    "btts_accuracy": 0.6304,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1741,15 +1777,13 @@
       "5": {
         "n": 9,
         "correct": 5
+      },
+      "6": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "TSG 1899 Hoffenheim 2-3 Hamburger SV",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "FC Augsburg 2-2 FC Bayern M\u00fcnchen",
         "predicted": "A",
@@ -1770,6 +1804,12 @@
       },
       {
         "match": "SC Freiburg 2-1 FC Schalke 04",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Eintracht Frankfurt 1-0 1. FC K\u00f6ln",
         "predicted": "H",
         "actual": "H",
         "correct": true
