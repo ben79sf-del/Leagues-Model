@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T13:09:59.391040",
+  "last_updated": "2026-10-19T16:02:57.466967",
   "matches_scored": [
     560542,
     560543,
@@ -63,7 +63,11 @@
     560601,
     560602,
     560603,
+    560604,
+    560605,
     560607,
+    560608,
+    560609,
     560610,
     560611
   ],
@@ -2522,17 +2526,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-18T13:09:59.391020"
+    },
+    {
+      "fixture_id": 560604,
+      "date": "2026-10-18",
+      "home_team": "AFC Bournemouth",
+      "away_team": "Sunderland AFC",
+      "score": "2-0",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.3949,
+        "model_probs": {
+          "home": 0.4874,
+          "draw": 0.276,
+          "away": 0.2366
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5046,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5419
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:02:55.062802"
+    },
+    {
+      "fixture_id": 560605,
+      "date": "2026-10-18",
+      "home_team": "Leeds United FC",
+      "away_team": "Manchester United FC",
+      "score": "1-1",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7614,
+        "model_probs": {
+          "home": 0.3894,
+          "draw": 0.2886,
+          "away": 0.322
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5006,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5578
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:02:55.845537"
+    },
+    {
+      "fixture_id": 560609,
+      "date": "2026-10-18",
+      "home_team": "Brighton & Hove Albion FC",
+      "away_team": "Crystal Palace FC",
+      "score": "5-0",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2051,
+        "model_probs": {
+          "home": 0.6324,
+          "draw": 0.2188,
+          "away": 0.1487
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6064,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5627
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:02:56.679715"
+    },
+    {
+      "fixture_id": 560608,
+      "date": "2026-10-18",
+      "home_team": "Nottingham Forest FC",
+      "away_team": "Arsenal FC",
+      "score": "0-1",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.3196,
+        "model_probs": {
+          "home": 0.175,
+          "draw": 0.2824,
+          "away": 0.5426
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.3957,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4246
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:02:57.466942"
     }
   ],
   "summary": {
-    "total_matches": 65,
-    "1x2_correct": 28,
-    "1x2_accuracy": 0.4308,
-    "avg_brier_score": 0.6223,
-    "totals_correct": 35,
-    "totals_accuracy": 0.5385,
-    "btts_correct": 38,
-    "btts_accuracy": 0.5846,
+    "total_matches": 69,
+    "1x2_correct": 31,
+    "1x2_accuracy": 0.4493,
+    "avg_brier_score": 0.6106,
+    "totals_correct": 37,
+    "totals_accuracy": 0.5362,
+    "btts_correct": 40,
+    "btts_accuracy": 0.5797,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -2589,40 +2733,40 @@
         "correct": 4
       },
       "7": {
-        "n": 5,
-        "correct": 1
+        "n": 9,
+        "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "Everton FC 0-2 Chelsea FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
-      {
-        "match": "Fulham FC 1-0 Hull City AFC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "Manchester City FC 3-2 Ipswich Town FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Brentford FC 1-2 Liverpool FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Newcastle United FC 0-1 Aston Villa FC",
         "predicted": "H",
         "actual": "A",
         "correct": false
+      },
+      {
+        "match": "AFC Bournemouth 2-0 Sunderland AFC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Leeds United FC 1-1 Manchester United FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Brighton & Hove Albion FC 5-0 Crystal Palace FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Nottingham Forest FC 0-1 Arsenal FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
       }
     ]
   }
