@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T13:10:19.927120",
+  "last_updated": "2026-10-19T16:03:09.711669",
   "matches_scored": [
     565776,
     565777,
@@ -51,6 +51,8 @@
     565823,
     565824,
     565825,
+    565826,
+    565827,
     565828,
     565829
   ],
@@ -1946,17 +1948,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-18T13:10:19.927103"
+    },
+    {
+      "fixture_id": 565827,
+      "date": "2026-10-18",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Freiburg",
+      "score": "2-1",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2202,
+        "model_probs": {
+          "home": 0.6168,
+          "draw": 0.1912,
+          "away": 0.1919
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7015,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6507
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:03:09.034903"
+    },
+    {
+      "fixture_id": 565826,
+      "date": "2026-10-18",
+      "home_team": "Borussia M\u00f6nchengladbach",
+      "away_team": "TSG 1899 Hoffenheim",
+      "score": "1-2",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.5832,
+        "model_probs": {
+          "home": 0.396,
+          "draw": 0.2191,
+          "away": 0.3849
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.709,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.7068
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-19T16:03:09.711646"
     }
   ],
   "summary": {
-    "total_matches": 52,
-    "1x2_correct": 25,
-    "1x2_accuracy": 0.4808,
-    "avg_brier_score": 0.6763,
-    "totals_correct": 35,
-    "totals_accuracy": 0.6731,
-    "btts_correct": 32,
-    "btts_accuracy": 0.6154,
+    "total_matches": 54,
+    "1x2_correct": 26,
+    "1x2_accuracy": 0.4815,
+    "avg_brier_score": 0.6661,
+    "totals_correct": 37,
+    "totals_accuracy": 0.6852,
+    "btts_correct": 34,
+    "btts_accuracy": 0.6296,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -1995,23 +2067,11 @@
         "correct": 5
       },
       "6": {
-        "n": 7,
-        "correct": 3
+        "n": 9,
+        "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "Hamburger SV 1-0 VfB Stuttgart",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "SV Werder Bremen 2-2 SC Paderborn 07",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "SV 07 Elversberg 4-3 FC Augsburg",
         "predicted": "H",
@@ -2029,6 +2089,18 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Bayer 04 Leverkusen 2-1 SC Freiburg",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Borussia M\u00f6nchengladbach 1-2 TSG 1899 Hoffenheim",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
       }
     ]
   }
