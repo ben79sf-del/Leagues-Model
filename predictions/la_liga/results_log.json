@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T16:03:06.921770",
+  "last_updated": "2026-10-20T13:59:01.787912",
   "matches_scored": [
     564628,
     564629,
@@ -87,7 +87,8 @@
     564713,
     564714,
     564715,
-    564716
+    564716,
+    564717
   ],
   "results": [
     {
@@ -3260,17 +3261,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-19T16:03:06.921746"
+    },
+    {
+      "fixture_id": 564717,
+      "date": "2026-10-19",
+      "home_team": "Getafe CF",
+      "away_team": "Rayo Vallecano de Madrid",
+      "score": "1-1",
+      "matchday": 9,
+      "scored_1x2": {
+        "predicted_outcome": "D",
+        "actual_outcome": "D",
+        "correct": true,
+        "brier_score": 0.5913,
+        "model_probs": {
+          "home": 0.3319,
+          "draw": 0.3725,
+          "away": 0.2956
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.2074,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.3012
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-20T13:59:01.787888"
     }
   ],
   "summary": {
-    "total_matches": 87,
-    "1x2_correct": 47,
-    "1x2_accuracy": 0.5402,
-    "avg_brier_score": 0.5608,
-    "totals_correct": 55,
-    "totals_accuracy": 0.6322,
+    "total_matches": 88,
+    "1x2_correct": 48,
+    "1x2_accuracy": 0.5455,
+    "avg_brier_score": 0.5611,
+    "totals_correct": 56,
+    "totals_accuracy": 0.6364,
     "btts_correct": 47,
-    "btts_accuracy": 0.5402,
+    "btts_accuracy": 0.5341,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -3328,17 +3364,11 @@
         "correct": 5
       },
       "9": {
-        "n": 9,
-        "correct": 6
+        "n": 10,
+        "correct": 7
       }
     },
     "last_5_results": [
-      {
-        "match": "Valencia CF 0-0 Athletic Club",
-        "predicted": "H",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "CA Osasuna 2-0 Real Racing Club de Santander",
         "predicted": "H",
@@ -3361,6 +3391,12 @@
         "match": "Real Madrid CF 4-1 Sevilla FC",
         "predicted": "H",
         "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Getafe CF 1-1 Rayo Vallecano de Madrid",
+        "predicted": "D",
+        "actual": "D",
         "correct": true
       }
     ]
