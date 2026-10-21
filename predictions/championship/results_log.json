@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T13:10:12.784857",
+  "last_updated": "2026-10-21T13:58:24.041822",
   "matches_scored": [
     561761,
     561762,
@@ -66,6 +66,7 @@
     561823,
     561824,
     561825,
+    561826,
     561827,
     561828,
     561829,
@@ -5033,17 +5034,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-18T13:10:12.784835"
+    },
+    {
+      "fixture_id": 561826,
+      "date": "2026-10-20",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Portsmouth FC",
+      "score": "1-1",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.9866,
+        "model_probs": {
+          "home": 0.5839,
+          "draw": 0.2206,
+          "away": 0.1954
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5865,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5671
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-21T13:58:24.041795"
     }
   ],
   "summary": {
-    "total_matches": 131,
+    "total_matches": 132,
     "1x2_correct": 50,
-    "1x2_accuracy": 0.3817,
-    "avg_brier_score": 0.6838,
+    "1x2_accuracy": 0.3788,
+    "avg_brier_score": 0.6861,
     "totals_correct": 56,
-    "totals_accuracy": 0.4275,
-    "btts_correct": 69,
-    "btts_accuracy": 0.5267,
+    "totals_accuracy": 0.4242,
+    "btts_correct": 70,
+    "btts_accuracy": 0.5303,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -5096,7 +5132,7 @@
         "correct": 5
       },
       "6": {
-        "n": 11,
+        "n": 12,
         "correct": 4
       },
       "7": {
@@ -5122,12 +5158,6 @@
     },
     "last_5_results": [
       {
-        "match": "Birmingham City FC 3-0 Queens Park Rangers FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
         "match": "Derby County FC 0-1 Stoke City FC",
         "predicted": "H",
         "actual": "A",
@@ -5150,6 +5180,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Wolverhampton Wanderers FC 1-1 Portsmouth FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
       }
     ]
   }
