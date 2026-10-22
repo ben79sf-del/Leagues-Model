@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T13:59:01.787912",
+  "last_updated": "2026-10-22T14:16:18.297593",
   "matches_scored": [
     564628,
     564629,
@@ -58,6 +58,7 @@
     564682,
     564683,
     564684,
+    564685,
     564686,
     564687,
     564688,
@@ -3296,17 +3297,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-20T13:59:01.787888"
+    },
+    {
+      "fixture_id": 564685,
+      "date": "2026-10-21",
+      "home_team": "Levante UD",
+      "away_team": "Athletic Club",
+      "score": "3-1",
+      "matchday": 6,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5413,
+        "model_probs": {
+          "home": 0.3999,
+          "draw": 0.2774,
+          "away": 0.3228
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4868,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5393
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-22T14:16:18.297572"
     }
   ],
   "summary": {
-    "total_matches": 88,
-    "1x2_correct": 48,
-    "1x2_accuracy": 0.5455,
-    "avg_brier_score": 0.5611,
+    "total_matches": 89,
+    "1x2_correct": 49,
+    "1x2_accuracy": 0.5506,
+    "avg_brier_score": 0.5609,
     "totals_correct": 56,
-    "totals_accuracy": 0.6364,
-    "btts_correct": 47,
-    "btts_accuracy": 0.5341,
+    "totals_accuracy": 0.6292,
+    "btts_correct": 48,
+    "btts_accuracy": 0.5393,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -3344,8 +3380,8 @@
         "correct": 6
       },
       "6": {
-        "n": 9,
-        "correct": 6
+        "n": 10,
+        "correct": 7
       },
       "4": {
         "n": 10,
@@ -3370,12 +3406,6 @@
     },
     "last_5_results": [
       {
-        "match": "CA Osasuna 2-0 Real Racing Club de Santander",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
         "match": "RC Celta de Vigo 2-1 Deportivo Alav\u00e9s",
         "predicted": "H",
         "actual": "H",
@@ -3397,6 +3427,12 @@
         "match": "Getafe CF 1-1 Rayo Vallecano de Madrid",
         "predicted": "D",
         "actual": "D",
+        "correct": true
+      },
+      {
+        "match": "Levante UD 3-1 Athletic Club",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
