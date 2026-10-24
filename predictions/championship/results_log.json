@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T13:58:24.041822",
+  "last_updated": "2026-10-24T12:47:35.539821",
   "matches_scored": [
     561761,
     561762,
@@ -132,7 +132,8 @@
     561889,
     561890,
     561891,
-    561892
+    561892,
+    561894
   ],
   "results": [
     {
@@ -5069,17 +5070,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-21T13:58:24.041795"
+    },
+    {
+      "fixture_id": 561894,
+      "date": "2026-10-23",
+      "home_team": "Bolton Wanderers FC",
+      "away_team": "Middlesbrough FC",
+      "score": "1-5",
+      "matchday": 12,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.4946,
+        "model_probs": {
+          "home": 0.3206,
+          "draw": 0.2522,
+          "away": 0.4271
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5626,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5933
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-24T12:47:35.539790"
     }
   ],
   "summary": {
-    "total_matches": 132,
-    "1x2_correct": 50,
-    "1x2_accuracy": 0.3788,
-    "avg_brier_score": 0.6861,
-    "totals_correct": 56,
-    "totals_accuracy": 0.4242,
-    "btts_correct": 70,
-    "btts_accuracy": 0.5303,
+    "total_matches": 133,
+    "1x2_correct": 51,
+    "1x2_accuracy": 0.3835,
+    "avg_brier_score": 0.6846,
+    "totals_correct": 57,
+    "totals_accuracy": 0.4286,
+    "btts_correct": 71,
+    "btts_accuracy": 0.5338,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -5154,15 +5190,13 @@
       "11": {
         "n": 12,
         "correct": 6
+      },
+      "12": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Derby County FC 0-1 Stoke City FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Swansea City AFC 0-1 West Ham United FC",
         "predicted": "A",
@@ -5186,6 +5220,12 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Bolton Wanderers FC 1-5 Middlesbrough FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
       }
     ]
   }
