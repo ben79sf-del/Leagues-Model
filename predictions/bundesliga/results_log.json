@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T16:03:09.711669",
+  "last_updated": "2026-10-24T12:47:40.706089",
   "matches_scored": [
     565776,
     565777,
@@ -54,7 +54,8 @@
     565826,
     565827,
     565828,
-    565829
+    565829,
+    565833
   ],
   "results": [
     {
@@ -2018,17 +2019,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-19T16:03:09.711646"
+    },
+    {
+      "fixture_id": 565833,
+      "date": "2026-10-23",
+      "home_team": "VfB Stuttgart",
+      "away_team": "Borussia M\u00f6nchengladbach",
+      "score": "2-3",
+      "matchday": 7,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 1.3021,
+        "model_probs": {
+          "home": 0.713,
+          "draw": 0.1629,
+          "away": 0.1241
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6978,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.589
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-24T12:47:40.706068"
     }
   ],
   "summary": {
-    "total_matches": 54,
+    "total_matches": 55,
     "1x2_correct": 26,
-    "1x2_accuracy": 0.4815,
-    "avg_brier_score": 0.6661,
-    "totals_correct": 37,
-    "totals_accuracy": 0.6852,
-    "btts_correct": 34,
-    "btts_accuracy": 0.6296,
+    "1x2_accuracy": 0.4727,
+    "avg_brier_score": 0.6777,
+    "totals_correct": 38,
+    "totals_accuracy": 0.6909,
+    "btts_correct": 35,
+    "btts_accuracy": 0.6364,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -2069,15 +2105,13 @@
       "6": {
         "n": 9,
         "correct": 4
+      },
+      "7": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "SV 07 Elversberg 4-3 FC Augsburg",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "FC Schalke 04 0-1 1. FSV Mainz 05",
         "predicted": "H",
@@ -2098,6 +2132,12 @@
       },
       {
         "match": "Borussia M\u00f6nchengladbach 1-2 TSG 1899 Hoffenheim",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "VfB Stuttgart 2-3 Borussia M\u00f6nchengladbach",
         "predicted": "H",
         "actual": "A",
         "correct": false
