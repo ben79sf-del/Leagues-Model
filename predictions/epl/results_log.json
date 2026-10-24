@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T13:58:55.855207",
+  "last_updated": "2026-10-24T12:47:32.293322",
   "matches_scored": [
     560542,
     560543,
@@ -70,7 +70,8 @@
     560608,
     560609,
     560610,
-    560611
+    560611,
+    560620
   ],
   "results": [
     {
@@ -2702,17 +2703,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-20T13:58:55.855183"
+    },
+    {
+      "fixture_id": 560620,
+      "date": "2026-10-23",
+      "home_team": "Ipswich Town FC",
+      "away_team": "Nottingham Forest FC",
+      "score": "1-1",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8287,
+        "model_probs": {
+          "home": 0.3177,
+          "draw": 0.2592,
+          "away": 0.4231
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5889,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.62
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-24T12:47:32.293293"
     }
   ],
   "summary": {
-    "total_matches": 70,
+    "total_matches": 71,
     "1x2_correct": 32,
-    "1x2_accuracy": 0.4571,
-    "avg_brier_score": 0.609,
+    "1x2_accuracy": 0.4507,
+    "avg_brier_score": 0.6121,
     "totals_correct": 37,
-    "totals_accuracy": 0.5286,
-    "btts_correct": 41,
-    "btts_accuracy": 0.5857,
+    "totals_accuracy": 0.5211,
+    "btts_correct": 42,
+    "btts_accuracy": 0.5915,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -2771,15 +2807,13 @@
       "7": {
         "n": 10,
         "correct": 5
+      },
+      "8": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "AFC Bournemouth 2-0 Sunderland AFC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Leeds United FC 1-1 Manchester United FC",
         "predicted": "H",
@@ -2803,6 +2837,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Ipswich Town FC 1-1 Nottingham Forest FC",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
       }
     ]
   }
