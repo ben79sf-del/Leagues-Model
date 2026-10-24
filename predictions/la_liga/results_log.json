@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T14:16:18.297593",
+  "last_updated": "2026-10-24T12:47:38.392625",
   "matches_scored": [
     564628,
     564629,
@@ -89,7 +89,8 @@
     564714,
     564715,
     564716,
-    564717
+    564717,
+    564719
   ],
   "results": [
     {
@@ -3332,17 +3333,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-22T14:16:18.297572"
+    },
+    {
+      "fixture_id": 564719,
+      "date": "2026-10-23",
+      "home_team": "Deportivo Alav\u00e9s",
+      "away_team": "M\u00e1laga CF",
+      "score": "1-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.1475,
+        "model_probs": {
+          "home": 0.7074,
+          "draw": 0.2008,
+          "away": 0.0917
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4895,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.396
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-24T12:47:38.392597"
     }
   ],
   "summary": {
-    "total_matches": 89,
+    "total_matches": 90,
     "1x2_correct": 49,
-    "1x2_accuracy": 0.5506,
-    "avg_brier_score": 0.5609,
-    "totals_correct": 56,
-    "totals_accuracy": 0.6292,
+    "1x2_accuracy": 0.5444,
+    "avg_brier_score": 0.5674,
+    "totals_correct": 57,
+    "totals_accuracy": 0.6333,
     "btts_correct": 48,
-    "btts_accuracy": 0.5393,
+    "btts_accuracy": 0.5333,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -3402,15 +3438,13 @@
       "9": {
         "n": 10,
         "correct": 7
+      },
+      "10": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "RC Celta de Vigo 2-1 Deportivo Alav\u00e9s",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "M\u00e1laga CF 2-5 Real Sociedad de F\u00fatbol",
         "predicted": "A",
@@ -3434,6 +3468,12 @@
         "predicted": "H",
         "actual": "H",
         "correct": true
+      },
+      {
+        "match": "Deportivo Alav\u00e9s 1-1 M\u00e1laga CF",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
       }
     ]
   }
