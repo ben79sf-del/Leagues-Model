@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T12:47:38.392625",
+  "last_updated": "2026-10-25T13:26:59.816224",
   "matches_scored": [
     564628,
     564629,
@@ -90,7 +90,11 @@
     564715,
     564716,
     564717,
-    564719
+    564718,
+    564719,
+    564722,
+    564724,
+    564727
   ],
   "results": [
     {
@@ -3368,17 +3372,157 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-24T12:47:38.392597"
+    },
+    {
+      "fixture_id": 564718,
+      "date": "2026-10-24",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Elche CF",
+      "score": "0-3",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.8486,
+        "model_probs": {
+          "home": 0.4723,
+          "draw": 0.2708,
+          "away": 0.2569
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4898,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5297
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-25T13:26:57.700502"
+    },
+    {
+      "fixture_id": 564727,
+      "date": "2026-10-24",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "RCD Espanyol de Barcelona",
+      "score": "2-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "H",
+        "correct": false,
+        "brier_score": 0.6292,
+        "model_probs": {
+          "home": 0.3602,
+          "draw": 0.233,
+          "away": 0.4069
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6915,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6982
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-25T13:26:58.406551"
+    },
+    {
+      "fixture_id": 564722,
+      "date": "2026-10-24",
+      "home_team": "Valencia CF",
+      "away_team": "Villarreal CF",
+      "score": "1-2",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.4766,
+        "model_probs": {
+          "home": 0.2897,
+          "draw": 0.2739,
+          "away": 0.4364
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4965,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.543
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-25T13:26:59.118360"
+    },
+    {
+      "fixture_id": 564724,
+      "date": "2026-10-24",
+      "home_team": "Club Atl\u00e9tico de Madrid",
+      "away_team": "RC Deportivo La Coru\u00f1a",
+      "score": "1-0",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.1716,
+        "model_probs": {
+          "home": 0.6643,
+          "draw": 0.2041,
+          "away": 0.1315
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5836,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5195
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-25T13:26:59.816190"
     }
   ],
   "summary": {
-    "total_matches": 90,
-    "1x2_correct": 49,
-    "1x2_accuracy": 0.5444,
-    "avg_brier_score": 0.5674,
-    "totals_correct": 57,
-    "totals_accuracy": 0.6333,
-    "btts_correct": 48,
-    "btts_accuracy": 0.5333,
+    "total_matches": 94,
+    "1x2_correct": 51,
+    "1x2_accuracy": 0.5426,
+    "avg_brier_score": 0.5659,
+    "totals_correct": 58,
+    "totals_accuracy": 0.617,
+    "btts_correct": 50,
+    "btts_accuracy": 0.5319,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -3440,40 +3584,40 @@
         "correct": 7
       },
       "10": {
-        "n": 1,
-        "correct": 0
+        "n": 5,
+        "correct": 2
       }
     },
     "last_5_results": [
-      {
-        "match": "M\u00e1laga CF 2-5 Real Sociedad de F\u00fatbol",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "Real Madrid CF 4-1 Sevilla FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Getafe CF 1-1 Rayo Vallecano de Madrid",
-        "predicted": "D",
-        "actual": "D",
-        "correct": true
-      },
-      {
-        "match": "Levante UD 3-1 Athletic Club",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Deportivo Alav\u00e9s 1-1 M\u00e1laga CF",
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Rayo Vallecano de Madrid 0-3 Elche CF",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Real Racing Club de Santander 2-1 RCD Espanyol de Barcelona",
+        "predicted": "A",
+        "actual": "H",
+        "correct": false
+      },
+      {
+        "match": "Valencia CF 1-2 Villarreal CF",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Club Atl\u00e9tico de Madrid 1-0 RC Deportivo La Coru\u00f1a",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
