@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T15:21:28.184789",
+  "last_updated": "2026-10-31T15:06:01.843873",
   "matches_scored": [
     565776,
     565777,
@@ -63,7 +63,8 @@
     565835,
     565836,
     565837,
-    565838
+    565838,
+    565846
   ],
   "results": [
     {
@@ -2342,17 +2343,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-26T15:21:28.184764"
+    },
+    {
+      "fixture_id": 565846,
+      "date": "2026-10-30",
+      "home_team": "SV 07 Elversberg",
+      "away_team": "1. FSV Mainz 05",
+      "score": "4-1",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4177,
+        "model_probs": {
+          "home": 0.4766,
+          "draw": 0.2034,
+          "away": 0.32
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7696,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.749
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-31T15:06:01.843855"
     }
   ],
   "summary": {
-    "total_matches": 63,
-    "1x2_correct": 30,
-    "1x2_accuracy": 0.4762,
-    "avg_brier_score": 0.6609,
-    "totals_correct": 44,
-    "totals_accuracy": 0.6984,
-    "btts_correct": 40,
-    "btts_accuracy": 0.6349,
+    "total_matches": 64,
+    "1x2_correct": 31,
+    "1x2_accuracy": 0.4844,
+    "avg_brier_score": 0.6571,
+    "totals_correct": 45,
+    "totals_accuracy": 0.7031,
+    "btts_correct": 41,
+    "btts_accuracy": 0.6406,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -2397,15 +2433,13 @@
       "7": {
         "n": 9,
         "correct": 4
+      },
+      "8": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "SC Paderborn 07 1-0 Hamburger SV",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "FC Augsburg 1-1 1. FC Union Berlin",
         "predicted": "H",
@@ -2428,6 +2462,12 @@
         "match": "SC Freiburg 1-3 FC Bayern M\u00fcnchen",
         "predicted": "A",
         "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "SV 07 Elversberg 4-1 1. FSV Mainz 05",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
