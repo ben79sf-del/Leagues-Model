@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T13:26:55.052784",
+  "last_updated": "2026-10-31T15:05:55.460457",
   "matches_scored": [
     561761,
     561762,
@@ -144,7 +144,10 @@
     561901,
     561902,
     561903,
-    561904
+    561904,
+    561908,
+    561910,
+    561915
   ],
   "results": [
     {
@@ -5501,17 +5504,122 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-10-25T13:26:55.052755"
+    },
+    {
+      "fixture_id": 561908,
+      "date": "2026-10-31",
+      "home_team": "Stoke City FC",
+      "away_team": "Preston North End FC",
+      "score": "2-0",
+      "matchday": 13,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2737,
+        "model_probs": {
+          "home": 0.5739,
+          "draw": 0.2399,
+          "away": 0.1861
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5131,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5099
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-31T15:05:52.535980"
+    },
+    {
+      "fixture_id": 561910,
+      "date": "2026-10-31",
+      "home_team": "Norwich City FC",
+      "away_team": "Watford FC",
+      "score": "3-2",
+      "matchday": 13,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2216,
+        "model_probs": {
+          "home": 0.617,
+          "draw": 0.2195,
+          "away": 0.1634
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.56,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5279
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-31T15:05:54.023755"
+    },
+    {
+      "fixture_id": 561915,
+      "date": "2026-10-31",
+      "home_team": "Lincoln City FC",
+      "away_team": "Birmingham City FC",
+      "score": "1-3",
+      "matchday": 13,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.3909,
+        "model_probs": {
+          "home": 0.2385,
+          "draw": 0.2716,
+          "away": 0.4899
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4504,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4897
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-10-31T15:05:55.460431"
     }
   ],
   "summary": {
-    "total_matches": 144,
-    "1x2_correct": 54,
-    "1x2_accuracy": 0.375,
-    "avg_brier_score": 0.6859,
-    "totals_correct": 61,
-    "totals_accuracy": 0.4236,
-    "btts_correct": 76,
-    "btts_accuracy": 0.5278,
+    "total_matches": 147,
+    "1x2_correct": 57,
+    "1x2_accuracy": 0.3878,
+    "avg_brier_score": 0.6779,
+    "totals_correct": 62,
+    "totals_accuracy": 0.4218,
+    "btts_correct": 77,
+    "btts_accuracy": 0.5238,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -5590,27 +5698,13 @@
       "12": {
         "n": 12,
         "correct": 4
+      },
+      "13": {
+        "n": 3,
+        "correct": 3
       }
     },
     "last_5_results": [
-      {
-        "match": "Preston North End FC 1-1 West Bromwich Albion FC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Lincoln City FC 4-1 Burnley FC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "West Ham United FC 2-3 Southampton FC",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Blackburn Rovers FC 2-0 Wrexham AFC",
         "predicted": "H",
@@ -5621,6 +5715,24 @@
         "match": "Wolverhampton Wanderers FC 1-0 Watford FC",
         "predicted": "H",
         "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Stoke City FC 2-0 Preston North End FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Norwich City FC 3-2 Watford FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Lincoln City FC 1-3 Birmingham City FC",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
