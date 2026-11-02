@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T15:07:50.941611",
+  "last_updated": "2026-11-02T18:24:30.832044",
   "matches_scored": [
     565776,
     565777,
@@ -66,8 +66,10 @@
     565838,
     565839,
     565840,
+    565841,
     565842,
     565843,
+    565844,
     565845,
     565846,
     565847
@@ -2594,17 +2596,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-01T15:07:50.941592"
+    },
+    {
+      "fixture_id": 565841,
+      "date": "2026-11-01",
+      "home_team": "1. FC Union Berlin",
+      "away_team": "1. FC K\u00f6ln",
+      "score": "1-1",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.8419,
+        "model_probs": {
+          "home": 0.4445,
+          "draw": 0.2555,
+          "away": 0.3
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5098,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5459
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:30.186027"
+    },
+    {
+      "fixture_id": 565844,
+      "date": "2026-11-01",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "Hamburger SV",
+      "score": "3-1",
+      "matchday": 8,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2813,
+        "model_probs": {
+          "home": 0.567,
+          "draw": 0.2179,
+          "away": 0.2152
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6095,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.593
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:30.832020"
     }
   ],
   "summary": {
-    "total_matches": 70,
-    "1x2_correct": 33,
-    "1x2_accuracy": 0.4714,
-    "avg_brier_score": 0.6636,
-    "totals_correct": 50,
-    "totals_accuracy": 0.7143,
-    "btts_correct": 46,
-    "btts_accuracy": 0.6571,
+    "total_matches": 72,
+    "1x2_correct": 34,
+    "1x2_accuracy": 0.4722,
+    "avg_brier_score": 0.6608,
+    "totals_correct": 51,
+    "totals_accuracy": 0.7083,
+    "btts_correct": 48,
+    "btts_accuracy": 0.6667,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -2651,23 +2723,11 @@
         "correct": 4
       },
       "8": {
-        "n": 7,
-        "correct": 3
+        "n": 9,
+        "correct": 4
       }
     },
     "last_5_results": [
-      {
-        "match": "FC Schalke 04 0-2 RB Leipzig",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "FC Augsburg 1-2 SC Freiburg",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "SV Werder Bremen 2-0 TSG 1899 Hoffenheim",
         "predicted": "H",
@@ -2685,6 +2745,18 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "1. FC Union Berlin 1-1 1. FC K\u00f6ln",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Eintracht Frankfurt 3-1 Hamburger SV",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
