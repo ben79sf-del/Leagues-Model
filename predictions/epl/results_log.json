@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T15:07:28.263789",
+  "last_updated": "2026-11-02T18:24:21.328970",
   "matches_scored": [
     560542,
     560543,
@@ -88,7 +88,8 @@
     560627,
     560628,
     560629,
-    560630
+    560630,
+    560631
   ],
   "results": [
     {
@@ -3350,17 +3351,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-01T15:07:28.263761"
+    },
+    {
+      "fixture_id": 560631,
+      "date": "2026-11-01",
+      "home_team": "Liverpool FC",
+      "away_team": "Arsenal FC",
+      "score": "0-1",
+      "matchday": 9,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.447,
+        "model_probs": {
+          "home": 0.2489,
+          "draw": 0.2963,
+          "away": 0.4548
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4177,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4765
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:21.328943"
     }
   ],
   "summary": {
-    "total_matches": 88,
-    "1x2_correct": 39,
-    "1x2_accuracy": 0.4432,
-    "avg_brier_score": 0.6243,
-    "totals_correct": 47,
-    "totals_accuracy": 0.5341,
-    "btts_correct": 47,
-    "btts_accuracy": 0.5341,
+    "total_matches": 89,
+    "1x2_correct": 40,
+    "1x2_accuracy": 0.4494,
+    "avg_brier_score": 0.6223,
+    "totals_correct": 48,
+    "totals_accuracy": 0.5393,
+    "btts_correct": 48,
+    "btts_accuracy": 0.5393,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -3425,17 +3461,11 @@
         "correct": 3
       },
       "9": {
-        "n": 8,
-        "correct": 4
+        "n": 9,
+        "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Coventry City FC 3-1 Sunderland AFC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
       {
         "match": "Hull City AFC 2-2 Ipswich Town FC",
         "predicted": "H",
@@ -3459,6 +3489,12 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Liverpool FC 0-1 Arsenal FC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
       }
     ]
   }
