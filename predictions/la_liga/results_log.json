@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T15:07:45.584426",
+  "last_updated": "2026-11-02T18:24:27.714603",
   "matches_scored": [
     564628,
     564629,
@@ -100,9 +100,12 @@
     564725,
     564726,
     564727,
+    564728,
+    564729,
     564730,
     564732,
     564733,
+    564734,
     564735,
     564736,
     564737
@@ -3908,17 +3911,122 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-01T15:07:45.584403"
+    },
+    {
+      "fixture_id": 564734,
+      "date": "2026-11-01",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Real Madrid CF",
+      "score": "0-3",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.0648,
+        "model_probs": {
+          "home": 0.0863,
+          "draw": 0.1206,
+          "away": 0.7931
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.8333,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6658
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:26.173340"
+    },
+    {
+      "fixture_id": 564728,
+      "date": "2026-11-01",
+      "home_team": "Elche CF",
+      "away_team": "Valencia CF",
+      "score": "0-1",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.9537,
+        "model_probs": {
+          "home": 0.5239,
+          "draw": 0.2586,
+          "away": 0.2175
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4904,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5128
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:26.933792"
+    },
+    {
+      "fixture_id": 564729,
+      "date": "2026-11-01",
+      "home_team": "Athletic Club",
+      "away_team": "Real Sociedad de F\u00fatbol",
+      "score": "2-1",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.392,
+        "model_probs": {
+          "home": 0.489,
+          "draw": 0.2448,
+          "away": 0.2663
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5889,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6047
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-02T18:24:27.714571"
     }
   ],
   "summary": {
-    "total_matches": 105,
-    "1x2_correct": 58,
-    "1x2_accuracy": 0.5524,
-    "avg_brier_score": 0.5614,
-    "totals_correct": 63,
-    "totals_accuracy": 0.6,
-    "btts_correct": 55,
-    "btts_accuracy": 0.5238,
+    "total_matches": 108,
+    "1x2_correct": 60,
+    "1x2_accuracy": 0.5556,
+    "avg_brier_score": 0.5589,
+    "totals_correct": 66,
+    "totals_accuracy": 0.6111,
+    "btts_correct": 56,
+    "btts_accuracy": 0.5185,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -3984,29 +4092,11 @@
         "correct": 5
       },
       "11": {
-        "n": 6,
-        "correct": 4
+        "n": 9,
+        "correct": 6
       }
     },
     "last_5_results": [
-      {
-        "match": "Levante UD 0-2 Club Atl\u00e9tico de Madrid",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "Rayo Vallecano de Madrid 3-0 RC Celta de Vigo",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Real Betis Balompi\u00e9 2-1 M\u00e1laga CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "FC Barcelona 6-1 Deportivo Alav\u00e9s",
         "predicted": "H",
@@ -4018,6 +4108,24 @@
         "predicted": "D",
         "actual": "H",
         "correct": false
+      },
+      {
+        "match": "Real Racing Club de Santander 0-3 Real Madrid CF",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Elche CF 0-1 Valencia CF",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Athletic Club 2-1 Real Sociedad de F\u00fatbol",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
