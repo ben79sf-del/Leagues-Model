@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T18:24:27.714603",
+  "last_updated": "2026-11-03T16:36:56.312421",
   "matches_scored": [
     564628,
     564629,
@@ -103,6 +103,7 @@
     564728,
     564729,
     564730,
+    564731,
     564732,
     564733,
     564734,
@@ -4016,17 +4017,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-02T18:24:27.714571"
+    },
+    {
+      "fixture_id": 564731,
+      "date": "2026-11-02",
+      "home_team": "RC Deportivo La Coru\u00f1a",
+      "away_team": "CA Osasuna",
+      "score": "2-1",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.3383,
+        "model_probs": {
+          "home": 0.5259,
+          "draw": 0.2608,
+          "away": 0.2133
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.463,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4876
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-03T16:36:56.312398"
     }
   ],
   "summary": {
-    "total_matches": 108,
-    "1x2_correct": 60,
-    "1x2_accuracy": 0.5556,
-    "avg_brier_score": 0.5589,
+    "total_matches": 109,
+    "1x2_correct": 61,
+    "1x2_accuracy": 0.5596,
+    "avg_brier_score": 0.5569,
     "totals_correct": 66,
-    "totals_accuracy": 0.6111,
+    "totals_accuracy": 0.6055,
     "btts_correct": 56,
-    "btts_accuracy": 0.5185,
+    "btts_accuracy": 0.5138,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -4092,17 +4128,11 @@
         "correct": 5
       },
       "11": {
-        "n": 9,
-        "correct": 6
+        "n": 10,
+        "correct": 7
       }
     },
     "last_5_results": [
-      {
-        "match": "FC Barcelona 6-1 Deportivo Alav\u00e9s",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Getafe CF 3-1 Sevilla FC",
         "predicted": "D",
@@ -4123,6 +4153,12 @@
       },
       {
         "match": "Athletic Club 2-1 Real Sociedad de F\u00fatbol",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "RC Deportivo La Coru\u00f1a 2-1 CA Osasuna",
         "predicted": "H",
         "actual": "H",
         "correct": true
