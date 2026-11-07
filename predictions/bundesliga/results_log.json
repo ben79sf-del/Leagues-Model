@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T18:24:30.832044",
+  "last_updated": "2026-11-07T15:25:52.494814",
   "matches_scored": [
     565776,
     565777,
@@ -72,7 +72,8 @@
     565844,
     565845,
     565846,
-    565847
+    565847,
+    565852
   ],
   "results": [
     {
@@ -2666,17 +2667,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-02T18:24:30.832020"
+    },
+    {
+      "fixture_id": 565852,
+      "date": "2026-11-06",
+      "home_team": "Hamburger SV",
+      "away_team": "Borussia M\u00f6nchengladbach",
+      "score": "3-1",
+      "matchday": 9,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5264,
+        "model_probs": {
+          "home": 0.4091,
+          "draw": 0.2584,
+          "away": 0.3324
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5245,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5638
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-07T15:25:52.494793"
     }
   ],
   "summary": {
-    "total_matches": 72,
-    "1x2_correct": 34,
-    "1x2_accuracy": 0.4722,
-    "avg_brier_score": 0.6608,
-    "totals_correct": 51,
-    "totals_accuracy": 0.7083,
-    "btts_correct": 48,
-    "btts_accuracy": 0.6667,
+    "total_matches": 73,
+    "1x2_correct": 35,
+    "1x2_accuracy": 0.4795,
+    "avg_brier_score": 0.6589,
+    "totals_correct": 52,
+    "totals_accuracy": 0.7123,
+    "btts_correct": 49,
+    "btts_accuracy": 0.6712,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -2725,15 +2761,13 @@
       "8": {
         "n": 9,
         "correct": 4
+      },
+      "9": {
+        "n": 1,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "SV Werder Bremen 2-0 TSG 1899 Hoffenheim",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Bayer 04 Leverkusen 2-4 VfB Stuttgart",
         "predicted": "H",
@@ -2754,6 +2788,12 @@
       },
       {
         "match": "Eintracht Frankfurt 3-1 Hamburger SV",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Hamburger SV 3-1 Borussia M\u00f6nchengladbach",
         "predicted": "H",
         "actual": "H",
         "correct": true
