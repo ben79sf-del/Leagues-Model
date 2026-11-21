@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T16:43:05.577577",
+  "last_updated": "2026-11-21T16:15:45.630441",
   "matches_scored": [
     564628,
     564629,
@@ -119,7 +119,9 @@
     564744,
     564745,
     564746,
-    564747
+    564747,
+    564748,
+    564755
   ],
   "results": [
     {
@@ -4412,17 +4414,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-10T16:43:05.577544"
+    },
+    {
+      "fixture_id": 564748,
+      "date": "2026-11-20",
+      "home_team": "Athletic Club",
+      "away_team": "RCD Espanyol de Barcelona",
+      "score": "0-1",
+      "matchday": 13,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.959,
+        "model_probs": {
+          "home": 0.4994,
+          "draw": 0.2911,
+          "away": 0.2095
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.3819,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4289
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-21T16:15:44.944146"
+    },
+    {
+      "fixture_id": 564755,
+      "date": "2026-11-21",
+      "home_team": "Deportivo Alav\u00e9s",
+      "away_team": "RC Deportivo La Coru\u00f1a",
+      "score": "3-1",
+      "matchday": 13,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5546,
+        "model_probs": {
+          "home": 0.392,
+          "draw": 0.3025,
+          "away": 0.3056
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.3885,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4598
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-21T16:15:45.630411"
     }
   ],
   "summary": {
-    "total_matches": 119,
-    "1x2_correct": 66,
-    "1x2_accuracy": 0.5546,
-    "avg_brier_score": 0.5586,
-    "totals_correct": 71,
-    "totals_accuracy": 0.5966,
-    "btts_correct": 62,
-    "btts_accuracy": 0.521,
+    "total_matches": 121,
+    "1x2_correct": 67,
+    "1x2_accuracy": 0.5537,
+    "avg_brier_score": 0.5619,
+    "totals_correct": 72,
+    "totals_accuracy": 0.595,
+    "btts_correct": 63,
+    "btts_accuracy": 0.5207,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -4494,21 +4566,13 @@
       "12": {
         "n": 10,
         "correct": 5
+      },
+      "13": {
+        "n": 2,
+        "correct": 1
       }
     },
     "last_5_results": [
-      {
-        "match": "Elche CF 0-2 Real Betis Balompi\u00e9",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "Real Sociedad de F\u00fatbol 1-0 Rayo Vallecano de Madrid",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "RC Celta de Vigo 0-0 Levante UD",
         "predicted": "H",
@@ -4525,6 +4589,18 @@
         "match": "Club Atl\u00e9tico de Madrid 1-2 FC Barcelona",
         "predicted": "A",
         "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Athletic Club 0-1 RCD Espanyol de Barcelona",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Deportivo Alav\u00e9s 3-1 RC Deportivo La Coru\u00f1a",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
