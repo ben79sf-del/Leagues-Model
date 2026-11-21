@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T16:42:57.104053",
+  "last_updated": "2026-11-21T16:15:38.177175",
   "matches_scored": [
     560542,
     560543,
@@ -100,7 +100,8 @@
     560638,
     560639,
     560640,
-    560641
+    560641,
+    560643
   ],
   "results": [
     {
@@ -3782,17 +3783,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-10T16:42:57.104021"
+    },
+    {
+      "fixture_id": 560643,
+      "date": "2026-11-21",
+      "home_team": "Manchester City FC",
+      "away_team": "Fulham FC",
+      "score": "1-1",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.0445,
+        "model_probs": {
+          "home": 0.6456,
+          "draw": 0.2193,
+          "away": 0.1351
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5126,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "Yes",
+        "correct": false,
+        "p_btts": 0.4677
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-21T16:15:38.177147"
     }
   ],
   "summary": {
-    "total_matches": 100,
+    "total_matches": 101,
     "1x2_correct": 46,
-    "1x2_accuracy": 0.46,
-    "avg_brier_score": 0.616,
+    "1x2_accuracy": 0.4554,
+    "avg_brier_score": 0.6203,
     "totals_correct": 54,
-    "totals_accuracy": 0.54,
+    "totals_accuracy": 0.5347,
     "btts_correct": 54,
-    "btts_accuracy": 0.54,
+    "btts_accuracy": 0.5347,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -3863,15 +3899,13 @@
       "10": {
         "n": 10,
         "correct": 6
+      },
+      "11": {
+        "n": 1,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "Crystal Palace FC 1-3 Liverpool FC",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
       {
         "match": "Sunderland AFC 1-0 Chelsea FC",
         "predicted": "A",
@@ -3892,6 +3926,12 @@
       },
       {
         "match": "Manchester United FC 4-4 Aston Villa FC",
+        "predicted": "H",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Manchester City FC 1-1 Fulham FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
