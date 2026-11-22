@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T16:15:47.565657",
+  "last_updated": "2026-11-22T16:20:37.682103",
   "matches_scored": [
     565776,
     565777,
@@ -82,7 +82,13 @@
     565854,
     565855,
     565856,
-    565859
+    565857,
+    565858,
+    565859,
+    565860,
+    565861,
+    565862,
+    565865
   ],
   "results": [
     {
@@ -3026,17 +3032,227 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-21T16:15:47.565635"
+    },
+    {
+      "fixture_id": 565857,
+      "date": "2026-11-21",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "SC Paderborn 07",
+      "score": "4-0",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2112,
+        "model_probs": {
+          "home": 0.6284,
+          "draw": 0.2308,
+          "away": 0.1407
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4568,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4278
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:34.654234"
+    },
+    {
+      "fixture_id": 565858,
+      "date": "2026-11-21",
+      "home_team": "1. FC Union Berlin",
+      "away_team": "RB Leipzig",
+      "score": "1-5",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.2432,
+        "model_probs": {
+          "home": 0.1909,
+          "draw": 0.2115,
+          "away": 0.5975
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6212,
+        "actual_total_goals": 6
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5905
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:35.241050"
+    },
+    {
+      "fixture_id": 565860,
+      "date": "2026-11-21",
+      "home_team": "SV 07 Elversberg",
+      "away_team": "SC Freiburg",
+      "score": "0-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.7349,
+        "model_probs": {
+          "home": 0.4724,
+          "draw": 0.2111,
+          "away": 0.3165
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.7456,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.7313
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:35.851117"
+    },
+    {
+      "fixture_id": 565862,
+      "date": "2026-11-21",
+      "home_team": "Borussia M\u00f6nchengladbach",
+      "away_team": "Borussia Dortmund",
+      "score": "0-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.2254,
+        "model_probs": {
+          "home": 0.1662,
+          "draw": 0.2201,
+          "away": 0.6136
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5433,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5144
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:36.473356"
+    },
+    {
+      "fixture_id": 565865,
+      "date": "2026-11-21",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "TSG 1899 Hoffenheim",
+      "score": "1-0",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4359,
+        "model_probs": {
+          "home": 0.4656,
+          "draw": 0.206,
+          "away": 0.3284
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.7751,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.7562
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:37.096216"
+    },
+    {
+      "fixture_id": 565861,
+      "date": "2026-11-21",
+      "home_team": "FC Schalke 04",
+      "away_team": "VfB Stuttgart",
+      "score": "0-0",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7498,
+        "model_probs": {
+          "home": 0.176,
+          "draw": 0.319,
+          "away": 0.505
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.2555,
+        "actual_total_goals": 0
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.3043
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-22T16:20:37.682076"
     }
   ],
   "summary": {
-    "total_matches": 82,
-    "1x2_correct": 42,
-    "1x2_accuracy": 0.5122,
-    "avg_brier_score": 0.6337,
-    "totals_correct": 56,
-    "totals_accuracy": 0.6829,
-    "btts_correct": 54,
-    "btts_accuracy": 0.6585,
+    "total_matches": 88,
+    "1x2_correct": 46,
+    "1x2_accuracy": 0.5227,
+    "avg_brier_score": 0.62,
+    "totals_correct": 58,
+    "totals_accuracy": 0.6591,
+    "btts_correct": 57,
+    "btts_accuracy": 0.6477,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -3091,38 +3307,38 @@
         "correct": 8
       },
       "10": {
-        "n": 1,
-        "correct": 0
+        "n": 7,
+        "correct": 4
       }
     },
     "last_5_results": [
       {
-        "match": "VfB Stuttgart 1-0 SV Werder Bremen",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "1. FC K\u00f6ln 1-2 Bayer 04 Leverkusen",
+        "match": "1. FC Union Berlin 1-5 RB Leipzig",
         "predicted": "A",
         "actual": "A",
         "correct": true
       },
       {
-        "match": "SC Freiburg 2-0 1. FC Union Berlin",
+        "match": "SV 07 Elversberg 0-1 SC Freiburg",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Borussia M\u00f6nchengladbach 0-1 Borussia Dortmund",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "match": "Eintracht Frankfurt 1-0 TSG 1899 Hoffenheim",
         "predicted": "H",
         "actual": "H",
         "correct": true
       },
       {
-        "match": "TSG 1899 Hoffenheim 2-1 FC Schalke 04",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "FC Bayern M\u00fcnchen 1-1 1. FC K\u00f6ln",
-        "predicted": "H",
+        "match": "FC Schalke 04 0-0 VfB Stuttgart",
+        "predicted": "A",
         "actual": "D",
         "correct": false
       }
