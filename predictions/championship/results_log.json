@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T16:20:28.217073",
+  "last_updated": "2026-11-23T20:12:25.947804",
   "matches_scored": [
     561761,
     561762,
@@ -189,6 +189,7 @@
     561946,
     561947,
     561948,
+    561949,
     561950,
     561951,
     561952
@@ -7193,17 +7194,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-22T16:20:28.217048"
+    },
+    {
+      "fixture_id": 561949,
+      "date": "2026-11-21",
+      "home_team": "Lincoln City FC",
+      "away_team": "Wrexham AFC",
+      "score": "0-1",
+      "matchday": 16,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.5333,
+        "model_probs": {
+          "home": 0.3491,
+          "draw": 0.2441,
+          "away": 0.4068
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6337,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6532
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-23T20:12:25.947775"
     }
   ],
   "summary": {
-    "total_matches": 191,
-    "1x2_correct": 80,
-    "1x2_accuracy": 0.4188,
-    "avg_brier_score": 0.662,
+    "total_matches": 192,
+    "1x2_correct": 81,
+    "1x2_accuracy": 0.4219,
+    "avg_brier_score": 0.6613,
     "totals_correct": 78,
-    "totals_accuracy": 0.4084,
+    "totals_accuracy": 0.4062,
     "btts_correct": 101,
-    "btts_accuracy": 0.5288,
+    "btts_accuracy": 0.526,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -7296,17 +7332,11 @@
         "correct": 6
       },
       "16": {
-        "n": 11,
-        "correct": 5
+        "n": 12,
+        "correct": 6
       }
     },
     "last_5_results": [
-      {
-        "match": "Bolton Wanderers FC 1-1 Portsmouth FC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
       {
         "match": "Stoke City FC 1-0 Birmingham City FC",
         "predicted": "A",
@@ -7330,6 +7360,12 @@
         "predicted": "H",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "Lincoln City FC 0-1 Wrexham AFC",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
       }
     ]
   }
