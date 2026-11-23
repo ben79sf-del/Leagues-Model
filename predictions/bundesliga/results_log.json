@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T16:20:37.682103",
+  "last_updated": "2026-11-23T20:12:33.790279",
   "matches_scored": [
     565776,
     565777,
@@ -88,6 +88,8 @@
     565860,
     565861,
     565862,
+    565863,
+    565864,
     565865
   ],
   "results": [
@@ -3242,17 +3244,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-22T16:20:37.682076"
+    },
+    {
+      "fixture_id": 565864,
+      "date": "2026-11-22",
+      "home_team": "FC Augsburg",
+      "away_team": "1. FSV Mainz 05",
+      "score": "3-1",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4385,
+        "model_probs": {
+          "home": 0.4618,
+          "draw": 0.2244,
+          "away": 0.3138
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6806,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6808
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-23T20:12:33.196081"
+    },
+    {
+      "fixture_id": 565863,
+      "date": "2026-11-22",
+      "home_team": "SV Werder Bremen",
+      "away_team": "Hamburger SV",
+      "score": "4-0",
+      "matchday": 10,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.3092,
+        "model_probs": {
+          "home": 0.546,
+          "draw": 0.2301,
+          "away": 0.2239
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5416,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5427
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-23T20:12:33.790256"
     }
   ],
   "summary": {
-    "total_matches": 88,
-    "1x2_correct": 46,
-    "1x2_accuracy": 0.5227,
-    "avg_brier_score": 0.62,
-    "totals_correct": 58,
-    "totals_accuracy": 0.6591,
-    "btts_correct": 57,
-    "btts_accuracy": 0.6477,
+    "total_matches": 90,
+    "1x2_correct": 48,
+    "1x2_accuracy": 0.5333,
+    "avg_brier_score": 0.6145,
+    "totals_correct": 60,
+    "totals_accuracy": 0.6667,
+    "btts_correct": 58,
+    "btts_accuracy": 0.6444,
     "value_bets": {
       "total_bets": 8,
       "wins": 2,
@@ -3307,23 +3379,11 @@
         "correct": 8
       },
       "10": {
-        "n": 7,
-        "correct": 4
+        "n": 9,
+        "correct": 6
       }
     },
     "last_5_results": [
-      {
-        "match": "1. FC Union Berlin 1-5 RB Leipzig",
-        "predicted": "A",
-        "actual": "A",
-        "correct": true
-      },
-      {
-        "match": "SV 07 Elversberg 0-1 SC Freiburg",
-        "predicted": "H",
-        "actual": "A",
-        "correct": false
-      },
       {
         "match": "Borussia M\u00f6nchengladbach 0-1 Borussia Dortmund",
         "predicted": "A",
@@ -3341,6 +3401,18 @@
         "predicted": "A",
         "actual": "D",
         "correct": false
+      },
+      {
+        "match": "FC Augsburg 3-1 1. FSV Mainz 05",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "SV Werder Bremen 4-0 Hamburger SV",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
       }
     ]
   }
