@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T20:12:22.485624",
+  "last_updated": "2026-11-24T20:02:54.136834",
   "matches_scored": [
     560542,
     560543,
@@ -108,6 +108,7 @@
     560646,
     560647,
     560648,
+    560649,
     560650,
     560651
   ],
@@ -4106,17 +4107,52 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-23T20:12:22.485592"
+    },
+    {
+      "fixture_id": 560649,
+      "date": "2026-11-23",
+      "home_team": "Brentford FC",
+      "away_team": "Everton FC",
+      "score": "4-0",
+      "matchday": 11,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4067,
+        "model_probs": {
+          "home": 0.4797,
+          "draw": 0.2786,
+          "away": 0.2417
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4501,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4945
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-24T20:02:54.136808"
     }
   ],
   "summary": {
-    "total_matches": 109,
-    "1x2_correct": 50,
-    "1x2_accuracy": 0.4587,
-    "avg_brier_score": 0.6211,
+    "total_matches": 110,
+    "1x2_correct": 51,
+    "1x2_accuracy": 0.4636,
+    "avg_brier_score": 0.6192,
     "totals_correct": 58,
-    "totals_accuracy": 0.5321,
-    "btts_correct": 57,
-    "btts_accuracy": 0.5229,
+    "totals_accuracy": 0.5273,
+    "btts_correct": 58,
+    "btts_accuracy": 0.5273,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -4189,17 +4225,11 @@
         "correct": 6
       },
       "11": {
-        "n": 9,
-        "correct": 4
+        "n": 10,
+        "correct": 5
       }
     },
     "last_5_results": [
-      {
-        "match": "Tottenham Hotspur FC 2-0 Ipswich Town FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
       {
         "match": "Coventry City FC 3-2 Crystal Palace FC",
         "predicted": "H",
@@ -4220,6 +4250,12 @@
       },
       {
         "match": "Liverpool FC 4-0 Manchester United FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Brentford FC 4-0 Everton FC",
         "predicted": "H",
         "actual": "H",
         "correct": true
