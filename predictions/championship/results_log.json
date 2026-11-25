@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T20:12:25.947804",
+  "last_updated": "2026-11-25T19:09:39.458785",
   "matches_scored": [
     561761,
     561762,
@@ -192,7 +192,15 @@
     561949,
     561950,
     561951,
-    561952
+    561952,
+    561953,
+    561954,
+    561955,
+    561956,
+    561957,
+    561958,
+    561959,
+    561960
   ],
   "results": [
     {
@@ -7229,17 +7237,297 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-23T20:12:25.947775"
+    },
+    {
+      "fixture_id": 561953,
+      "date": "2026-11-24",
+      "home_team": "Cardiff City FC",
+      "away_team": "Preston North End FC",
+      "score": "0-4",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.7376,
+        "model_probs": {
+          "home": 0.4512,
+          "draw": 0.2393,
+          "away": 0.3095
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6345,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6482
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:25.871427"
+    },
+    {
+      "fixture_id": 561954,
+      "date": "2026-11-24",
+      "home_team": "Middlesbrough FC",
+      "away_team": "Swansea City AFC",
+      "score": "2-1",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2472,
+        "model_probs": {
+          "home": 0.5953,
+          "draw": 0.2301,
+          "away": 0.1746
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5428,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5252
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:27.825509"
+    },
+    {
+      "fixture_id": 561955,
+      "date": "2026-11-24",
+      "home_team": "Portsmouth FC",
+      "away_team": "West Ham United FC",
+      "score": "1-0",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2386,
+        "model_probs": {
+          "home": 0.6012,
+          "draw": 0.2015,
+          "away": 0.1973
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.7004,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6587
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:29.791366"
+    },
+    {
+      "fixture_id": 561956,
+      "date": "2026-11-24",
+      "home_team": "Sheffield United FC",
+      "away_team": "Southampton FC",
+      "score": "1-1",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.845,
+        "model_probs": {
+          "home": 0.344,
+          "draw": 0.2503,
+          "away": 0.4057
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.5969,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.624
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:31.711076"
+    },
+    {
+      "fixture_id": 561958,
+      "date": "2026-11-24",
+      "home_team": "Charlton Athletic FC",
+      "away_team": "Lincoln City FC",
+      "score": "4-0",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.4805,
+        "model_probs": {
+          "home": 0.4342,
+          "draw": 0.2935,
+          "away": 0.2724
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4026,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4644
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:33.657114"
+    },
+    {
+      "fixture_id": 561959,
+      "date": "2026-11-24",
+      "home_team": "Bristol City FC",
+      "away_team": "Wrexham AFC",
+      "score": "1-1",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 0.7826,
+        "model_probs": {
+          "home": 0.3148,
+          "draw": 0.2796,
+          "away": 0.4056
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4682,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.523
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:35.620517"
+    },
+    {
+      "fixture_id": 561960,
+      "date": "2026-11-24",
+      "home_team": "Norwich City FC",
+      "away_team": "Queens Park Rangers FC",
+      "score": "1-1",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "D",
+        "correct": false,
+        "brier_score": 1.0619,
+        "model_probs": {
+          "home": 0.6276,
+          "draw": 0.2009,
+          "away": 0.1715
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Under",
+        "correct": false,
+        "p_over": 0.6625,
+        "actual_total_goals": 2
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.6126
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:37.650475"
+    },
+    {
+      "fixture_id": 561957,
+      "date": "2026-11-24",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Derby County FC",
+      "score": "3-0",
+      "matchday": 17,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2222,
+        "model_probs": {
+          "home": 0.6184,
+          "draw": 0.2341,
+          "away": 0.1476
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Over",
+        "correct": false,
+        "p_over": 0.4821,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4582
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-25T19:09:39.458752"
     }
   ],
   "summary": {
-    "total_matches": 192,
-    "1x2_correct": 81,
-    "1x2_accuracy": 0.4219,
-    "avg_brier_score": 0.6613,
-    "totals_correct": 78,
-    "totals_accuracy": 0.4062,
-    "btts_correct": 101,
-    "btts_accuracy": 0.526,
+    "total_matches": 200,
+    "1x2_correct": 85,
+    "1x2_accuracy": 0.425,
+    "avg_brier_score": 0.6579,
+    "totals_correct": 81,
+    "totals_accuracy": 0.405,
+    "btts_correct": 107,
+    "btts_accuracy": 0.535,
     "value_bets": {
       "total_bets": 35,
       "wins": 10,
@@ -7334,37 +7622,41 @@
       "16": {
         "n": 12,
         "correct": 6
+      },
+      "17": {
+        "n": 8,
+        "correct": 4
       }
     },
     "last_5_results": [
       {
-        "match": "Stoke City FC 1-0 Birmingham City FC",
+        "match": "Sheffield United FC 1-1 Southampton FC",
         "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
-      {
-        "match": "West Ham United FC 1-1 Preston North End FC",
-        "predicted": "H",
         "actual": "D",
         "correct": false
       },
       {
-        "match": "Wolverhampton Wanderers FC 2-1 Charlton Athletic FC",
+        "match": "Charlton Athletic FC 4-0 Lincoln City FC",
         "predicted": "H",
         "actual": "H",
         "correct": true
       },
       {
-        "match": "Burnley FC 2-2 Blackburn Rovers FC",
+        "match": "Bristol City FC 1-1 Wrexham AFC",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Norwich City FC 1-1 Queens Park Rangers FC",
         "predicted": "H",
         "actual": "D",
         "correct": false
       },
       {
-        "match": "Lincoln City FC 0-1 Wrexham AFC",
-        "predicted": "A",
-        "actual": "A",
+        "match": "Wolverhampton Wanderers FC 3-0 Derby County FC",
+        "predicted": "H",
+        "actual": "H",
         "correct": true
       }
     ]
