@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T20:02:54.136834",
+  "last_updated": "2026-11-28T17:03:54.795162",
   "matches_scored": [
     560542,
     560543,
@@ -110,7 +110,10 @@
     560648,
     560649,
     560650,
-    560651
+    560651,
+    560652,
+    560655,
+    560658
   ],
   "results": [
     {
@@ -4142,17 +4145,122 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-24T20:02:54.136808"
+    },
+    {
+      "fixture_id": 560658,
+      "date": "2026-11-27",
+      "home_team": "Nottingham Forest FC",
+      "away_team": "Chelsea FC",
+      "score": "3-2",
+      "matchday": 12,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.5376,
+        "model_probs": {
+          "home": 0.4026,
+          "draw": 0.2648,
+          "away": 0.3326
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5454,
+        "actual_total_goals": 5
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.5857
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-28T17:03:53.156063"
+    },
+    {
+      "fixture_id": 560652,
+      "date": "2026-11-28",
+      "home_team": "Leeds United FC",
+      "away_team": "Coventry City FC",
+      "score": "3-0",
+      "matchday": 12,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "H",
+        "correct": true,
+        "brier_score": 0.2013,
+        "model_probs": {
+          "home": 0.6353,
+          "draw": 0.2116,
+          "away": 0.1532
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.5949,
+        "actual_total_goals": 3
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.5488
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-28T17:03:53.979185"
+    },
+    {
+      "fixture_id": 560655,
+      "date": "2026-11-28",
+      "home_team": "Manchester United FC",
+      "away_team": "Brentford FC",
+      "score": "0-4",
+      "matchday": 12,
+      "scored_1x2": {
+        "predicted_outcome": "A",
+        "actual_outcome": "A",
+        "correct": true,
+        "brier_score": 0.5377,
+        "model_probs": {
+          "home": 0.3505,
+          "draw": 0.2451,
+          "away": 0.4044
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.6338,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "No",
+        "correct": false,
+        "p_btts": 0.6538
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-28T17:03:54.795134"
     }
   ],
   "summary": {
-    "total_matches": 110,
-    "1x2_correct": 51,
-    "1x2_accuracy": 0.4636,
-    "avg_brier_score": 0.6192,
-    "totals_correct": 58,
-    "totals_accuracy": 0.5273,
-    "btts_correct": 58,
-    "btts_accuracy": 0.5273,
+    "total_matches": 113,
+    "1x2_correct": 54,
+    "1x2_accuracy": 0.4779,
+    "avg_brier_score": 0.6141,
+    "totals_correct": 61,
+    "totals_accuracy": 0.5398,
+    "btts_correct": 59,
+    "btts_accuracy": 0.5221,
     "value_bets": {
       "total_bets": 20,
       "wins": 8,
@@ -4227,27 +4335,13 @@
       "11": {
         "n": 10,
         "correct": 5
+      },
+      "12": {
+        "n": 3,
+        "correct": 3
       }
     },
     "last_5_results": [
-      {
-        "match": "Coventry City FC 3-2 Crystal Palace FC",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Newcastle United FC 2-2 Arsenal FC",
-        "predicted": "A",
-        "actual": "D",
-        "correct": false
-      },
-      {
-        "match": "Hull City AFC 2-0 Brighton & Hove Albion FC",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
       {
         "match": "Liverpool FC 4-0 Manchester United FC",
         "predicted": "H",
@@ -4258,6 +4352,24 @@
         "match": "Brentford FC 4-0 Everton FC",
         "predicted": "H",
         "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Nottingham Forest FC 3-2 Chelsea FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Leeds United FC 3-0 Coventry City FC",
+        "predicted": "H",
+        "actual": "H",
+        "correct": true
+      },
+      {
+        "match": "Manchester United FC 0-4 Brentford FC",
+        "predicted": "A",
+        "actual": "A",
         "correct": true
       }
     ]
