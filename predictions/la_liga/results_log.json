@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T20:02:58.423959",
+  "last_updated": "2026-11-28T17:04:09.759308",
   "matches_scored": [
     564628,
     564629,
@@ -129,7 +129,9 @@
     564754,
     564755,
     564756,
-    564757
+    564757,
+    564760,
+    564765
   ],
   "results": [
     {
@@ -4772,17 +4774,87 @@
       },
       "value_bets_results": [],
       "scored_at": "2026-11-24T20:02:58.423932"
+    },
+    {
+      "fixture_id": 564765,
+      "date": "2026-11-27",
+      "home_team": "Levante UD",
+      "away_team": "Real Racing Club de Santander",
+      "score": "1-3",
+      "matchday": 14,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 1.0603,
+        "model_probs": {
+          "home": 0.6206,
+          "draw": 0.1809,
+          "away": 0.1985
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Over",
+        "actual": "Over",
+        "correct": true,
+        "p_over": 0.7957,
+        "actual_total_goals": 4
+      },
+      "scored_btts": {
+        "predicted": "Yes",
+        "actual": "Yes",
+        "correct": true,
+        "p_btts": 0.736
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-28T17:04:08.906330"
+    },
+    {
+      "fixture_id": 564760,
+      "date": "2026-11-28",
+      "home_team": "Real Betis Balompi\u00e9",
+      "away_team": "Rayo Vallecano de Madrid",
+      "score": "0-1",
+      "matchday": 14,
+      "scored_1x2": {
+        "predicted_outcome": "H",
+        "actual_outcome": "A",
+        "correct": false,
+        "brier_score": 0.9943,
+        "model_probs": {
+          "home": 0.5406,
+          "draw": 0.2569,
+          "away": 0.2025
+        }
+      },
+      "scored_totals": {
+        "line": 2.5,
+        "predicted": "Under",
+        "actual": "Under",
+        "correct": true,
+        "p_over": 0.4644,
+        "actual_total_goals": 1
+      },
+      "scored_btts": {
+        "predicted": "No",
+        "actual": "No",
+        "correct": true,
+        "p_btts": 0.4827
+      },
+      "value_bets_results": [],
+      "scored_at": "2026-11-28T17:04:09.759279"
     }
   ],
   "summary": {
-    "total_matches": 129,
+    "total_matches": 131,
     "1x2_correct": 71,
-    "1x2_accuracy": 0.5504,
-    "avg_brier_score": 0.5594,
-    "totals_correct": 77,
-    "totals_accuracy": 0.5969,
-    "btts_correct": 70,
-    "btts_accuracy": 0.5426,
+    "1x2_accuracy": 0.542,
+    "avg_brier_score": 0.5665,
+    "totals_correct": 79,
+    "totals_accuracy": 0.6031,
+    "btts_correct": 72,
+    "btts_accuracy": 0.5496,
     "value_bets": {
       "total_bets": 14,
       "wins": 6,
@@ -4858,21 +4930,13 @@
       "13": {
         "n": 10,
         "correct": 5
+      },
+      "14": {
+        "n": 2,
+        "correct": 0
       }
     },
     "last_5_results": [
-      {
-        "match": "FC Barcelona 3-2 Villarreal CF",
-        "predicted": "H",
-        "actual": "H",
-        "correct": true
-      },
-      {
-        "match": "Real Racing Club de Santander 3-2 Real Sociedad de F\u00fatbol",
-        "predicted": "A",
-        "actual": "H",
-        "correct": false
-      },
       {
         "match": "CA Osasuna 1-0 M\u00e1laga CF",
         "predicted": "H",
@@ -4889,6 +4953,18 @@
         "match": "Levante UD 1-1 Elche CF",
         "predicted": "H",
         "actual": "D",
+        "correct": false
+      },
+      {
+        "match": "Levante UD 1-3 Real Racing Club de Santander",
+        "predicted": "H",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "match": "Real Betis Balompi\u00e9 0-1 Rayo Vallecano de Madrid",
+        "predicted": "H",
+        "actual": "A",
         "correct": false
       }
     ]
